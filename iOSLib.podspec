@@ -145,5 +145,7 @@ Pod::Spec.new do |spec|
   #spec.dependency "shared", "~> 1.0.0"
 #  spec.dependency "shared"
   #spec.dependency 'BespotSDK', :git => 'https://github.com/bespot/bespot-sdk-ios-release.git', :tag => '0.5.1'
+  spec.dependency 'CocoaLumberjack/Swift'
+  spec.dependency 'PaperTrailLumberjack/Swift'
 
 end
