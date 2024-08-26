@@ -89,8 +89,7 @@ Pod::Spec.new do |spec|
   #spec.source = { :http => "file:" + __dir__ + "/"}
   #spec.source = { :http => 'file:///Users/vagelisspirou75/Desktop/AntifraudKMMPOC/iosLib/iosLib.xcframework'}
   #spec.source = { :path => '.' }
-  #spec.source = { :http => "file:" + __dir__}
-  spec.source = { :http => "https://github.com/bespot/antifraud-sdk-ios-release/iOSLib-v0.0.1.zip" }
+  spec.source = { :http => "file:" + __dir__}
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
