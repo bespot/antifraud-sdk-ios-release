@@ -64,7 +64,7 @@ Pod::Spec.new do |spec|
   # spec.platform     = :ios
   spec.platform = :ios, "15.0"
   #spec.ios.vendored_frameworks = '../shared/build/xcode-frameworks/Debug/iphonesimulator17.2/shared.framework'
-  spec.ios.vendored_frameworks = 'iOSLib.xcframework'
+  spec.ios.vendored_frameworks = 'iOSLib.xcframework', 'shared.xcframework'
   
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
@@ -89,7 +89,8 @@ Pod::Spec.new do |spec|
   #spec.source = { :http => "file:" + __dir__ + "/"}
   #spec.source = { :http => 'file:///Users/vagelisspirou75/Desktop/AntifraudKMMPOC/iosLib/iosLib.xcframework'}
   #spec.source = { :path => '.' }
-  spec.source = { :http => "file:" + __dir__}
+  #spec.source = { :http => "file:" + __dir__}
+  spec.source = { :http => "file:" + __dir__ + "/iOSLib-v0.0.1.zip"}
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -143,7 +144,7 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
   #spec.dependency "shared", "~> 1.0.0"
-  spec.dependency "shared"
+#  spec.dependency "shared"
   #spec.dependency 'BespotSDK', :git => 'https://github.com/bespot/bespot-sdk-ios-release.git', :tag => '0.5.1'
 
 end
