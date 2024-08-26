@@ -143,7 +143,7 @@ Pod::Spec.new do |spec|
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
   #spec.dependency "shared", "~> 1.0.0"
-#  spec.dependency "shared"
+  spec.dependency "shared"
   #spec.dependency 'BespotSDK', :git => 'https://github.com/bespot/bespot-sdk-ios-release.git', :tag => '0.5.1'
 
 end
