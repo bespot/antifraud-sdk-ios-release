@@ -1445,10 +1445,13 @@ extension shared.Skie.NetworkContract.Failure {
 }
 public func onEnum<__Sealed>(of sealed: __Sealed) -> shared.Skie.NetworkContract.Failure.__Sealed where __Sealed : shared.Network_contractFailure
 @_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> shared.Skie.NetworkContract.Failure.__Sealed? where __Sealed : shared.Network_contractFailure
+extension ObjectiveC.NSObject {
+  public func filterDeviceVersion() -> Any
+}
 extension Swift.Double {
   public func round(decimals: Swift.Int32) -> Swift.Double
 }
-public func getOSVersion() -> Swift.Int32
+public func getOSVersion() -> Swift.Float
 public func toSDKFailure(failure: shared.Network_contractFailure) -> shared.Failure
 extension shared.Skie.Runtime.QueryResult.__Sealed : Swift.Sendable {}
 extension shared.CheckType : Swift.Sendable {}

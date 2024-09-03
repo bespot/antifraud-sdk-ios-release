@@ -2152,6 +2152,7 @@ __attribute__((swift_name("KotlinString.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ExtensionsKt")))
 @interface SharedExtensionsKt : SharedBase
++ (id)filterDeviceVersion:(id)receiver __attribute__((swift_name("filterDeviceVersion(_:)")));
 + (void)ifNotEmpty:(NSArray<id> *)receiver action:(void (^)(NSArray<id> *))action __attribute__((swift_name("ifNotEmpty(_:action:)")));
 + (double)round:(double)receiver decimals:(int32_t)decimals __attribute__((swift_name("round(_:decimals:)")));
 @end
@@ -2159,7 +2160,7 @@ __attribute__((swift_name("ExtensionsKt")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Utils_iosKt")))
 @interface SharedUtils_iosKt : SharedBase
-+ (int32_t)getOSVersion __attribute__((swift_name("getOSVersion()")));
++ (float)getOSVersion __attribute__((swift_name("getOSVersion()")));
 + (SharedFailure *)toSDKFailureFailure:(SharedNetwork_contractFailure *)failure __attribute__((swift_name("toSDKFailure(failure:)")));
 @end
 
