@@ -18,7 +18,7 @@
 		</data>
 		<key>Modules/AntifraudSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		DVp7Ei2vT8VhYGxn30A5R1AoHHk=
+		CM5TbVLBdcSXSz7YXQPjEr61ZwU=
 		</data>
 		<key>Modules/AntifraudSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/AntifraudSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		j4rahoDVT/KG/03h9Byd714gIH4=
+		nFTEAeT8grwJU3vBpXSz15HywxQ=
 		</data>
 		<key>Modules/AntifraudSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
@@ -34,7 +34,7 @@
 		</data>
 		<key>Modules/AntifraudSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		cV/Ua5UcBgK6MDe0RfO5wlnP+YM=
+		9UOX5uhWDq3Ov3lzhq687AnSDJs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,7 +61,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ct/shkFeWyN5X1PQu8OOjUcdv4qAOUdN5/KuFuWAPcg=
+			XYU2TSJCQFWWPVLazLwYD8j7rKSFY266fI0ljUbXhXE=
 			</data>
 		</dict>
 		<key>Modules/AntifraudSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -75,7 +75,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			RBdlKIAso/yqdBo7jtAo0L54ZIIY2OFY0oYuDtVFul8=
+			SiQ9NzvdK86oy1xqqisbn2YMcEHqRMBS52gnolwi0Aw=
 			</data>
 		</dict>
 		<key>Modules/AntifraudSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
@@ -89,7 +89,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			sKQ0sO3073wDgSW9qAYUs2se3VGcRNk8meCFOP5vNBQ=
+			uUbJrjVtlYj4b3G0y26SdRXji4FyG1yDrrQYk+Y/Ka8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

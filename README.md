@@ -1,6 +1,6 @@
 # Antifraud SDK iOS - Release
 
-[![VERSION](https://img.shields.io/badge/VERSION-0.5.0-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-0.5.1-green)](#)
 [![Swift Version][swift-image]][swift-url]
 
 AntifraudSDK is an easy to use iOS library for protecting your application from fraudulent activities. Our SDK requires minimal permissions and uses device information and sensors to detect and report potential threats, so that app developers can make informed decisions about their application's actions.
@@ -33,7 +33,7 @@ target '[Your app]' do
   use_frameworks!
 
   # AntifraudSDK framework
-  pod 'AntifraudSDK', :git => 'https://github.com/bespot/antifraud-sdk-ios-release', :tag => '0.5.0'
+  pod 'AntifraudSDK', :git => 'https://github.com/bespot/antifraud-sdk-ios-release', :tag => '0.5.1'
 
   # Other CocoaPods libraries/frameworks you may use...
 
@@ -52,6 +52,8 @@ end
 2. Run `pod install`
 
 3. Open Xcode & update _linking_. Select you main project in the _Project Navigator_ -> Select each of the targets -> Go to _Build Settings_ view -> filter with `Other Linker Flags` on filtering text view at the top right -> Remove the following: `$(inherited)`, `-framework "AntifraudSDK"` and `-framework "shared"`.
+
+4. Disable user script sandboxing in Project settings. Select you main project in the _Project Navigator_ -> Select the project (not the targets) -> Go to _Build Settings_ view -> filter with `ENABLE_USER_SCRIPT_SANDBOXING` on filtering text view at the top right -> Set it to `No`.
 
 
 > [!NOTE]

@@ -1830,25 +1830,18 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/SafeSDK.swift",
+      "kind": "BooleanLiteral",
+      "offset": 351,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/LocationMockFlagsDetection.swift",
       "kind": "StringLiteral",
       "offset": 209,
       "length": 26,
       "value": "\"AntifraudSDK.LocationMockFlagsDetection\""
-    },
-    {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Manager\/ServiceProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 310,
-      "length": 33,
-      "value": "\"dev.bespot.antifraud.sdk.iOSApp\""
-    },
-    {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Manager\/ServiceProvider.swift",
-      "kind": "StringLiteral",
-      "offset": 373,
-      "length": 5,
-      "value": "\"0.1\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Model\/Location.swift",
@@ -1916,70 +1909,70 @@
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4745,
+      "offset": 5742,
       "length": 6,
       "value": "\"WiFi\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4772,
+      "offset": 5769,
       "length": 10,
       "value": "\"Cellular\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4803,
+      "offset": 5800,
       "length": 10,
       "value": "\"Ethernet\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4833,
+      "offset": 5830,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4867,
+      "offset": 5864,
       "length": 14,
       "value": "\"NoConnection\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4745,
+      "offset": 5742,
       "length": 6,
       "value": "\"WiFi\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4772,
+      "offset": 5769,
       "length": 10,
       "value": "\"Cellular\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4803,
+      "offset": 5800,
       "length": 10,
       "value": "\"Ethernet\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4833,
+      "offset": 5830,
       "length": 9,
       "value": "\"Unknown\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4867,
+      "offset": 5864,
       "length": 14,
       "value": "\"NoConnection\""
     }
