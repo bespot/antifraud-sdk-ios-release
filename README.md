@@ -53,6 +53,8 @@ end
 
 3. Open Xcode & update _linking_. Select you main project in the _Project Navigator_ -> Select each of the targets -> Go to _Build Settings_ view -> filter with `Other Linker Flags` on filtering text view at the top right -> Remove the following: `$(inherited)`, `-framework "AntifraudSDK"` and `-framework "shared"`.
 
+4. Disable user script sandboxing in Project settings. Select you main project in the _Project Navigator_ -> Select the project (not the targets) -> Go to _Build Settings_ view -> filter with `ENABLE_USER_SCRIPT_SANDBOXING` on filtering text view at the top right -> Set it to `No`.
+
 
 > [!NOTE]
 >
