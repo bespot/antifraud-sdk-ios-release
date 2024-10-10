@@ -1009,8 +1009,12 @@ extension shared.SkieSwiftOptionalMutableStateFlow where T : Swift._ObjectiveCBr
   case transportVpn
   case netCapabilityNotVpn
   case networkNameIsTun
+  case networkNameIsUtun
   case networkNameIsPpp
   case networkNameIsPptp
+  case networkNameIsTap
+  case networkNameIsIpsec
+  case networkInterfaceIsOther
   case rootClientLib
   case emulatorClientLib
   case multipleDisplays
@@ -1024,6 +1028,12 @@ extension shared.SkieSwiftOptionalMutableStateFlow where T : Swift._ObjectiveCBr
   case vpnAppsDetected
   case mockLocAppsDetected
   case rootAppsDetected
+  case jailbreakSuspiciousAppsPath
+  case jailbreakSuspiciousSystemPaths
+  case jailbreakDyldSuspiciousLibraries
+  case jailbreakFridaDetection
+  case jailbreakUriSchemesDetection
+  case jailbreakSandbox
   case mirroringAppsDetected
   case emulatorAppsDetected
   case clonedAppsDetected

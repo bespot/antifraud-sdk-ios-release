@@ -43,6 +43,66 @@
       },
       {
         "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -265,6 +325,73 @@
           "AccessControl"
         ],
         "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "NetworkExtension",
+        "printedName": "NetworkExtension",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK"
       },
       {
         "kind": "Import",
@@ -978,220 +1105,6 @@
         "moduleName": "AntifraudSDK"
       },
       {
-        "kind": "TypeDecl",
-        "name": "LocationError",
-        "printedName": "LocationError",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "locationPermissionDenied",
-            "printedName": "locationPermissionDenied",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AntifraudSDK.LocationError.Type) -> AntifraudSDK.LocationError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LocationError",
-                    "printedName": "AntifraudSDK.LocationError",
-                    "usr": "s:12AntifraudSDK13LocationErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AntifraudSDK.LocationError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LocationError",
-                        "printedName": "AntifraudSDK.LocationError",
-                        "usr": "s:12AntifraudSDK13LocationErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AntifraudSDK13LocationErrorO24locationPermissionDeniedyA2CmF",
-            "mangledName": "$s12AntifraudSDK13LocationErrorO24locationPermissionDeniedyA2CmF",
-            "moduleName": "AntifraudSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "locationServicesDisabled",
-            "printedName": "locationServicesDisabled",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AntifraudSDK.LocationError.Type) -> AntifraudSDK.LocationError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LocationError",
-                    "printedName": "AntifraudSDK.LocationError",
-                    "usr": "s:12AntifraudSDK13LocationErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AntifraudSDK.LocationError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LocationError",
-                        "printedName": "AntifraudSDK.LocationError",
-                        "usr": "s:12AntifraudSDK13LocationErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AntifraudSDK13LocationErrorO24locationServicesDisabledyA2CmF",
-            "mangledName": "$s12AntifraudSDK13LocationErrorO24locationServicesDisabledyA2CmF",
-            "moduleName": "AntifraudSDK"
-          },
-          {
-            "kind": "Function",
-            "name": "==",
-            "printedName": "==(_:_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "LocationError",
-                "printedName": "AntifraudSDK.LocationError",
-                "usr": "s:12AntifraudSDK13LocationErrorO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "LocationError",
-                "printedName": "AntifraudSDK.LocationError",
-                "usr": "s:12AntifraudSDK13LocationErrorO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12AntifraudSDK13LocationErrorO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s12AntifraudSDK13LocationErrorO2eeoiySbAC_ACtFZ",
-            "moduleName": "AntifraudSDK",
-            "static": true,
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "hashValue",
-            "printedName": "hashValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:12AntifraudSDK13LocationErrorO9hashValueSivp",
-            "mangledName": "$s12AntifraudSDK13LocationErrorO9hashValueSivp",
-            "moduleName": "AntifraudSDK",
-            "implicit": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12AntifraudSDK13LocationErrorO9hashValueSivg",
-                "mangledName": "$s12AntifraudSDK13LocationErrorO9hashValueSivg",
-                "moduleName": "AntifraudSDK",
-                "implicit": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "hash",
-            "printedName": "hash(into:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Hasher",
-                "printedName": "Swift.Hasher",
-                "paramValueOwnership": "InOut",
-                "usr": "s:s6HasherV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12AntifraudSDK13LocationErrorO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s12AntifraudSDK13LocationErrorO4hash4intoys6HasherVz_tF",
-            "moduleName": "AntifraudSDK",
-            "implicit": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:12AntifraudSDK13LocationErrorO",
-        "mangledName": "$s12AntifraudSDK13LocationErrorO",
-        "moduleName": "AntifraudSDK",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Error",
-            "printedName": "Error",
-            "usr": "s:s5ErrorP",
-            "mangledName": "$ss5ErrorP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          }
-        ]
-      },
-      {
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
@@ -1289,6 +1202,80 @@
           },
           {
             "kind": "Var",
+            "name": "locationPermissionUnknown",
+            "printedName": "locationPermissionUnknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKError",
+                    "printedName": "AntifraudSDK.SDKError",
+                    "usr": "s:12AntifraudSDK8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntifraudSDK.SDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKError",
+                        "printedName": "AntifraudSDK.SDKError",
+                        "usr": "s:12AntifraudSDK8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AntifraudSDK8SDKErrorO25locationPermissionUnknownyA2CmF",
+            "mangledName": "$s12AntifraudSDK8SDKErrorO25locationPermissionUnknownyA2CmF",
+            "moduleName": "AntifraudSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "locationPermissionNotDetermined",
+            "printedName": "locationPermissionNotDetermined",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKError",
+                    "printedName": "AntifraudSDK.SDKError",
+                    "usr": "s:12AntifraudSDK8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntifraudSDK.SDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKError",
+                        "printedName": "AntifraudSDK.SDKError",
+                        "usr": "s:12AntifraudSDK8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AntifraudSDK8SDKErrorO31locationPermissionNotDeterminedyA2CmF",
+            "mangledName": "$s12AntifraudSDK8SDKErrorO31locationPermissionNotDeterminedyA2CmF",
+            "moduleName": "AntifraudSDK"
+          },
+          {
+            "kind": "Var",
             "name": "locationPermissionDenied",
             "printedName": "locationPermissionDenied",
             "children": [
@@ -1363,8 +1350,8 @@
           },
           {
             "kind": "Var",
-            "name": "noLocationAvailable",
-            "printedName": "noLocationAvailable",
+            "name": "locationNotAvailable",
+            "printedName": "locationNotAvailable",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -1394,8 +1381,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12AntifraudSDK8SDKErrorO19noLocationAvailableyA2CmF",
-            "mangledName": "$s12AntifraudSDK8SDKErrorO19noLocationAvailableyA2CmF",
+            "usr": "s:12AntifraudSDK8SDKErrorO20locationNotAvailableyA2CmF",
+            "mangledName": "$s12AntifraudSDK8SDKErrorO20locationNotAvailableyA2CmF",
             "moduleName": "AntifraudSDK"
           },
           {
@@ -1443,41 +1430,13 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(AntifraudSDK.SDKError.Type) -> (Swift.String?) -> AntifraudSDK.SDKError",
+                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
                 "children": [
                   {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String?) -> AntifraudSDK.SDKError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SDKError",
-                        "printedName": "AntifraudSDK.SDKError",
-                        "usr": "s:12AntifraudSDK8SDKErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(message: Swift.String?)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "Swift.String?",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              }
-                            ],
-                            "usr": "s:Sq"
-                          }
-                        ]
-                      }
-                    ]
+                    "kind": "TypeNominal",
+                    "name": "SDKError",
+                    "printedName": "AntifraudSDK.SDKError",
+                    "usr": "s:12AntifraudSDK8SDKErrorO"
                   },
                   {
                     "kind": "TypeNominal",
@@ -1496,8 +1455,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12AntifraudSDK8SDKErrorO12unknownErroryACSSSg_tcACmF",
-            "mangledName": "$s12AntifraudSDK8SDKErrorO12unknownErroryACSSSg_tcACmF",
+            "usr": "s:12AntifraudSDK8SDKErrorO12unknownErroryA2CmF",
+            "mangledName": "$s12AntifraudSDK8SDKErrorO12unknownErroryA2CmF",
             "moduleName": "AntifraudSDK"
           },
           {
@@ -1508,33 +1467,13 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(AntifraudSDK.SDKError.Type) -> (Swift.String) -> AntifraudSDK.SDKError",
+                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
                 "children": [
                   {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> AntifraudSDK.SDKError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SDKError",
-                        "printedName": "AntifraudSDK.SDKError",
-                        "usr": "s:12AntifraudSDK8SDKErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(message: Swift.String)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ]
+                    "kind": "TypeNominal",
+                    "name": "SDKError",
+                    "printedName": "AntifraudSDK.SDKError",
+                    "usr": "s:12AntifraudSDK8SDKErrorO"
                   },
                   {
                     "kind": "TypeNominal",
@@ -1553,8 +1492,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12AntifraudSDK8SDKErrorO15unknownApiErroryACSS_tcACmF",
-            "mangledName": "$s12AntifraudSDK8SDKErrorO15unknownApiErroryACSS_tcACmF",
+            "usr": "s:12AntifraudSDK8SDKErrorO15unknownApiErroryA2CmF",
+            "mangledName": "$s12AntifraudSDK8SDKErrorO15unknownApiErroryA2CmF",
             "moduleName": "AntifraudSDK"
           },
           {
@@ -1741,6 +1680,78 @@
             "usr": "s:12AntifraudSDK8SDKErrorO31cannotNavigateToProcMapsFailureyA2CmF",
             "mangledName": "$s12AntifraudSDK8SDKErrorO31cannotNavigateToProcMapsFailureyA2CmF",
             "moduleName": "AntifraudSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AntifraudSDK.SDKError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKError",
+                    "printedName": "AntifraudSDK.SDKError",
+                    "usr": "s:12AntifraudSDK8SDKErrorO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AntifraudSDK8SDKErrorO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12AntifraudSDK8SDKErrorO8rawValueACSgSS_tcfc",
+            "moduleName": "AntifraudSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AntifraudSDK8SDKErrorO8rawValueSSvp",
+            "mangledName": "$s12AntifraudSDK8SDKErrorO8rawValueSSvp",
+            "moduleName": "AntifraudSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AntifraudSDK8SDKErrorO8rawValueSSvg",
+                "mangledName": "$s12AntifraudSDK8SDKErrorO8rawValueSSvg",
+                "moduleName": "AntifraudSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Enum",
@@ -1750,7 +1761,44 @@
         "declAttributes": [
           "AccessControl"
         ],
+        "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -1765,6 +1813,16 @@
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -1830,149 +1888,275 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/SafeSDK.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNNetworkUTUNDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 23,
+      "value": "\"AntifraudSDK.VPNNetworkUTUNDetection\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNNetworkIPSECDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 24,
+      "value": "\"AntifraudSDK.VPNNetworkIPSECDetection\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNNetworkPPPDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 206,
+      "length": 22,
+      "value": "\"AntifraudSDK.VPNNetworkPPPDetection\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/SafeSDK.swift",
       "kind": "BooleanLiteral",
       "offset": 351,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/LocationMockFlagsDetection.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/LocationMockFlagsDetection.swift",
       "kind": "StringLiteral",
       "offset": 209,
       "length": 26,
       "value": "\"AntifraudSDK.LocationMockFlagsDetection\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Model\/Location.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/NetworkInterfaceDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 233,
+      "length": 25,
+      "value": "\"AntifraudSDK.NetworkInterfaceDetection\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNNetworkTUNDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 169,
+      "length": 22,
+      "value": "\"AntifraudSDK.VPNNetworkTUNDetection\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNNetworkTAPDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 169,
+      "length": 22,
+      "value": "\"AntifraudSDK.VPNNetworkTAPDetection\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Model\/Location.swift",
       "kind": "BooleanLiteral",
       "offset": 324,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Model\/Location.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Model\/Location.swift",
       "kind": "BooleanLiteral",
       "offset": 365,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Manager\/AppStateManager.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Manager\/AppStateManager.swift",
       "kind": "BooleanLiteral",
       "offset": 258,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/AppInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 5,
+      "value": "\"ppp\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 5,
+      "value": "\"tun\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 6,
+      "value": "\"utun\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 5,
+      "value": "\"tap\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 261,
+      "length": 7,
+      "value": "\"ipsec\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 5,
+      "value": "\"ppp\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 5,
+      "value": "\"tun\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 6,
+      "value": "\"utun\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 5,
+      "value": "\"tap\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 261,
+      "length": 7,
+      "value": "\"ipsec\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/AppInfo.swift",
       "kind": "StringLiteral",
       "offset": 360,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/AppInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/AppInfo.swift",
       "kind": "StringLiteral",
       "offset": 498,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/AppInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/AppInfo.swift",
       "kind": "StringLiteral",
       "offset": 572,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/AppInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/AppInfo.swift",
       "kind": "StringLiteral",
       "offset": 616,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/AppInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/AppInfo.swift",
       "kind": "StringLiteral",
       "offset": 684,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/AppInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/AppInfo.swift",
       "kind": "StringLiteral",
       "offset": 717,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5742,
+      "offset": 5941,
+      "length": 18,
+      "value": "\"VirtualOrUnknown\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 6005,
       "length": 6,
       "value": "\"WiFi\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5769,
+      "offset": 6032,
       "length": 10,
       "value": "\"Cellular\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5800,
+      "offset": 6063,
       "length": 10,
       "value": "\"Ethernet\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5830,
-      "length": 9,
-      "value": "\"Unknown\""
+      "offset": 6094,
+      "length": 10,
+      "value": "\"Loopback\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5864,
+      "offset": 6129,
       "length": 14,
       "value": "\"NoConnection\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5742,
+      "offset": 5941,
+      "length": 18,
+      "value": "\"VirtualOrUnknown\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 6005,
       "length": 6,
       "value": "\"WiFi\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5769,
+      "offset": 6032,
       "length": 10,
       "value": "\"Cellular\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5800,
+      "offset": 6063,
       "length": 10,
       "value": "\"Ethernet\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5830,
-      "length": 9,
-      "value": "\"Unknown\""
+      "offset": 6094,
+      "length": 10,
+      "value": "\"Loopback\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5864,
+      "offset": 6129,
       "length": 14,
       "value": "\"NoConnection\""
     }

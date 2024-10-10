@@ -6,7 +6,7 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class Shared__SkieTypeExportsKt, Shared__SkieSuspendWrappersKt, SharedVpnNetworkTUNOperationCompanion, SharedVpnNetworkTUNOperation, SharedVpnNetworkPPTPOperationCompanion, SharedVpnNetworkPPTPOperation, SharedVpnNetworkPPPOperationCompanion, SharedVpnNetworkPPPOperation, SharedUtils_iosKt, SharedUtilsKt, SharedUseCase<P, R>, SharedUShort, SharedULong, SharedUInt, SharedUByte, SharedTriggeredBy, SharedSystemSpecificDataProviderCompanion, SharedStoreValidationOperationCompanion, SharedStoreValidationOperation, SharedSkie_SuspendResultSuccess, SharedSkie_SuspendResultError, SharedSkie_SuspendResultCanceled, SharedSkie_SuspendResult, SharedSkie_SuspendHandler, SharedSkie_CancellationHandler, SharedSkieKotlinStateFlow<T>, SharedSkieKotlinSharedFlow<T>, SharedSkieKotlinOptionalStateFlow<T>, SharedSkieKotlinOptionalSharedFlow<T>, SharedSkieKotlinOptionalMutableStateFlow<T>, SharedSkieKotlinOptionalMutableSharedFlow<T>, SharedSkieKotlinOptionalFlow<T>, SharedSkieKotlinMutableStateFlow<T>, SharedSkieKotlinMutableSharedFlow<T>, SharedSkieKotlinFlow<T>, SharedSkieColdFlowIterator<E>, SharedShort, SharedSetUserIdUseCaseParams, SharedSetUserIdUseCase, SharedServiceProvider, SharedSendChecksForActionUseCaseSendChecksForActionParameters, SharedSendChecksForActionUseCase, SharedSeedCompanion, SharedSeed, SharedSdkLogger, SharedSafeSdk, SharedSafeAntilog, SharedRuntimeTransacterTransaction, SharedRuntimeTransacterImpl, SharedRuntimeQuery<RowType>, SharedRuntimeExecutableQuery<RowType>, SharedRuntimeBaseTransacterImpl, SharedRuntimeAfterVersion, SharedRootOperation, SharedRemoteDataSourceImpl, SharedRegisterHardwareUseCaseRegisterHardwareParameters, SharedRegisterHardwareUseCase, SharedRecipeNoRecipeFoundFailure, SharedRecipeNoChecksAvailableFailure, SharedRecipe, SharedProcMapsOperation, SharedOperationEmptyCheckConfigurationFailure, SharedOperationCannotNavigateToProcMapsFailure, SharedOperation, SharedOSType, SharedOSCompanion, SharedOS, SharedNumber, SharedNetwork_contractOsVersionRangeCompanion, SharedNetwork_contractOsVersionRange, SharedNetwork_contractFailureUnknownFailure, SharedNetwork_contractFailureApiFailure, SharedNetwork_contractFailure, SharedNetwork_contractErrorResponseCompanion, SharedNetwork_contractErrorResponse, SharedNetwork_contractDeviceResponseCompanion, SharedNetwork_contractDeviceResponse, SharedNetwork_contractDeviceCheckCompanion, SharedNetwork_contractDeviceCheck, SharedNetwork_contractCheckResultCompanion, SharedNetwork_contractCheckResult, SharedNetworkTransportCapabilityOperation, SharedNetworkNotVpnOperation, SharedNetworkConnectionImpl, SharedNapierLogLevel, SharedNapierAntilog, SharedMutableSet<ObjectType>, SharedMutableDictionary<KeyType, ObjectType>, SharedMultiplePackageNamesInstalledOperation, SharedMultipleDisplaysOperation, SharedLong, SharedLocationMockFlagsOperation, SharedKotlinx_serialization_coreStructureKindOBJECT, SharedKotlinx_serialization_coreStructureKindMAP, SharedKotlinx_serialization_coreStructureKindLIST, SharedKotlinx_serialization_coreStructureKindCLASS, SharedKotlinx_serialization_coreStructureKind, SharedKotlinx_serialization_coreSerializersModule, SharedKotlinx_serialization_coreSerialKindENUM, SharedKotlinx_serialization_coreSerialKindCONTEXTUAL, SharedKotlinx_serialization_coreSerialKind, SharedKotlinx_serialization_corePrimitiveKindSTRING, SharedKotlinx_serialization_corePrimitiveKindSHORT, SharedKotlinx_serialization_corePrimitiveKindLONG, SharedKotlinx_serialization_corePrimitiveKindINT, SharedKotlinx_serialization_corePrimitiveKindFLOAT, SharedKotlinx_serialization_corePrimitiveKindDOUBLE, SharedKotlinx_serialization_corePrimitiveKindCHAR, SharedKotlinx_serialization_corePrimitiveKindBYTE, SharedKotlinx_serialization_corePrimitiveKindBOOLEAN, SharedKotlinx_serialization_corePrimitiveKind, SharedKotlinx_serialization_corePolymorphicKindSEALED, SharedKotlinx_serialization_corePolymorphicKindOPEN, SharedKotlinx_serialization_corePolymorphicKind, SharedKotlinx_coroutines_coreCoroutineDispatcherKey, SharedKotlinx_coroutines_coreCoroutineDispatcher, SharedKotlinUnit, SharedKotlinThrowable, SharedKotlinStringCompanion, SharedKotlinRuntimeException, SharedKotlinPair<A, B>, SharedKotlinNothing, SharedKotlinLongCompanion, SharedKotlinIntCompanion, SharedKotlinIllegalStateException, SharedKotlinFloatCompanion, SharedKotlinException, SharedKotlinEnumCompanion, SharedKotlinEnum<E>, SharedKotlinDoubleCompanion, SharedKotlinCancellationException, SharedKotlinByteIterator, SharedKotlinByteArray, SharedKotlinArray<T>, SharedKotlinAbstractCoroutineContextKey<B, E>, SharedKotlinAbstractCoroutineContextElement, SharedKonnectionNetworkConnection, SharedKonnectionKonnectionCompanion, SharedKonnectionKonnection, SharedKonnectionConnectionInfo, SharedIosSafeAntilogCompanion, SharedIosSafeAntilog, SharedInternalDirectionConflictsOperationCompanion, SharedInternalDirectionConflictsOperation, SharedInt, SharedInstalledAppsOperationCompanion, SharedInstalledAppsOperation, SharedIdentifiersCompanion, SharedIdentifiers, SharedFraudulentCheckObserverCompanion, SharedFloat, SharedFailure_UnknownError, SharedFailure_ServerError, SharedFailure_NotInitialized, SharedFailure_NoRecipeFoundFailure, SharedFailure_NoChecksAvailableFailure, SharedFailure_NoActiveApiKey, SharedFailure_NetworkConnection, SharedFailure_, SharedFailureUnknownError, SharedFailureUnknownApiError, SharedFailureServerError, SharedFailureNotInitialized, SharedFailureNoLocationAvailable, SharedFailureNetworkConnection, SharedFailureLocationServicesDisabled, SharedFailureLocationPermissionDenied, SharedFailureFeatureFailure, SharedFailureDatabaseError, SharedFailure, SharedExtensionsKt, SharedErrorCallbackCompanion, SharedEmulatorOperation, SharedDouble, SharedDevice_, SharedDeviceLocalDataSourceImpl, SharedDeviceEntityCompanion, SharedDeviceEntity, SharedDeviceCompanion, SharedDevice, SharedDevMenuOperation, SharedDefaultIdentifiersRepository, SharedDefaultDeviceRepository, SharedDefaultChecksRepository, SharedDatabaseDriverFactory, SharedCheckWithConfigurations, SharedCheckType, SharedCheckResultCompanion, SharedCheckResult, SharedCheckOperation, SharedByte, SharedBoolean, SharedBespotException, SharedBaseServiceProvider, SharedBaseSafeSdkManagerCompanion, SharedBaseSafeSdkManager, SharedBaseLocationCompanion, SharedBaseLocation, SharedBase, SharedAuthFailureNoActiveApiKey, SharedAuthFailure, SharedApplicationInfo, SharedAppSignatureValidationOperationCompanion, SharedAppSignatureValidationOperation, SharedAppDebuggableOperation, SharedAntifraudDatabaseQueries, SharedAntifraudDatabaseCompanion, SharedAdvertisingIdTypeCompanion, SharedAdvertisingIdType, SharedAction, SharedAIDCompanion, SharedAID, NSString, NSSet<ObjectType>, NSObject, NSNumber, NSMutableSet<ObjectType>, NSMutableDictionary<KeyType, ObjectType>, NSMutableArray<ObjectType>, NSError, NSDictionary<KeyType, ObjectType>, NSArray<ObjectType>;
+@class Shared__SkieTypeExportsKt, Shared__SkieSuspendWrappersKt, SharedVpnNetworkUTUNOperationCompanion, SharedVpnNetworkUTUNOperation, SharedVpnNetworkTUNOperationCompanion, SharedVpnNetworkTUNOperation, SharedVpnNetworkTAPOperationCompanion, SharedVpnNetworkTAPOperation, SharedVpnNetworkPPTPOperationCompanion, SharedVpnNetworkPPTPOperation, SharedVpnNetworkPPPOperationCompanion, SharedVpnNetworkPPPOperation, SharedVpnNetworkIPSECOperationCompanion, SharedVpnNetworkIPSECOperation, SharedUtils_iosKt, SharedUtilsKt, SharedUseCase<P, R>, SharedUShort, SharedULong, SharedUInt, SharedUByte, SharedTriggeredBy, SharedSystemSpecificDataProviderCompanion, SharedStoreValidationOperationCompanion, SharedStoreValidationOperation, SharedSkie_SuspendResultSuccess, SharedSkie_SuspendResultError, SharedSkie_SuspendResultCanceled, SharedSkie_SuspendResult, SharedSkie_SuspendHandler, SharedSkie_CancellationHandler, SharedSkieKotlinStateFlow<T>, SharedSkieKotlinSharedFlow<T>, SharedSkieKotlinOptionalStateFlow<T>, SharedSkieKotlinOptionalSharedFlow<T>, SharedSkieKotlinOptionalMutableStateFlow<T>, SharedSkieKotlinOptionalMutableSharedFlow<T>, SharedSkieKotlinOptionalFlow<T>, SharedSkieKotlinMutableStateFlow<T>, SharedSkieKotlinMutableSharedFlow<T>, SharedSkieKotlinFlow<T>, SharedSkieColdFlowIterator<E>, SharedShort, SharedSetUserIdUseCaseParams, SharedSetUserIdUseCase, SharedServiceProvider, SharedSendChecksForActionUseCaseSendChecksForActionParameters, SharedSendChecksForActionUseCase, SharedSeedCompanion, SharedSeed, SharedSdkLogger, SharedSafeSdk, SharedSafeAntilog, SharedRuntimeTransacterTransaction, SharedRuntimeTransacterImpl, SharedRuntimeQuery<RowType>, SharedRuntimeExecutableQuery<RowType>, SharedRuntimeBaseTransacterImpl, SharedRuntimeAfterVersion, SharedRootOperation, SharedRemoteDataSourceImpl, SharedRegisterHardwareUseCaseRegisterHardwareParameters, SharedRegisterHardwareUseCase, SharedRecipeNoRecipeFoundFailure, SharedRecipeNoChecksAvailableFailure, SharedRecipe, SharedProcMapsOperation, SharedOperationEmptyCheckConfigurationFailure, SharedOperationCannotNavigateToProcMapsFailure, SharedOperation, SharedOSType, SharedOSCompanion, SharedOS, SharedNumber, SharedNetwork_contractOsVersionRangeCompanion, SharedNetwork_contractOsVersionRange, SharedNetwork_contractFailureUnknownFailure, SharedNetwork_contractFailureApiFailure, SharedNetwork_contractFailure, SharedNetwork_contractErrorResponseCompanion, SharedNetwork_contractErrorResponse, SharedNetwork_contractDeviceResponseCompanion, SharedNetwork_contractDeviceResponse, SharedNetwork_contractDeviceCheckCompanion, SharedNetwork_contractDeviceCheck, SharedNetwork_contractCheckResultCompanion, SharedNetwork_contractCheckResult, SharedNetworkTransportCapabilityOperation, SharedNetworkNotVpnOperation, SharedNetworkInterfaceOperation, SharedNetworkConnectionImpl, SharedNapierLogLevel, SharedNapierAntilog, SharedMutableSet<ObjectType>, SharedMutableDictionary<KeyType, ObjectType>, SharedMultiplePackageNamesInstalledOperation, SharedMultipleDisplaysOperation, SharedLong, SharedLocationMockFlagsOperation, SharedKotlinx_serialization_coreStructureKindOBJECT, SharedKotlinx_serialization_coreStructureKindMAP, SharedKotlinx_serialization_coreStructureKindLIST, SharedKotlinx_serialization_coreStructureKindCLASS, SharedKotlinx_serialization_coreStructureKind, SharedKotlinx_serialization_coreSerializersModule, SharedKotlinx_serialization_coreSerialKindENUM, SharedKotlinx_serialization_coreSerialKindCONTEXTUAL, SharedKotlinx_serialization_coreSerialKind, SharedKotlinx_serialization_corePrimitiveKindSTRING, SharedKotlinx_serialization_corePrimitiveKindSHORT, SharedKotlinx_serialization_corePrimitiveKindLONG, SharedKotlinx_serialization_corePrimitiveKindINT, SharedKotlinx_serialization_corePrimitiveKindFLOAT, SharedKotlinx_serialization_corePrimitiveKindDOUBLE, SharedKotlinx_serialization_corePrimitiveKindCHAR, SharedKotlinx_serialization_corePrimitiveKindBYTE, SharedKotlinx_serialization_corePrimitiveKindBOOLEAN, SharedKotlinx_serialization_corePrimitiveKind, SharedKotlinx_serialization_corePolymorphicKindSEALED, SharedKotlinx_serialization_corePolymorphicKindOPEN, SharedKotlinx_serialization_corePolymorphicKind, SharedKotlinx_coroutines_coreCoroutineDispatcherKey, SharedKotlinx_coroutines_coreCoroutineDispatcher, SharedKotlinUnit, SharedKotlinThrowable, SharedKotlinStringCompanion, SharedKotlinRuntimeException, SharedKotlinPair<A, B>, SharedKotlinNothing, SharedKotlinLongCompanion, SharedKotlinIntCompanion, SharedKotlinIllegalStateException, SharedKotlinFloatCompanion, SharedKotlinException, SharedKotlinEnumCompanion, SharedKotlinEnum<E>, SharedKotlinDoubleCompanion, SharedKotlinCancellationException, SharedKotlinByteIterator, SharedKotlinByteArray, SharedKotlinArray<T>, SharedKotlinAbstractCoroutineContextKey<B, E>, SharedKotlinAbstractCoroutineContextElement, SharedKonnectionNetworkConnection, SharedKonnectionKonnectionCompanion, SharedKonnectionKonnection, SharedKonnectionConnectionInfo, SharedJailbreakURISchemesOperation, SharedJailbreakSuspiciousSystemPathsOperation, SharedJailbreakSuspiciousAppsPathOperation, SharedJailbreakSandboxOperation, SharedJailbreakFridaOperation, SharedJailbreakDYLDSuspiciousLibrariesOperation, SharedIosSafeAntilogCompanion, SharedIosSafeAntilog, SharedInternalDirectionConflictsOperationCompanion, SharedInternalDirectionConflictsOperation, SharedInt, SharedInstalledAppsOperationCompanion, SharedInstalledAppsOperation, SharedIdentifiersCompanion, SharedIdentifiers, SharedFraudulentCheckObserverCompanion, SharedFloat, SharedFailure_UnknownError, SharedFailure_ServerError, SharedFailure_NotInitialized, SharedFailure_NoRecipeFoundFailure, SharedFailure_NoChecksAvailableFailure, SharedFailure_NoActiveApiKey, SharedFailure_NetworkConnection, SharedFailure_, SharedFailureUnknownError, SharedFailureUnknownApiError, SharedFailureServerError, SharedFailureNotInitialized, SharedFailureNoLocationAvailable, SharedFailureNetworkConnection, SharedFailureLocationServicesDisabled, SharedFailureLocationPermissionDenied, SharedFailureFeatureFailure, SharedFailureDatabaseError, SharedFailure, SharedExtensionsKt, SharedErrorCallbackCompanion, SharedEmulatorOperation, SharedDouble, SharedDevice_, SharedDeviceLocalDataSourceImpl, SharedDeviceEntityCompanion, SharedDeviceEntity, SharedDeviceCompanion, SharedDevice, SharedDevMenuOperation, SharedDefaultIdentifiersRepository, SharedDefaultDeviceRepository, SharedDefaultChecksRepository, SharedDatabaseDriverFactory, SharedCheckWithConfigurations, SharedCheckType, SharedCheckResultCompanion, SharedCheckResult, SharedCheckOperation, SharedByte, SharedBoolean, SharedBespotException, SharedBaseServiceProvider, SharedBaseSafeSdkManagerCompanion, SharedBaseSafeSdkManager, SharedBaseLocationCompanion, SharedBaseLocation, SharedBase, SharedAuthFailureNoActiveApiKey, SharedAuthFailure, SharedApplicationInfo, SharedAppSignatureValidationOperationCompanion, SharedAppSignatureValidationOperation, SharedAppDebuggableOperation, SharedAntifraudDatabaseQueries, SharedAntifraudDatabaseCompanion, SharedAdvertisingIdTypeCompanion, SharedAdvertisingIdType, SharedAction, SharedAIDCompanion, SharedAID, NSString, NSSet<ObjectType>, NSObject, NSNumber, NSMutableSet<ObjectType>, NSMutableDictionary<KeyType, ObjectType>, NSMutableArray<ObjectType>, NSError, NSDictionary<KeyType, ObjectType>, NSArray<ObjectType>;
 
 @protocol SharedSystemSpecificDataProvider, SharedSystemObserver, SharedSkie_DispatcherDelegate, SharedSeedProvider, SharedSafeSdkInterface, SharedRuntimeTransactionWithoutReturn, SharedRuntimeTransactionWithReturn, SharedRuntimeTransactionCallbacks, SharedRuntimeTransacterBase, SharedRuntimeTransacter, SharedRuntimeSuspendingTransacter, SharedRuntimeSqlSchema, SharedRuntimeSqlPreparedStatement, SharedRuntimeSqlDriver, SharedRuntimeSqlCursor, SharedRuntimeQueryResult, SharedRuntimeQueryListener, SharedRuntimeCloseable, SharedRemoteDataSource, SharedNetwork_contractApiService, SharedNetworkConnection, SharedKtor_client_loggingLogger, SharedKotlinx_serialization_coreSerializersModuleCollector, SharedKotlinx_serialization_coreSerializationStrategy, SharedKotlinx_serialization_coreSerialDescriptor, SharedKotlinx_serialization_coreKSerializer, SharedKotlinx_serialization_coreEncoder, SharedKotlinx_serialization_coreDeserializationStrategy, SharedKotlinx_serialization_coreDecoder, SharedKotlinx_serialization_coreCompositeEncoder, SharedKotlinx_serialization_coreCompositeDecoder, SharedKotlinx_coroutines_coreStateFlow, SharedKotlinx_coroutines_coreSharedFlow, SharedKotlinx_coroutines_coreRunnable, SharedKotlinx_coroutines_coreMutableStateFlow, SharedKotlinx_coroutines_coreMutableSharedFlow, SharedKotlinx_coroutines_coreFlowCollector, SharedKotlinx_coroutines_coreFlow, SharedKotlinx_coroutines_coreCoroutineScope, SharedKotlinSuspendFunction1, SharedKotlinSuspendFunction0, SharedKotlinKDeclarationContainer, SharedKotlinKClassifier, SharedKotlinKClass, SharedKotlinKAnnotatedElement, SharedKotlinIterator, SharedKotlinFunction, SharedKotlinCoroutineContextKey, SharedKotlinCoroutineContextElement, SharedKotlinCoroutineContext, SharedKotlinContinuationInterceptor, SharedKotlinContinuation, SharedKotlinComparable, SharedKotlinAnnotation, SharedKonnectionIpResolver, SharedIdentifiersRepository, SharedFraudulentCheckObserver, SharedForegroundObserver, SharedErrorCallback, SharedDeviceRepository, SharedDeviceLocalDataSource, SharedDeviceInfoProvider, SharedChecksRepository, SharedAntifraudDatabase, NSCopying;
 
@@ -858,8 +858,12 @@ __attribute__((swift_name("CheckType")))
 @property (class, readonly) SharedCheckType *transportVpn __attribute__((swift_name("transportVpn")));
 @property (class, readonly) SharedCheckType *netCapabilityNotVpn __attribute__((swift_name("netCapabilityNotVpn")));
 @property (class, readonly) SharedCheckType *networkNameIsTun __attribute__((swift_name("networkNameIsTun")));
+@property (class, readonly) SharedCheckType *networkNameIsUtun __attribute__((swift_name("networkNameIsUtun")));
 @property (class, readonly) SharedCheckType *networkNameIsPpp __attribute__((swift_name("networkNameIsPpp")));
 @property (class, readonly) SharedCheckType *networkNameIsPptp __attribute__((swift_name("networkNameIsPptp")));
+@property (class, readonly) SharedCheckType *networkNameIsTap __attribute__((swift_name("networkNameIsTap")));
+@property (class, readonly) SharedCheckType *networkNameIsIpsec __attribute__((swift_name("networkNameIsIpsec")));
+@property (class, readonly) SharedCheckType *networkInterfaceIsOther __attribute__((swift_name("networkInterfaceIsOther")));
 @property (class, readonly) SharedCheckType *rootClientLib __attribute__((swift_name("rootClientLib")));
 @property (class, readonly) SharedCheckType *emulatorClientLib __attribute__((swift_name("emulatorClientLib")));
 @property (class, readonly) SharedCheckType *multipleDisplays __attribute__((swift_name("multipleDisplays")));
@@ -873,6 +877,12 @@ __attribute__((swift_name("CheckType")))
 @property (class, readonly) SharedCheckType *vpnAppsDetected __attribute__((swift_name("vpnAppsDetected")));
 @property (class, readonly) SharedCheckType *mockLocAppsDetected __attribute__((swift_name("mockLocAppsDetected")));
 @property (class, readonly) SharedCheckType *rootAppsDetected __attribute__((swift_name("rootAppsDetected")));
+@property (class, readonly) SharedCheckType *jailbreakSuspiciousAppsPath __attribute__((swift_name("jailbreakSuspiciousAppsPath")));
+@property (class, readonly) SharedCheckType *jailbreakSuspiciousSystemPaths __attribute__((swift_name("jailbreakSuspiciousSystemPaths")));
+@property (class, readonly) SharedCheckType *jailbreakDyldSuspiciousLibraries __attribute__((swift_name("jailbreakDyldSuspiciousLibraries")));
+@property (class, readonly) SharedCheckType *jailbreakFridaDetection __attribute__((swift_name("jailbreakFridaDetection")));
+@property (class, readonly) SharedCheckType *jailbreakUriSchemesDetection __attribute__((swift_name("jailbreakUriSchemesDetection")));
+@property (class, readonly) SharedCheckType *jailbreakSandbox __attribute__((swift_name("jailbreakSandbox")));
 @property (class, readonly) SharedCheckType *mirroringAppsDetected __attribute__((swift_name("mirroringAppsDetected")));
 @property (class, readonly) SharedCheckType *emulatorAppsDetected __attribute__((swift_name("emulatorAppsDetected")));
 @property (class, readonly) SharedCheckType *clonedAppsDetected __attribute__((swift_name("clonedAppsDetected")));
@@ -1768,8 +1778,64 @@ __attribute__((swift_name("MultipleDisplaysOperation")))
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @end
 
+__attribute__((swift_name("JailbreakDYLDSuspiciousLibrariesOperation")))
+@interface SharedJailbreakDYLDSuspiciousLibrariesOperation : SharedCheckOperation
+@property NSDictionary<NSString *, NSString *> *configurations __attribute__((swift_name("configurations")));
+@property (readonly) SharedCheckType *type __attribute__((swift_name("type")));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@end
+
+__attribute__((swift_name("JailbreakFridaOperation")))
+@interface SharedJailbreakFridaOperation : SharedCheckOperation
+@property NSDictionary<NSString *, NSString *> *configurations __attribute__((swift_name("configurations")));
+@property (readonly) SharedCheckType *type __attribute__((swift_name("type")));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@end
+
+__attribute__((swift_name("JailbreakSandboxOperation")))
+@interface SharedJailbreakSandboxOperation : SharedCheckOperation
+@property NSDictionary<NSString *, NSString *> *configurations __attribute__((swift_name("configurations")));
+@property (readonly) SharedCheckType *type __attribute__((swift_name("type")));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@end
+
+__attribute__((swift_name("JailbreakSuspiciousAppsPathOperation")))
+@interface SharedJailbreakSuspiciousAppsPathOperation : SharedCheckOperation
+@property NSDictionary<NSString *, NSString *> *configurations __attribute__((swift_name("configurations")));
+@property (readonly) SharedCheckType *type __attribute__((swift_name("type")));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@end
+
+__attribute__((swift_name("JailbreakSuspiciousSystemPathsOperation")))
+@interface SharedJailbreakSuspiciousSystemPathsOperation : SharedCheckOperation
+@property NSDictionary<NSString *, NSString *> *configurations __attribute__((swift_name("configurations")));
+@property (readonly) SharedCheckType *type __attribute__((swift_name("type")));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@end
+
+__attribute__((swift_name("JailbreakURISchemesOperation")))
+@interface SharedJailbreakURISchemesOperation : SharedCheckOperation
+@property NSDictionary<NSString *, NSString *> *configurations __attribute__((swift_name("configurations")));
+@property (readonly) SharedCheckType *type __attribute__((swift_name("type")));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@end
+
 __attribute__((swift_name("RootOperation")))
 @interface SharedRootOperation : SharedCheckOperation
+@property NSDictionary<NSString *, NSString *> *configurations __attribute__((swift_name("configurations")));
+@property (readonly) SharedCheckType *type __attribute__((swift_name("type")));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@end
+
+__attribute__((swift_name("NetworkInterfaceOperation")))
+@interface SharedNetworkInterfaceOperation : SharedCheckOperation
 @property NSDictionary<NSString *, NSString *> *configurations __attribute__((swift_name("configurations")));
 @property (readonly) SharedCheckType *type __attribute__((swift_name("type")));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
@@ -1790,6 +1856,25 @@ __attribute__((swift_name("NetworkTransportCapabilityOperation")))
 @property (readonly) SharedCheckType *type __attribute__((swift_name("type")));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@end
+
+__attribute__((swift_name("VpnNetworkIPSECOperation")))
+@interface SharedVpnNetworkIPSECOperation : SharedCheckOperation
+@property (class, readonly, getter=companion) SharedVpnNetworkIPSECOperationCompanion *companion __attribute__((swift_name("companion")));
+@property NSDictionary<NSString *, NSString *> *configurations __attribute__((swift_name("configurations")));
+@property (readonly) SharedCheckType *type __attribute__((swift_name("type")));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("VpnNetworkIPSECOperation.Companion")))
+@interface SharedVpnNetworkIPSECOperationCompanion : SharedBase
+@property (class, readonly, getter=shared) SharedVpnNetworkIPSECOperationCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *IPSEC_NETWORK_NAME __attribute__((swift_name("IPSEC_NETWORK_NAME")));
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
 @end
 
 __attribute__((swift_name("VpnNetworkPPPOperation")))
@@ -1830,6 +1915,25 @@ __attribute__((swift_name("VpnNetworkPPTPOperation.Companion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @end
 
+__attribute__((swift_name("VpnNetworkTAPOperation")))
+@interface SharedVpnNetworkTAPOperation : SharedCheckOperation
+@property (class, readonly, getter=companion) SharedVpnNetworkTAPOperationCompanion *companion __attribute__((swift_name("companion")));
+@property NSDictionary<NSString *, NSString *> *configurations __attribute__((swift_name("configurations")));
+@property (readonly) SharedCheckType *type __attribute__((swift_name("type")));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("VpnNetworkTAPOperation.Companion")))
+@interface SharedVpnNetworkTAPOperationCompanion : SharedBase
+@property (class, readonly, getter=shared) SharedVpnNetworkTAPOperationCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *TAP_NETWORK_NAME __attribute__((swift_name("TAP_NETWORK_NAME")));
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@end
+
 __attribute__((swift_name("VpnNetworkTUNOperation")))
 @interface SharedVpnNetworkTUNOperation : SharedCheckOperation
 @property (class, readonly, getter=companion) SharedVpnNetworkTUNOperationCompanion *companion __attribute__((swift_name("companion")));
@@ -1844,6 +1948,25 @@ __attribute__((swift_name("VpnNetworkTUNOperation.Companion")))
 @interface SharedVpnNetworkTUNOperationCompanion : SharedBase
 @property (class, readonly, getter=shared) SharedVpnNetworkTUNOperationCompanion *shared __attribute__((swift_name("shared")));
 @property (readonly) NSString *TUN_NETWORK_NAME __attribute__((swift_name("TUN_NETWORK_NAME")));
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@end
+
+__attribute__((swift_name("VpnNetworkUTUNOperation")))
+@interface SharedVpnNetworkUTUNOperation : SharedCheckOperation
+@property (class, readonly, getter=companion) SharedVpnNetworkUTUNOperationCompanion *companion __attribute__((swift_name("companion")));
+@property NSDictionary<NSString *, NSString *> *configurations __attribute__((swift_name("configurations")));
+@property (readonly) SharedCheckType *type __attribute__((swift_name("type")));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("VpnNetworkUTUNOperation.Companion")))
+@interface SharedVpnNetworkUTUNOperationCompanion : SharedBase
+@property (class, readonly, getter=shared) SharedVpnNetworkUTUNOperationCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) NSString *UTUN_NETWORK_NAME __attribute__((swift_name("UTUN_NETWORK_NAME")));
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));

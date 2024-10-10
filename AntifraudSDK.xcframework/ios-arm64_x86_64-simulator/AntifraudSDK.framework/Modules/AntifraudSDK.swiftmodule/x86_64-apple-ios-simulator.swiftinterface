@@ -6,6 +6,7 @@ import CoreLocation
 import Foundation
 import MachO
 import Network
+import NetworkExtension
 import Swift
 import UIKit
 import _Concurrency
@@ -34,19 +35,16 @@ public enum ActionType {
     get
   }
 }
-public enum LocationError : Swift.Error {
-  case locationPermissionDenied
-  case locationServicesDisabled
-  public static func == (a: AntifraudSDK.LocationError, b: AntifraudSDK.LocationError) -> Swift.Bool
-  public func hash(into hasher: inout Swift.Hasher)
-  public var hashValue: Swift.Int {
+public enum SDKError : Swift.String, Swift.Error {
+  case networkConnection, serverError, locationPermissionUnknown, locationPermissionNotDetermined, locationPermissionDenied, locationServicesDisabled, locationNotAvailable, notInitialized, unknownError, unknownApiError, noActiveApiKey, noRecipeFoundFailure, noChecksAvailableFailure, emptyCheckConfigurationFailure, cannotNavigateToProcMapsFailure
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
     get
   }
 }
-public enum SDKError : Swift.Error {
-  case networkConnection, serverError, locationPermissionDenied, locationServicesDisabled, noLocationAvailable, notInitialized, unknownError(message: Swift.String? = nil), unknownApiError(message: Swift.String), noActiveApiKey, noRecipeFoundFailure, noChecksAvailableFailure, emptyCheckConfigurationFailure, cannotNavigateToProcMapsFailure
-}
 extension AntifraudSDK.ActionType : Swift.Equatable {}
 extension AntifraudSDK.ActionType : Swift.Hashable {}
-extension AntifraudSDK.LocationError : Swift.Equatable {}
-extension AntifraudSDK.LocationError : Swift.Hashable {}
+extension AntifraudSDK.SDKError : Swift.Equatable {}
+extension AntifraudSDK.SDKError : Swift.Hashable {}
+extension AntifraudSDK.SDKError : Swift.RawRepresentable {}
