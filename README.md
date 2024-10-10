@@ -1,6 +1,6 @@
 # Antifraud SDK iOS - Release
 
-[![VERSION](https://img.shields.io/badge/VERSION-0.5.1-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-0.5.2-green)](#)
 [![Swift Version][swift-image]][swift-url]
 
 AntifraudSDK is an easy to use iOS library for protecting your application from fraudulent activities. Our SDK requires minimal permissions and uses device information and sensors to detect and report potential threats, so that app developers can make informed decisions about their application's actions.
@@ -11,6 +11,7 @@ AntifraudSDK is an easy to use iOS library for protecting your application from 
 | Geofencing      | Device is located inside or outside of configurable region |
 | Mock Location   | Device's location is simulated by software                 |
 | Multiple Users  | More than one users are registered in the device           |
+| VPN             | Virtual Private Network connection detected on Device      |
 
 ## Requirements
 
@@ -33,7 +34,7 @@ target '[Your app]' do
   use_frameworks!
 
   # AntifraudSDK framework
-  pod 'AntifraudSDK', :git => 'https://github.com/bespot/antifraud-sdk-ios-release', :tag => '0.5.1'
+  pod 'AntifraudSDK', :git => 'https://github.com/bespot/antifraud-sdk-ios-release', :tag => '0.5.2'
 
   # Other CocoaPods libraries/frameworks you may use...
 

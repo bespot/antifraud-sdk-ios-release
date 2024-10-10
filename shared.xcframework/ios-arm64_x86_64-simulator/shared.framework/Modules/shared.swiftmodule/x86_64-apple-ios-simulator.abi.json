@@ -23349,6 +23349,44 @@
           },
           {
             "kind": "Var",
+            "name": "networkNameIsUtun",
+            "printedName": "networkNameIsUtun",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(shared.CheckType.Type) -> shared.CheckType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckType",
+                    "printedName": "shared.CheckType",
+                    "usr": "s:6shared9CheckTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "shared.CheckType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckType",
+                        "printedName": "shared.CheckType",
+                        "usr": "s:6shared9CheckTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6shared9CheckTypeO17networkNameIsUtunyA2CmF",
+            "mangledName": "$s6shared9CheckTypeO17networkNameIsUtunyA2CmF",
+            "moduleName": "shared",
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Var",
             "name": "networkNameIsPpp",
             "printedName": "networkNameIsPpp",
             "children": [
@@ -23383,7 +23421,7 @@
             "usr": "s:6shared9CheckTypeO16networkNameIsPppyA2CmF",
             "mangledName": "$s6shared9CheckTypeO16networkNameIsPppyA2CmF",
             "moduleName": "shared",
-            "fixedbinaryorder": 4
+            "fixedbinaryorder": 5
           },
           {
             "kind": "Var",
@@ -23421,7 +23459,121 @@
             "usr": "s:6shared9CheckTypeO17networkNameIsPptpyA2CmF",
             "mangledName": "$s6shared9CheckTypeO17networkNameIsPptpyA2CmF",
             "moduleName": "shared",
-            "fixedbinaryorder": 5
+            "fixedbinaryorder": 6
+          },
+          {
+            "kind": "Var",
+            "name": "networkNameIsTap",
+            "printedName": "networkNameIsTap",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(shared.CheckType.Type) -> shared.CheckType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckType",
+                    "printedName": "shared.CheckType",
+                    "usr": "s:6shared9CheckTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "shared.CheckType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckType",
+                        "printedName": "shared.CheckType",
+                        "usr": "s:6shared9CheckTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6shared9CheckTypeO16networkNameIsTapyA2CmF",
+            "mangledName": "$s6shared9CheckTypeO16networkNameIsTapyA2CmF",
+            "moduleName": "shared",
+            "fixedbinaryorder": 7
+          },
+          {
+            "kind": "Var",
+            "name": "networkNameIsIpsec",
+            "printedName": "networkNameIsIpsec",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(shared.CheckType.Type) -> shared.CheckType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckType",
+                    "printedName": "shared.CheckType",
+                    "usr": "s:6shared9CheckTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "shared.CheckType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckType",
+                        "printedName": "shared.CheckType",
+                        "usr": "s:6shared9CheckTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6shared9CheckTypeO18networkNameIsIpsecyA2CmF",
+            "mangledName": "$s6shared9CheckTypeO18networkNameIsIpsecyA2CmF",
+            "moduleName": "shared",
+            "fixedbinaryorder": 8
+          },
+          {
+            "kind": "Var",
+            "name": "networkInterfaceIsOther",
+            "printedName": "networkInterfaceIsOther",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(shared.CheckType.Type) -> shared.CheckType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckType",
+                    "printedName": "shared.CheckType",
+                    "usr": "s:6shared9CheckTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "shared.CheckType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckType",
+                        "printedName": "shared.CheckType",
+                        "usr": "s:6shared9CheckTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6shared9CheckTypeO23networkInterfaceIsOtheryA2CmF",
+            "mangledName": "$s6shared9CheckTypeO23networkInterfaceIsOtheryA2CmF",
+            "moduleName": "shared",
+            "fixedbinaryorder": 9
           },
           {
             "kind": "Var",
@@ -23459,7 +23611,7 @@
             "usr": "s:6shared9CheckTypeO13rootClientLibyA2CmF",
             "mangledName": "$s6shared9CheckTypeO13rootClientLibyA2CmF",
             "moduleName": "shared",
-            "fixedbinaryorder": 6
+            "fixedbinaryorder": 10
           },
           {
             "kind": "Var",
@@ -23497,7 +23649,7 @@
             "usr": "s:6shared9CheckTypeO17emulatorClientLibyA2CmF",
             "mangledName": "$s6shared9CheckTypeO17emulatorClientLibyA2CmF",
             "moduleName": "shared",
-            "fixedbinaryorder": 7
+            "fixedbinaryorder": 11
           },
           {
             "kind": "Var",
@@ -23535,7 +23687,7 @@
             "usr": "s:6shared9CheckTypeO16multipleDisplaysyA2CmF",
             "mangledName": "$s6shared9CheckTypeO16multipleDisplaysyA2CmF",
             "moduleName": "shared",
-            "fixedbinaryorder": 8
+            "fixedbinaryorder": 12
           },
           {
             "kind": "Var",
@@ -23573,7 +23725,7 @@
             "usr": "s:6shared9CheckTypeO28multiplePackageNameInstalledyA2CmF",
             "mangledName": "$s6shared9CheckTypeO28multiplePackageNameInstalledyA2CmF",
             "moduleName": "shared",
-            "fixedbinaryorder": 9
+            "fixedbinaryorder": 13
           },
           {
             "kind": "Var",
@@ -23611,7 +23763,7 @@
             "usr": "s:6shared9CheckTypeO18suspiciousProcMapsyA2CmF",
             "mangledName": "$s6shared9CheckTypeO18suspiciousProcMapsyA2CmF",
             "moduleName": "shared",
-            "fixedbinaryorder": 10
+            "fixedbinaryorder": 14
           },
           {
             "kind": "Var",
@@ -23649,7 +23801,7 @@
             "usr": "s:6shared9CheckTypeO20internalDirConflictsyA2CmF",
             "mangledName": "$s6shared9CheckTypeO20internalDirConflictsyA2CmF",
             "moduleName": "shared",
-            "fixedbinaryorder": 11
+            "fixedbinaryorder": 15
           },
           {
             "kind": "Var",
@@ -23687,7 +23839,7 @@
             "usr": "s:6shared9CheckTypeO14devMenuEnabledyA2CmF",
             "mangledName": "$s6shared9CheckTypeO14devMenuEnabledyA2CmF",
             "moduleName": "shared",
-            "fixedbinaryorder": 12
+            "fixedbinaryorder": 16
           },
           {
             "kind": "Var",
@@ -23725,7 +23877,7 @@
             "usr": "s:6shared9CheckTypeO13appDebuggableyA2CmF",
             "mangledName": "$s6shared9CheckTypeO13appDebuggableyA2CmF",
             "moduleName": "shared",
-            "fixedbinaryorder": 13
+            "fixedbinaryorder": 17
           },
           {
             "kind": "Var",
@@ -23763,7 +23915,7 @@
             "usr": "s:6shared9CheckTypeO15storeValidationyA2CmF",
             "mangledName": "$s6shared9CheckTypeO15storeValidationyA2CmF",
             "moduleName": "shared",
-            "fixedbinaryorder": 14
+            "fixedbinaryorder": 18
           },
           {
             "kind": "Var",
@@ -23801,7 +23953,7 @@
             "usr": "s:6shared9CheckTypeO12appSignatureyA2CmF",
             "mangledName": "$s6shared9CheckTypeO12appSignatureyA2CmF",
             "moduleName": "shared",
-            "fixedbinaryorder": 15
+            "fixedbinaryorder": 19
           },
           {
             "kind": "Var",
@@ -23839,7 +23991,7 @@
             "usr": "s:6shared9CheckTypeO15vpnAppsDetectedyA2CmF",
             "mangledName": "$s6shared9CheckTypeO15vpnAppsDetectedyA2CmF",
             "moduleName": "shared",
-            "fixedbinaryorder": 16
+            "fixedbinaryorder": 20
           },
           {
             "kind": "Var",
@@ -23877,7 +24029,7 @@
             "usr": "s:6shared9CheckTypeO19mockLocAppsDetectedyA2CmF",
             "mangledName": "$s6shared9CheckTypeO19mockLocAppsDetectedyA2CmF",
             "moduleName": "shared",
-            "fixedbinaryorder": 17
+            "fixedbinaryorder": 21
           },
           {
             "kind": "Var",
@@ -23915,7 +24067,235 @@
             "usr": "s:6shared9CheckTypeO16rootAppsDetectedyA2CmF",
             "mangledName": "$s6shared9CheckTypeO16rootAppsDetectedyA2CmF",
             "moduleName": "shared",
-            "fixedbinaryorder": 18
+            "fixedbinaryorder": 22
+          },
+          {
+            "kind": "Var",
+            "name": "jailbreakSuspiciousAppsPath",
+            "printedName": "jailbreakSuspiciousAppsPath",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(shared.CheckType.Type) -> shared.CheckType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckType",
+                    "printedName": "shared.CheckType",
+                    "usr": "s:6shared9CheckTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "shared.CheckType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckType",
+                        "printedName": "shared.CheckType",
+                        "usr": "s:6shared9CheckTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6shared9CheckTypeO27jailbreakSuspiciousAppsPathyA2CmF",
+            "mangledName": "$s6shared9CheckTypeO27jailbreakSuspiciousAppsPathyA2CmF",
+            "moduleName": "shared",
+            "fixedbinaryorder": 23
+          },
+          {
+            "kind": "Var",
+            "name": "jailbreakSuspiciousSystemPaths",
+            "printedName": "jailbreakSuspiciousSystemPaths",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(shared.CheckType.Type) -> shared.CheckType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckType",
+                    "printedName": "shared.CheckType",
+                    "usr": "s:6shared9CheckTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "shared.CheckType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckType",
+                        "printedName": "shared.CheckType",
+                        "usr": "s:6shared9CheckTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6shared9CheckTypeO30jailbreakSuspiciousSystemPathsyA2CmF",
+            "mangledName": "$s6shared9CheckTypeO30jailbreakSuspiciousSystemPathsyA2CmF",
+            "moduleName": "shared",
+            "fixedbinaryorder": 24
+          },
+          {
+            "kind": "Var",
+            "name": "jailbreakDyldSuspiciousLibraries",
+            "printedName": "jailbreakDyldSuspiciousLibraries",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(shared.CheckType.Type) -> shared.CheckType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckType",
+                    "printedName": "shared.CheckType",
+                    "usr": "s:6shared9CheckTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "shared.CheckType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckType",
+                        "printedName": "shared.CheckType",
+                        "usr": "s:6shared9CheckTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6shared9CheckTypeO32jailbreakDyldSuspiciousLibrariesyA2CmF",
+            "mangledName": "$s6shared9CheckTypeO32jailbreakDyldSuspiciousLibrariesyA2CmF",
+            "moduleName": "shared",
+            "fixedbinaryorder": 25
+          },
+          {
+            "kind": "Var",
+            "name": "jailbreakFridaDetection",
+            "printedName": "jailbreakFridaDetection",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(shared.CheckType.Type) -> shared.CheckType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckType",
+                    "printedName": "shared.CheckType",
+                    "usr": "s:6shared9CheckTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "shared.CheckType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckType",
+                        "printedName": "shared.CheckType",
+                        "usr": "s:6shared9CheckTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6shared9CheckTypeO23jailbreakFridaDetectionyA2CmF",
+            "mangledName": "$s6shared9CheckTypeO23jailbreakFridaDetectionyA2CmF",
+            "moduleName": "shared",
+            "fixedbinaryorder": 26
+          },
+          {
+            "kind": "Var",
+            "name": "jailbreakUriSchemesDetection",
+            "printedName": "jailbreakUriSchemesDetection",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(shared.CheckType.Type) -> shared.CheckType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckType",
+                    "printedName": "shared.CheckType",
+                    "usr": "s:6shared9CheckTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "shared.CheckType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckType",
+                        "printedName": "shared.CheckType",
+                        "usr": "s:6shared9CheckTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6shared9CheckTypeO28jailbreakUriSchemesDetectionyA2CmF",
+            "mangledName": "$s6shared9CheckTypeO28jailbreakUriSchemesDetectionyA2CmF",
+            "moduleName": "shared",
+            "fixedbinaryorder": 27
+          },
+          {
+            "kind": "Var",
+            "name": "jailbreakSandbox",
+            "printedName": "jailbreakSandbox",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(shared.CheckType.Type) -> shared.CheckType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckType",
+                    "printedName": "shared.CheckType",
+                    "usr": "s:6shared9CheckTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "shared.CheckType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckType",
+                        "printedName": "shared.CheckType",
+                        "usr": "s:6shared9CheckTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:6shared9CheckTypeO16jailbreakSandboxyA2CmF",
+            "mangledName": "$s6shared9CheckTypeO16jailbreakSandboxyA2CmF",
+            "moduleName": "shared",
+            "fixedbinaryorder": 28
           },
           {
             "kind": "Var",
@@ -23953,7 +24333,7 @@
             "usr": "s:6shared9CheckTypeO21mirroringAppsDetectedyA2CmF",
             "mangledName": "$s6shared9CheckTypeO21mirroringAppsDetectedyA2CmF",
             "moduleName": "shared",
-            "fixedbinaryorder": 19
+            "fixedbinaryorder": 29
           },
           {
             "kind": "Var",
@@ -23991,7 +24371,7 @@
             "usr": "s:6shared9CheckTypeO20emulatorAppsDetectedyA2CmF",
             "mangledName": "$s6shared9CheckTypeO20emulatorAppsDetectedyA2CmF",
             "moduleName": "shared",
-            "fixedbinaryorder": 20
+            "fixedbinaryorder": 30
           },
           {
             "kind": "Var",
@@ -24029,7 +24409,7 @@
             "usr": "s:6shared9CheckTypeO18clonedAppsDetectedyA2CmF",
             "mangledName": "$s6shared9CheckTypeO18clonedAppsDetectedyA2CmF",
             "moduleName": "shared",
-            "fixedbinaryorder": 21
+            "fixedbinaryorder": 31
           },
           {
             "kind": "Var",
@@ -24067,7 +24447,7 @@
             "usr": "s:6shared9CheckTypeO5otheryA2CmF",
             "mangledName": "$s6shared9CheckTypeO5otheryA2CmF",
             "moduleName": "shared",
-            "fixedbinaryorder": 22
+            "fixedbinaryorder": 32
           },
           {
             "kind": "Var",

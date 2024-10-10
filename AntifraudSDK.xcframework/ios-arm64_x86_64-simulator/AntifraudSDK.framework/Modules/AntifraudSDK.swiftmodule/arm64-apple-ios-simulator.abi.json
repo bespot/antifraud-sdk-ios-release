@@ -376,6 +376,713 @@
       },
       {
         "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VPNNetworkUTUNDetection",
+        "printedName": "VPNNetworkUTUNDetection",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configurations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VPNNetworkUTUNDetection",
+                "printedName": "AntifraudSDK.VPNNetworkUTUNDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkUTUNDetection"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AntifraudSDK23VPNNetworkUTUNDetectionC14configurationsACSDyS2SG_tcfc",
+            "mangledName": "$s12AntifraudSDK23VPNNetworkUTUNDetectionC14configurationsACSDyS2SG_tcfc",
+            "moduleName": "AntifraudSDK",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "__detect",
+            "printedName": "__detect(triggeredBy:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TriggeredBy",
+                "printedName": "shared.TriggeredBy",
+                "usr": "s:6shared11TriggeredByO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(shared.CheckResult?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(shared.CheckResult?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "shared.CheckResult?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CheckResult",
+                            "printedName": "shared.CheckResult",
+                            "usr": "c:objc(cs)SharedCheckResult"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkUTUNDetection(im)detectTriggeredBy:completionHandler:",
+            "mangledName": "$s12AntifraudSDK23VPNNetworkUTUNDetectionC8__detect11triggeredBy17completionHandlery6shared09TriggeredG0O_ySo17SharedCheckResultCSg_s5Error_pSgtctF",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "detectTriggeredBy:completionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VPNNetworkUTUNDetection",
+                "printedName": "AntifraudSDK.VPNNetworkUTUNDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkUTUNDetection"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkUTUNDetection(im)init",
+            "mangledName": "$s12AntifraudSDK23VPNNetworkUTUNDetectionCACycfc",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkUTUNDetection",
+        "mangledName": "$s12AntifraudSDK23VPNNetworkUTUNDetectionC",
+        "moduleName": "AntifraudSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SharedVpnNetworkUTUNOperation",
+        "superclassNames": [
+          "shared.VpnNetworkUTUNOperation",
+          "shared.CheckOperation",
+          "shared.KotlinBase",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VPNNetworkIPSECDetection",
+        "printedName": "VPNNetworkIPSECDetection",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configurations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VPNNetworkIPSECDetection",
+                "printedName": "AntifraudSDK.VPNNetworkIPSECDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkIPSECDetection"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AntifraudSDK24VPNNetworkIPSECDetectionC14configurationsACSDyS2SG_tcfc",
+            "mangledName": "$s12AntifraudSDK24VPNNetworkIPSECDetectionC14configurationsACSDyS2SG_tcfc",
+            "moduleName": "AntifraudSDK",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "__detect",
+            "printedName": "__detect(triggeredBy:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TriggeredBy",
+                "printedName": "shared.TriggeredBy",
+                "usr": "s:6shared11TriggeredByO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(shared.CheckResult?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(shared.CheckResult?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "shared.CheckResult?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CheckResult",
+                            "printedName": "shared.CheckResult",
+                            "usr": "c:objc(cs)SharedCheckResult"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkIPSECDetection(im)detectTriggeredBy:completionHandler:",
+            "mangledName": "$s12AntifraudSDK24VPNNetworkIPSECDetectionC8__detect11triggeredBy17completionHandlery6shared09TriggeredG0O_ySo17SharedCheckResultCSg_s5Error_pSgtctF",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "detectTriggeredBy:completionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VPNNetworkIPSECDetection",
+                "printedName": "AntifraudSDK.VPNNetworkIPSECDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkIPSECDetection"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkIPSECDetection(im)init",
+            "mangledName": "$s12AntifraudSDK24VPNNetworkIPSECDetectionCACycfc",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkIPSECDetection",
+        "mangledName": "$s12AntifraudSDK24VPNNetworkIPSECDetectionC",
+        "moduleName": "AntifraudSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SharedVpnNetworkIPSECOperation",
+        "superclassNames": [
+          "shared.VpnNetworkIPSECOperation",
+          "shared.CheckOperation",
+          "shared.KotlinBase",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VPNNetworkPPPDetection",
+        "printedName": "VPNNetworkPPPDetection",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configurations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VPNNetworkPPPDetection",
+                "printedName": "AntifraudSDK.VPNNetworkPPPDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkPPPDetection"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AntifraudSDK22VPNNetworkPPPDetectionC14configurationsACSDyS2SG_tcfc",
+            "mangledName": "$s12AntifraudSDK22VPNNetworkPPPDetectionC14configurationsACSDyS2SG_tcfc",
+            "moduleName": "AntifraudSDK",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "__detect",
+            "printedName": "__detect(triggeredBy:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TriggeredBy",
+                "printedName": "shared.TriggeredBy",
+                "usr": "s:6shared11TriggeredByO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(shared.CheckResult?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(shared.CheckResult?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "shared.CheckResult?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CheckResult",
+                            "printedName": "shared.CheckResult",
+                            "usr": "c:objc(cs)SharedCheckResult"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkPPPDetection(im)detectTriggeredBy:completionHandler:",
+            "mangledName": "$s12AntifraudSDK22VPNNetworkPPPDetectionC8__detect11triggeredBy17completionHandlery6shared09TriggeredG0O_ySo17SharedCheckResultCSg_s5Error_pSgtctF",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "detectTriggeredBy:completionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VPNNetworkPPPDetection",
+                "printedName": "AntifraudSDK.VPNNetworkPPPDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkPPPDetection"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkPPPDetection(im)init",
+            "mangledName": "$s12AntifraudSDK22VPNNetworkPPPDetectionCACycfc",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkPPPDetection",
+        "mangledName": "$s12AntifraudSDK22VPNNetworkPPPDetectionC",
+        "moduleName": "AntifraudSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SharedVpnNetworkPPPOperation",
+        "superclassNames": [
+          "shared.VpnNetworkPPPOperation",
+          "shared.CheckOperation",
+          "shared.KotlinBase",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1472,6 +2179,484 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "NetworkExtension",
+        "printedName": "NetworkExtension",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NetworkInterfaceDetection",
+        "printedName": "NetworkInterfaceDetection",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configurations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkInterfaceDetection",
+                "printedName": "AntifraudSDK.NetworkInterfaceDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)NetworkInterfaceDetection"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AntifraudSDK25NetworkInterfaceDetectionC14configurationsACSDyS2SG_tcfc",
+            "mangledName": "$s12AntifraudSDK25NetworkInterfaceDetectionC14configurationsACSDyS2SG_tcfc",
+            "moduleName": "AntifraudSDK",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "__detect",
+            "printedName": "__detect(triggeredBy:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TriggeredBy",
+                "printedName": "shared.TriggeredBy",
+                "usr": "s:6shared11TriggeredByO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(shared.CheckResult?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(shared.CheckResult?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "shared.CheckResult?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CheckResult",
+                            "printedName": "shared.CheckResult",
+                            "usr": "c:objc(cs)SharedCheckResult"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AntifraudSDK@objc(cs)NetworkInterfaceDetection(im)detectTriggeredBy:completionHandler:",
+            "mangledName": "$s12AntifraudSDK25NetworkInterfaceDetectionC8__detect11triggeredBy17completionHandlery6shared09TriggeredH0O_ySo17SharedCheckResultCSg_s5Error_pSgtctF",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "detectTriggeredBy:completionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkInterfaceDetection",
+                "printedName": "AntifraudSDK.NetworkInterfaceDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)NetworkInterfaceDetection"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AntifraudSDK@objc(cs)NetworkInterfaceDetection(im)init",
+            "mangledName": "$s12AntifraudSDK25NetworkInterfaceDetectionCACycfc",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AntifraudSDK@objc(cs)NetworkInterfaceDetection",
+        "mangledName": "$s12AntifraudSDK25NetworkInterfaceDetectionC",
+        "moduleName": "AntifraudSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SharedNetworkInterfaceOperation",
+        "superclassNames": [
+          "shared.NetworkInterfaceOperation",
+          "shared.CheckOperation",
+          "shared.KotlinBase",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VPNNetworkTUNDetection",
+        "printedName": "VPNNetworkTUNDetection",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configurations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VPNNetworkTUNDetection",
+                "printedName": "AntifraudSDK.VPNNetworkTUNDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkTUNDetection"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AntifraudSDK22VPNNetworkTUNDetectionC14configurationsACSDyS2SG_tcfc",
+            "mangledName": "$s12AntifraudSDK22VPNNetworkTUNDetectionC14configurationsACSDyS2SG_tcfc",
+            "moduleName": "AntifraudSDK",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "__detect",
+            "printedName": "__detect(triggeredBy:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TriggeredBy",
+                "printedName": "shared.TriggeredBy",
+                "usr": "s:6shared11TriggeredByO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(shared.CheckResult?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(shared.CheckResult?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "shared.CheckResult?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CheckResult",
+                            "printedName": "shared.CheckResult",
+                            "usr": "c:objc(cs)SharedCheckResult"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkTUNDetection(im)detectTriggeredBy:completionHandler:",
+            "mangledName": "$s12AntifraudSDK22VPNNetworkTUNDetectionC8__detect11triggeredBy17completionHandlery6shared09TriggeredG0O_ySo17SharedCheckResultCSg_s5Error_pSgtctF",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "detectTriggeredBy:completionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VPNNetworkTUNDetection",
+                "printedName": "AntifraudSDK.VPNNetworkTUNDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkTUNDetection"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkTUNDetection(im)init",
+            "mangledName": "$s12AntifraudSDK22VPNNetworkTUNDetectionCACycfc",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkTUNDetection",
+        "mangledName": "$s12AntifraudSDK22VPNNetworkTUNDetectionC",
+        "moduleName": "AntifraudSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SharedVpnNetworkTUNOperation",
+        "superclassNames": [
+          "shared.VpnNetworkTUNOperation",
+          "shared.CheckOperation",
+          "shared.KotlinBase",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "SafeSDKManager",
         "printedName": "SafeSDKManager",
@@ -1636,6 +2821,241 @@
         "inheritsConvenienceInitializers": true,
         "superclassNames": [
           "shared.BaseSafeSdkManager",
+          "shared.KotlinBase",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VPNNetworkTAPDetection",
+        "printedName": "VPNNetworkTAPDetection",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configurations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VPNNetworkTAPDetection",
+                "printedName": "AntifraudSDK.VPNNetworkTAPDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkTAPDetection"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AntifraudSDK22VPNNetworkTAPDetectionC14configurationsACSDyS2SG_tcfc",
+            "mangledName": "$s12AntifraudSDK22VPNNetworkTAPDetectionC14configurationsACSDyS2SG_tcfc",
+            "moduleName": "AntifraudSDK",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "__detect",
+            "printedName": "__detect(triggeredBy:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TriggeredBy",
+                "printedName": "shared.TriggeredBy",
+                "usr": "s:6shared11TriggeredByO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(shared.CheckResult?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(shared.CheckResult?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "shared.CheckResult?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CheckResult",
+                            "printedName": "shared.CheckResult",
+                            "usr": "c:objc(cs)SharedCheckResult"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkTAPDetection(im)detectTriggeredBy:completionHandler:",
+            "mangledName": "$s12AntifraudSDK22VPNNetworkTAPDetectionC8__detect11triggeredBy17completionHandlery6shared09TriggeredG0O_ySo17SharedCheckResultCSg_s5Error_pSgtctF",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "detectTriggeredBy:completionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VPNNetworkTAPDetection",
+                "printedName": "AntifraudSDK.VPNNetworkTAPDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkTAPDetection"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkTAPDetection(im)init",
+            "mangledName": "$s12AntifraudSDK22VPNNetworkTAPDetectionCACycfc",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AntifraudSDK@objc(cs)VPNNetworkTAPDetection",
+        "mangledName": "$s12AntifraudSDK22VPNNetworkTAPDetectionC",
+        "moduleName": "AntifraudSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SharedVpnNetworkTAPOperation",
+        "superclassNames": [
+          "shared.VpnNetworkTAPOperation",
+          "shared.CheckOperation",
           "shared.KotlinBase",
           "ObjectiveC.NSObject"
         ],
@@ -3517,6 +4937,82 @@
         "children": [
           {
             "kind": "Var",
+            "name": "locationPermissionUnknown",
+            "printedName": "locationPermissionUnknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntifraudSDK.LocationError.Type) -> AntifraudSDK.LocationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocationError",
+                    "printedName": "AntifraudSDK.LocationError",
+                    "usr": "s:12AntifraudSDK13LocationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntifraudSDK.LocationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocationError",
+                        "printedName": "AntifraudSDK.LocationError",
+                        "usr": "s:12AntifraudSDK13LocationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AntifraudSDK13LocationErrorO25locationPermissionUnknownyA2CmF",
+            "mangledName": "$s12AntifraudSDK13LocationErrorO25locationPermissionUnknownyA2CmF",
+            "moduleName": "AntifraudSDK",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "locationPermissionNotDetermined",
+            "printedName": "locationPermissionNotDetermined",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntifraudSDK.LocationError.Type) -> AntifraudSDK.LocationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocationError",
+                    "printedName": "AntifraudSDK.LocationError",
+                    "usr": "s:12AntifraudSDK13LocationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntifraudSDK.LocationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocationError",
+                        "printedName": "AntifraudSDK.LocationError",
+                        "usr": "s:12AntifraudSDK13LocationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AntifraudSDK13LocationErrorO31locationPermissionNotDeterminedyA2CmF",
+            "mangledName": "$s12AntifraudSDK13LocationErrorO31locationPermissionNotDeterminedyA2CmF",
+            "moduleName": "AntifraudSDK",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
             "name": "locationPermissionDenied",
             "printedName": "locationPermissionDenied",
             "children": [
@@ -3550,7 +5046,8 @@
             "declKind": "EnumElement",
             "usr": "s:12AntifraudSDK13LocationErrorO24locationPermissionDeniedyA2CmF",
             "mangledName": "$s12AntifraudSDK13LocationErrorO24locationPermissionDeniedyA2CmF",
-            "moduleName": "AntifraudSDK"
+            "moduleName": "AntifraudSDK",
+            "fixedbinaryorder": 2
           },
           {
             "kind": "Var",
@@ -3587,7 +5084,64 @@
             "declKind": "EnumElement",
             "usr": "s:12AntifraudSDK13LocationErrorO24locationServicesDisabledyA2CmF",
             "mangledName": "$s12AntifraudSDK13LocationErrorO24locationServicesDisabledyA2CmF",
-            "moduleName": "AntifraudSDK"
+            "moduleName": "AntifraudSDK",
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "locationNotAvailable",
+            "printedName": "locationNotAvailable",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntifraudSDK.LocationError.Type) -> AntifraudSDK.LocationError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocationError",
+                    "printedName": "AntifraudSDK.LocationError",
+                    "usr": "s:12AntifraudSDK13LocationErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntifraudSDK.LocationError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocationError",
+                        "printedName": "AntifraudSDK.LocationError",
+                        "usr": "s:12AntifraudSDK13LocationErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AntifraudSDK13LocationErrorO20locationNotAvailableyA2CmF",
+            "mangledName": "$s12AntifraudSDK13LocationErrorO20locationNotAvailableyA2CmF",
+            "moduleName": "AntifraudSDK",
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Function",
+            "name": "toSDKError",
+            "printedName": "toSDKError()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SDKError",
+                "printedName": "AntifraudSDK.SDKError",
+                "usr": "s:12AntifraudSDK8SDKErrorO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AntifraudSDK13LocationErrorO10toSDKErrorAA0F0OyF",
+            "mangledName": "$s12AntifraudSDK13LocationErrorO10toSDKErrorAA0F0OyF",
+            "moduleName": "AntifraudSDK",
+            "funcSelfKind": "NonMutating"
           },
           {
             "kind": "Function",
@@ -3693,6 +5247,7 @@
         "declAttributes": [
           "AccessControl"
         ],
+        "isEnumExhaustive": true,
         "conformances": [
           {
             "kind": "Conformance",
@@ -4014,32 +5569,40 @@
           },
           {
             "kind": "Var",
-            "name": "lastLocation",
-            "printedName": "lastLocation",
+            "name": "lastLocationResult",
+            "printedName": "lastLocationResult",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "AntifraudSDK.Location?",
+                "name": "Result",
+                "printedName": "Swift.Result<AntifraudSDK.Location, AntifraudSDK.LocationError>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Location",
                     "printedName": "AntifraudSDK.Location",
                     "usr": "s:12AntifraudSDK8LocationV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LocationError",
+                    "printedName": "AntifraudSDK.LocationError",
+                    "usr": "s:12AntifraudSDK13LocationErrorO"
                   }
                 ],
-                "usr": "s:Sq"
+                "usr": "s:s6ResultO"
               }
             ],
             "declKind": "Var",
-            "usr": "s:12AntifraudSDK15LocationManagerC04lastC0AA0C0VSgvp",
-            "mangledName": "$s12AntifraudSDK15LocationManagerC04lastC0AA0C0VSgvp",
+            "usr": "s:12AntifraudSDK15LocationManagerC04lastC6Results0F0OyAA0C0VAA0C5ErrorOGvp",
+            "mangledName": "$s12AntifraudSDK15LocationManagerC04lastC6Results0F0OyAA0C0VAA0C5ErrorOGvp",
             "moduleName": "AntifraudSDK",
             "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
-              "HasStorage"
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
             ],
             "fixedbinaryorder": 2,
             "hasStorage": true,
@@ -4051,78 +5614,32 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "AntifraudSDK.Location?",
+                    "name": "Result",
+                    "printedName": "Swift.Result<AntifraudSDK.Location, AntifraudSDK.LocationError>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Location",
                         "printedName": "AntifraudSDK.Location",
                         "usr": "s:12AntifraudSDK8LocationV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LocationError",
+                        "printedName": "AntifraudSDK.LocationError",
+                        "usr": "s:12AntifraudSDK13LocationErrorO"
                       }
                     ],
-                    "usr": "s:Sq"
+                    "usr": "s:s6ResultO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:12AntifraudSDK15LocationManagerC04lastC0AA0C0VSgvg",
-                "mangledName": "$s12AntifraudSDK15LocationManagerC04lastC0AA0C0VSgvg",
+                "usr": "s:12AntifraudSDK15LocationManagerC04lastC6Results0F0OyAA0C0VAA0C5ErrorOGvg",
+                "mangledName": "$s12AntifraudSDK15LocationManagerC04lastC6Results0F0OyAA0C0VAA0C5ErrorOGvg",
                 "moduleName": "AntifraudSDK",
                 "implicit": true,
                 "isOpen": true,
                 "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "AntifraudSDK.Location?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Location",
-                        "printedName": "AntifraudSDK.Location",
-                        "usr": "s:12AntifraudSDK8LocationV"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12AntifraudSDK15LocationManagerC04lastC0AA0C0VSgvs",
-                "mangledName": "$s12AntifraudSDK15LocationManagerC04lastC0AA0C0VSgvs",
-                "moduleName": "AntifraudSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:12AntifraudSDK15LocationManagerC04lastC0AA0C0VSgvM",
-                "mangledName": "$s12AntifraudSDK15LocationManagerC04lastC0AA0C0VSgvM",
-                "moduleName": "AntifraudSDK",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -4551,6 +6068,80 @@
           },
           {
             "kind": "Var",
+            "name": "locationPermissionUnknown",
+            "printedName": "locationPermissionUnknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKError",
+                    "printedName": "AntifraudSDK.SDKError",
+                    "usr": "s:12AntifraudSDK8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntifraudSDK.SDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKError",
+                        "printedName": "AntifraudSDK.SDKError",
+                        "usr": "s:12AntifraudSDK8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AntifraudSDK8SDKErrorO25locationPermissionUnknownyA2CmF",
+            "mangledName": "$s12AntifraudSDK8SDKErrorO25locationPermissionUnknownyA2CmF",
+            "moduleName": "AntifraudSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "locationPermissionNotDetermined",
+            "printedName": "locationPermissionNotDetermined",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKError",
+                    "printedName": "AntifraudSDK.SDKError",
+                    "usr": "s:12AntifraudSDK8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntifraudSDK.SDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKError",
+                        "printedName": "AntifraudSDK.SDKError",
+                        "usr": "s:12AntifraudSDK8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AntifraudSDK8SDKErrorO31locationPermissionNotDeterminedyA2CmF",
+            "mangledName": "$s12AntifraudSDK8SDKErrorO31locationPermissionNotDeterminedyA2CmF",
+            "moduleName": "AntifraudSDK"
+          },
+          {
+            "kind": "Var",
             "name": "locationPermissionDenied",
             "printedName": "locationPermissionDenied",
             "children": [
@@ -4625,8 +6216,8 @@
           },
           {
             "kind": "Var",
-            "name": "noLocationAvailable",
-            "printedName": "noLocationAvailable",
+            "name": "locationNotAvailable",
+            "printedName": "locationNotAvailable",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -4656,8 +6247,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12AntifraudSDK8SDKErrorO19noLocationAvailableyA2CmF",
-            "mangledName": "$s12AntifraudSDK8SDKErrorO19noLocationAvailableyA2CmF",
+            "usr": "s:12AntifraudSDK8SDKErrorO20locationNotAvailableyA2CmF",
+            "mangledName": "$s12AntifraudSDK8SDKErrorO20locationNotAvailableyA2CmF",
             "moduleName": "AntifraudSDK"
           },
           {
@@ -4705,41 +6296,13 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(AntifraudSDK.SDKError.Type) -> (Swift.String?) -> AntifraudSDK.SDKError",
+                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
                 "children": [
                   {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String?) -> AntifraudSDK.SDKError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SDKError",
-                        "printedName": "AntifraudSDK.SDKError",
-                        "usr": "s:12AntifraudSDK8SDKErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(message: Swift.String?)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Optional",
-                            "printedName": "Swift.String?",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "String",
-                                "printedName": "Swift.String",
-                                "usr": "s:SS"
-                              }
-                            ],
-                            "usr": "s:Sq"
-                          }
-                        ]
-                      }
-                    ]
+                    "kind": "TypeNominal",
+                    "name": "SDKError",
+                    "printedName": "AntifraudSDK.SDKError",
+                    "usr": "s:12AntifraudSDK8SDKErrorO"
                   },
                   {
                     "kind": "TypeNominal",
@@ -4758,8 +6321,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12AntifraudSDK8SDKErrorO12unknownErroryACSSSg_tcACmF",
-            "mangledName": "$s12AntifraudSDK8SDKErrorO12unknownErroryACSSSg_tcACmF",
+            "usr": "s:12AntifraudSDK8SDKErrorO12unknownErroryA2CmF",
+            "mangledName": "$s12AntifraudSDK8SDKErrorO12unknownErroryA2CmF",
             "moduleName": "AntifraudSDK"
           },
           {
@@ -4770,33 +6333,13 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(AntifraudSDK.SDKError.Type) -> (Swift.String) -> AntifraudSDK.SDKError",
+                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
                 "children": [
                   {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> AntifraudSDK.SDKError",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SDKError",
-                        "printedName": "AntifraudSDK.SDKError",
-                        "usr": "s:12AntifraudSDK8SDKErrorO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(message: Swift.String)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ]
+                    "kind": "TypeNominal",
+                    "name": "SDKError",
+                    "printedName": "AntifraudSDK.SDKError",
+                    "usr": "s:12AntifraudSDK8SDKErrorO"
                   },
                   {
                     "kind": "TypeNominal",
@@ -4815,8 +6358,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12AntifraudSDK8SDKErrorO15unknownApiErroryACSS_tcACmF",
-            "mangledName": "$s12AntifraudSDK8SDKErrorO15unknownApiErroryACSS_tcACmF",
+            "usr": "s:12AntifraudSDK8SDKErrorO15unknownApiErroryA2CmF",
+            "mangledName": "$s12AntifraudSDK8SDKErrorO15unknownApiErroryA2CmF",
             "moduleName": "AntifraudSDK"
           },
           {
@@ -5003,6 +6546,78 @@
             "usr": "s:12AntifraudSDK8SDKErrorO31cannotNavigateToProcMapsFailureyA2CmF",
             "mangledName": "$s12AntifraudSDK8SDKErrorO31cannotNavigateToProcMapsFailureyA2CmF",
             "moduleName": "AntifraudSDK"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AntifraudSDK.SDKError?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKError",
+                    "printedName": "AntifraudSDK.SDKError",
+                    "usr": "s:12AntifraudSDK8SDKErrorO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AntifraudSDK8SDKErrorO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12AntifraudSDK8SDKErrorO8rawValueACSgSS_tcfc",
+            "moduleName": "AntifraudSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AntifraudSDK8SDKErrorO8rawValueSSvp",
+            "mangledName": "$s12AntifraudSDK8SDKErrorO8rawValueSSvp",
+            "moduleName": "AntifraudSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AntifraudSDK8SDKErrorO8rawValueSSvg",
+                "mangledName": "$s12AntifraudSDK8SDKErrorO8rawValueSSvg",
+                "moduleName": "AntifraudSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Enum",
@@ -5012,7 +6627,44 @@
         "declAttributes": [
           "AccessControl"
         ],
+        "enumRawTypeName": "String",
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
           {
             "kind": "Conformance",
             "name": "Error",
@@ -5020,6 +6672,403 @@
             "usr": "s:s5ErrorP",
             "mangledName": "$ss5ErrorP"
           },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VPNProtocolsKeyIdentifier",
+        "printedName": "VPNProtocolsKeyIdentifier",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "ppp",
+            "printedName": "ppp",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntifraudSDK.VPNProtocolsKeyIdentifier.Type) -> AntifraudSDK.VPNProtocolsKeyIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VPNProtocolsKeyIdentifier",
+                    "printedName": "AntifraudSDK.VPNProtocolsKeyIdentifier",
+                    "usr": "s:12AntifraudSDK25VPNProtocolsKeyIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntifraudSDK.VPNProtocolsKeyIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VPNProtocolsKeyIdentifier",
+                        "printedName": "AntifraudSDK.VPNProtocolsKeyIdentifier",
+                        "usr": "s:12AntifraudSDK25VPNProtocolsKeyIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AntifraudSDK25VPNProtocolsKeyIdentifierO3pppyA2CmF",
+            "mangledName": "$s12AntifraudSDK25VPNProtocolsKeyIdentifierO3pppyA2CmF",
+            "moduleName": "AntifraudSDK",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "tun",
+            "printedName": "tun",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntifraudSDK.VPNProtocolsKeyIdentifier.Type) -> AntifraudSDK.VPNProtocolsKeyIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VPNProtocolsKeyIdentifier",
+                    "printedName": "AntifraudSDK.VPNProtocolsKeyIdentifier",
+                    "usr": "s:12AntifraudSDK25VPNProtocolsKeyIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntifraudSDK.VPNProtocolsKeyIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VPNProtocolsKeyIdentifier",
+                        "printedName": "AntifraudSDK.VPNProtocolsKeyIdentifier",
+                        "usr": "s:12AntifraudSDK25VPNProtocolsKeyIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AntifraudSDK25VPNProtocolsKeyIdentifierO3tunyA2CmF",
+            "mangledName": "$s12AntifraudSDK25VPNProtocolsKeyIdentifierO3tunyA2CmF",
+            "moduleName": "AntifraudSDK",
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "utun",
+            "printedName": "utun",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntifraudSDK.VPNProtocolsKeyIdentifier.Type) -> AntifraudSDK.VPNProtocolsKeyIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VPNProtocolsKeyIdentifier",
+                    "printedName": "AntifraudSDK.VPNProtocolsKeyIdentifier",
+                    "usr": "s:12AntifraudSDK25VPNProtocolsKeyIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntifraudSDK.VPNProtocolsKeyIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VPNProtocolsKeyIdentifier",
+                        "printedName": "AntifraudSDK.VPNProtocolsKeyIdentifier",
+                        "usr": "s:12AntifraudSDK25VPNProtocolsKeyIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AntifraudSDK25VPNProtocolsKeyIdentifierO4utunyA2CmF",
+            "mangledName": "$s12AntifraudSDK25VPNProtocolsKeyIdentifierO4utunyA2CmF",
+            "moduleName": "AntifraudSDK",
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "tap",
+            "printedName": "tap",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntifraudSDK.VPNProtocolsKeyIdentifier.Type) -> AntifraudSDK.VPNProtocolsKeyIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VPNProtocolsKeyIdentifier",
+                    "printedName": "AntifraudSDK.VPNProtocolsKeyIdentifier",
+                    "usr": "s:12AntifraudSDK25VPNProtocolsKeyIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntifraudSDK.VPNProtocolsKeyIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VPNProtocolsKeyIdentifier",
+                        "printedName": "AntifraudSDK.VPNProtocolsKeyIdentifier",
+                        "usr": "s:12AntifraudSDK25VPNProtocolsKeyIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AntifraudSDK25VPNProtocolsKeyIdentifierO3tapyA2CmF",
+            "mangledName": "$s12AntifraudSDK25VPNProtocolsKeyIdentifierO3tapyA2CmF",
+            "moduleName": "AntifraudSDK",
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Var",
+            "name": "ipsec",
+            "printedName": "ipsec",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntifraudSDK.VPNProtocolsKeyIdentifier.Type) -> AntifraudSDK.VPNProtocolsKeyIdentifier",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VPNProtocolsKeyIdentifier",
+                    "printedName": "AntifraudSDK.VPNProtocolsKeyIdentifier",
+                    "usr": "s:12AntifraudSDK25VPNProtocolsKeyIdentifierO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntifraudSDK.VPNProtocolsKeyIdentifier.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VPNProtocolsKeyIdentifier",
+                        "printedName": "AntifraudSDK.VPNProtocolsKeyIdentifier",
+                        "usr": "s:12AntifraudSDK25VPNProtocolsKeyIdentifierO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AntifraudSDK25VPNProtocolsKeyIdentifierO5ipsecyA2CmF",
+            "mangledName": "$s12AntifraudSDK25VPNProtocolsKeyIdentifierO5ipsecyA2CmF",
+            "moduleName": "AntifraudSDK",
+            "fixedbinaryorder": 4
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AntifraudSDK.VPNProtocolsKeyIdentifier?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VPNProtocolsKeyIdentifier",
+                    "printedName": "AntifraudSDK.VPNProtocolsKeyIdentifier",
+                    "usr": "s:12AntifraudSDK25VPNProtocolsKeyIdentifierO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AntifraudSDK25VPNProtocolsKeyIdentifierO8rawValueACSgSS_tcfc",
+            "mangledName": "$s12AntifraudSDK25VPNProtocolsKeyIdentifierO8rawValueACSgSS_tcfc",
+            "moduleName": "AntifraudSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AntifraudSDK25VPNProtocolsKeyIdentifierO8rawValueSSvp",
+            "mangledName": "$s12AntifraudSDK25VPNProtocolsKeyIdentifierO8rawValueSSvp",
+            "moduleName": "AntifraudSDK",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AntifraudSDK25VPNProtocolsKeyIdentifierO8rawValueSSvg",
+                "mangledName": "$s12AntifraudSDK25VPNProtocolsKeyIdentifierO8rawValueSSvg",
+                "moduleName": "AntifraudSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:12AntifraudSDK25VPNProtocolsKeyIdentifierO",
+        "mangledName": "$s12AntifraudSDK25VPNProtocolsKeyIdentifierO",
+        "moduleName": "AntifraudSDK",
+        "enumRawTypeName": "String",
+        "isEnumExhaustive": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VPNDetector",
+        "printedName": "VPNDetector",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "calculateVPNNetworkDetection",
+            "printedName": "calculateVPNNetworkDetection(protocolsKeyIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VPNProtocolsKeyIdentifier",
+                "printedName": "AntifraudSDK.VPNProtocolsKeyIdentifier",
+                "usr": "s:12AntifraudSDK25VPNProtocolsKeyIdentifierO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AntifraudSDK11VPNDetectorV28calculateVPNNetworkDetection22protocolsKeyIdentifierSbAA012VPNProtocolshI0O_tFZ",
+            "mangledName": "$s12AntifraudSDK11VPNDetectorV28calculateVPNNetworkDetection22protocolsKeyIdentifierSbAA012VPNProtocolshI0O_tFZ",
+            "moduleName": "AntifraudSDK",
+            "static": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VPNDetector",
+                "printedName": "AntifraudSDK.VPNDetector",
+                "usr": "s:12AntifraudSDK11VPNDetectorV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AntifraudSDK11VPNDetectorVACycfc",
+            "mangledName": "$s12AntifraudSDK11VPNDetectorVACycfc",
+            "moduleName": "AntifraudSDK",
+            "implicit": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12AntifraudSDK11VPNDetectorV",
+        "mangledName": "$s12AntifraudSDK11VPNDetectorV",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
           {
             "kind": "Conformance",
             "name": "Sendable",
@@ -5832,6 +7881,44 @@
         "children": [
           {
             "kind": "Var",
+            "name": "virtualOrUnknown",
+            "printedName": "virtualOrUnknown",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntifraudSDK.ConnectionType.Type) -> AntifraudSDK.ConnectionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ConnectionType",
+                    "printedName": "AntifraudSDK.ConnectionType",
+                    "usr": "s:12AntifraudSDK14ConnectionTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntifraudSDK.ConnectionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ConnectionType",
+                        "printedName": "AntifraudSDK.ConnectionType",
+                        "usr": "s:12AntifraudSDK14ConnectionTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AntifraudSDK14ConnectionTypeO16virtualOrUnknownyA2CmF",
+            "mangledName": "$s12AntifraudSDK14ConnectionTypeO16virtualOrUnknownyA2CmF",
+            "moduleName": "AntifraudSDK",
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
             "name": "wiFi",
             "printedName": "wiFi",
             "children": [
@@ -5866,7 +7953,10 @@
             "usr": "s:12AntifraudSDK14ConnectionTypeO4wiFiyA2CmF",
             "mangledName": "$s12AntifraudSDK14ConnectionTypeO4wiFiyA2CmF",
             "moduleName": "AntifraudSDK",
-            "fixedbinaryorder": 0
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 1
           },
           {
             "kind": "Var",
@@ -5904,7 +7994,7 @@
             "usr": "s:12AntifraudSDK14ConnectionTypeO8cellularyA2CmF",
             "mangledName": "$s12AntifraudSDK14ConnectionTypeO8cellularyA2CmF",
             "moduleName": "AntifraudSDK",
-            "fixedbinaryorder": 1
+            "fixedbinaryorder": 2
           },
           {
             "kind": "Var",
@@ -5942,12 +8032,12 @@
             "usr": "s:12AntifraudSDK14ConnectionTypeO8ethernetyA2CmF",
             "mangledName": "$s12AntifraudSDK14ConnectionTypeO8ethernetyA2CmF",
             "moduleName": "AntifraudSDK",
-            "fixedbinaryorder": 2
+            "fixedbinaryorder": 3
           },
           {
             "kind": "Var",
-            "name": "unknown",
-            "printedName": "unknown",
+            "name": "loopback",
+            "printedName": "loopback",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -5977,10 +8067,10 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12AntifraudSDK14ConnectionTypeO7unknownyA2CmF",
-            "mangledName": "$s12AntifraudSDK14ConnectionTypeO7unknownyA2CmF",
+            "usr": "s:12AntifraudSDK14ConnectionTypeO8loopbackyA2CmF",
+            "mangledName": "$s12AntifraudSDK14ConnectionTypeO8loopbackyA2CmF",
             "moduleName": "AntifraudSDK",
-            "fixedbinaryorder": 3
+            "fixedbinaryorder": 4
           },
           {
             "kind": "Var",
@@ -6018,7 +8108,7 @@
             "usr": "s:12AntifraudSDK14ConnectionTypeO02noC0yA2CmF",
             "mangledName": "$s12AntifraudSDK14ConnectionTypeO02noC0yA2CmF",
             "moduleName": "AntifraudSDK",
-            "fixedbinaryorder": 4
+            "fixedbinaryorder": 5
           },
           {
             "kind": "Constructor",
@@ -6470,149 +8560,275 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/SafeSDK.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNNetworkUTUNDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 207,
+      "length": 23,
+      "value": "\"AntifraudSDK.VPNNetworkUTUNDetection\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNNetworkIPSECDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 24,
+      "value": "\"AntifraudSDK.VPNNetworkIPSECDetection\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNNetworkPPPDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 206,
+      "length": 22,
+      "value": "\"AntifraudSDK.VPNNetworkPPPDetection\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/SafeSDK.swift",
       "kind": "BooleanLiteral",
       "offset": 351,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/LocationMockFlagsDetection.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/LocationMockFlagsDetection.swift",
       "kind": "StringLiteral",
       "offset": 209,
       "length": 26,
       "value": "\"AntifraudSDK.LocationMockFlagsDetection\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Model\/Location.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/NetworkInterfaceDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 233,
+      "length": 25,
+      "value": "\"AntifraudSDK.NetworkInterfaceDetection\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNNetworkTUNDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 169,
+      "length": 22,
+      "value": "\"AntifraudSDK.VPNNetworkTUNDetection\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNNetworkTAPDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 169,
+      "length": 22,
+      "value": "\"AntifraudSDK.VPNNetworkTAPDetection\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Model\/Location.swift",
       "kind": "BooleanLiteral",
       "offset": 324,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Model\/Location.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Model\/Location.swift",
       "kind": "BooleanLiteral",
       "offset": 365,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Manager\/AppStateManager.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Manager\/AppStateManager.swift",
       "kind": "BooleanLiteral",
       "offset": 258,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/AppInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 5,
+      "value": "\"ppp\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 5,
+      "value": "\"tun\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 6,
+      "value": "\"utun\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 5,
+      "value": "\"tap\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 261,
+      "length": 7,
+      "value": "\"ipsec\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 5,
+      "value": "\"ppp\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 5,
+      "value": "\"tun\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 6,
+      "value": "\"utun\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 238,
+      "length": 5,
+      "value": "\"tap\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
+      "kind": "StringLiteral",
+      "offset": 261,
+      "length": 7,
+      "value": "\"ipsec\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/AppInfo.swift",
       "kind": "StringLiteral",
       "offset": 360,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/AppInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/AppInfo.swift",
       "kind": "StringLiteral",
       "offset": 498,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/AppInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/AppInfo.swift",
       "kind": "StringLiteral",
       "offset": 572,
       "length": 28,
       "value": "\"CFBundleShortVersionString\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/AppInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/AppInfo.swift",
       "kind": "StringLiteral",
       "offset": 616,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/AppInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/AppInfo.swift",
       "kind": "StringLiteral",
       "offset": 684,
       "length": 17,
       "value": "\"CFBundleVersion\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/AppInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/AppInfo.swift",
       "kind": "StringLiteral",
       "offset": 717,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5742,
+      "offset": 5941,
+      "length": 18,
+      "value": "\"VirtualOrUnknown\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 6005,
       "length": 6,
       "value": "\"WiFi\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5769,
+      "offset": 6032,
       "length": 10,
       "value": "\"Cellular\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5800,
+      "offset": 6063,
       "length": 10,
       "value": "\"Ethernet\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5830,
-      "length": 9,
-      "value": "\"Unknown\""
+      "offset": 6094,
+      "length": 10,
+      "value": "\"Loopback\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5864,
+      "offset": 6129,
       "length": 14,
       "value": "\"NoConnection\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5742,
+      "offset": 5941,
+      "length": 18,
+      "value": "\"VirtualOrUnknown\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "kind": "StringLiteral",
+      "offset": 6005,
       "length": 6,
       "value": "\"WiFi\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5769,
+      "offset": 6032,
       "length": 10,
       "value": "\"Cellular\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5800,
+      "offset": 6063,
       "length": 10,
       "value": "\"Ethernet\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5830,
-      "length": 9,
-      "value": "\"Unknown\""
+      "offset": 6094,
+      "length": 10,
+      "value": "\"Loopback\""
     },
     {
-      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5864,
+      "offset": 6129,
       "length": 14,
       "value": "\"NoConnection\""
     }
