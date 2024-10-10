@@ -11,6 +11,7 @@ AntifraudSDK is an easy to use iOS library for protecting your application from 
 | Geofencing      | Device is located inside or outside of configurable region |
 | Mock Location   | Device's location is simulated by software                 |
 | Multiple Users  | More than one users are registered in the device           |
+| VPN             | Virtual Private Network connection detected on Device      |
 
 ## Requirements
 
