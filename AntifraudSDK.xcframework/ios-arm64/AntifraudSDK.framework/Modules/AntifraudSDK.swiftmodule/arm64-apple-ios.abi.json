@@ -16,6 +16,26 @@
       },
       {
         "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -388,6 +408,26 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "NetworkExtension",
         "printedName": "NetworkExtension",
         "declKind": "Import",
@@ -412,6 +452,83 @@
         "declAttributes": [
           "ImplementationOnly"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceSeedManager",
+        "printedName": "DeviceSeedManager",
+        "declKind": "Class",
+        "usr": "s:12AntifraudSDK17DeviceSeedManagerC",
+        "mangledName": "$s12AntifraudSDK17DeviceSeedManagerC",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -511,6 +628,26 @@
       },
       {
         "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -547,6 +684,33 @@
         "kind": "Import",
         "name": "CoreLocation",
         "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "AntifraudSDK"
       },
@@ -1888,6 +2052,13 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/JailbreakSuspiciousSystemPathsDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 179,
+      "length": 39,
+      "value": "\"AntifraudSDK.JailbreakSuspiciousSystemPathsDetection\""
+    },
+    {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNNetworkUTUNDetection.swift",
       "kind": "StringLiteral",
       "offset": 207,
@@ -1923,6 +2094,13 @@
       "value": "\"AntifraudSDK.LocationMockFlagsDetection\""
     },
     {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/JailbreakSandboxDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 25,
+      "value": "\"AntifraudSDK.JailbreakSandboxDetection\""
+    },
+    {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/NetworkInterfaceDetection.swift",
       "kind": "StringLiteral",
       "offset": 233,
@@ -1935,6 +2113,41 @@
       "offset": 169,
       "length": 22,
       "value": "\"AntifraudSDK.VPNNetworkTUNDetection\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/JailbreakFridaDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 163,
+      "length": 23,
+      "value": "\"AntifraudSDK.JailbreakFridaDetection\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/JailbreakDYLDSuspiciousLibrariesDetection.swift",
+      "kind": "Array",
+      "offset": 324,
+      "length": 499,
+      "value": "[\"FridaGadget\", \"frida\", \"cynject\", \"libcycript\", \"systemhook.dylib\", \"SubstrateLoader.dylib\", \"SSLKillSwitch2.dylib\", \"SSLKillSwitch.dylib\", \"MobileSubstrate.dylib\", \"TweakInject.dylib\", \"CydiaSubstrate\", \"CustomWidgetIcons\", \"PreferenceLoader\", \"RocketBootstrap\", \"WeeLoader\", \"\/.file\", \"libhooker\", \"SubstrateInserter\", \"SubstrateBootstrap\", \"ABypass\", \"FlyJB\", \"Substitute\", \"Cephei\", \"Electra\", \"AppSyncUnified-FrontBoard.dylib\", \"Shadow\"]"
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/JailbreakDYLDSuspiciousLibrariesDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 41,
+      "value": "\"AntifraudSDK.JailbreakDYLDSuspiciousLibrariesDetection\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Manager\/DeviceSeedManager.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Manager\/DeviceSeedManager.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
+      "length": 13,
+      "value": "\"device-seed\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNNetworkTAPDetection.swift",
@@ -1958,11 +2171,32 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/JailbreakSuspiciousAppsPathDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 176,
+      "length": 36,
+      "value": "\"AntifraudSDK.JailbreakSuspiciousAppsPathDetection\""
+    },
+    {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Manager\/AppStateManager.swift",
       "kind": "BooleanLiteral",
       "offset": 258,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/JailbreakURISchemesDetection.swift",
+      "kind": "Array",
+      "offset": 277,
+      "length": 197,
+      "value": "[\"sileo:\/\/package\/org.coolstar.Sileo\", \"cydia:\/\/package\/com.saurik.Cydia\", \"zbra:\/\/package\/com.apptapp.Zebra\", \"filza:\/\/package\/com.tigisoftware.filza\", \"cydia:\/\/package\/libactivator\"]"
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/JailbreakURISchemesDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 181,
+      "length": 28,
+      "value": "\"AntifraudSDK.JailbreakURISchemesDetection\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
@@ -2079,84 +2313,84 @@
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5941,
+      "offset": 4032,
       "length": 18,
       "value": "\"VirtualOrUnknown\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6005,
+      "offset": 4096,
       "length": 6,
       "value": "\"WiFi\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6032,
+      "offset": 4123,
       "length": 10,
       "value": "\"Cellular\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6063,
+      "offset": 4154,
       "length": 10,
       "value": "\"Ethernet\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6094,
+      "offset": 4185,
       "length": 10,
       "value": "\"Loopback\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6129,
+      "offset": 4220,
       "length": 14,
       "value": "\"NoConnection\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5941,
+      "offset": 4032,
       "length": 18,
       "value": "\"VirtualOrUnknown\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6005,
+      "offset": 4096,
       "length": 6,
       "value": "\"WiFi\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6032,
+      "offset": 4123,
       "length": 10,
       "value": "\"Cellular\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6063,
+      "offset": 4154,
       "length": 10,
       "value": "\"Ethernet\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6094,
+      "offset": 4185,
       "length": 10,
       "value": "\"Loopback\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6129,
+      "offset": 4220,
       "length": 14,
       "value": "\"NoConnection\""
     }

@@ -1,6 +1,6 @@
 # Antifraud SDK iOS - Release
 
-[![VERSION](https://img.shields.io/badge/VERSION-0.5.2-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-0.5.3-green)](#)
 [![Swift Version][swift-image]][swift-url]
 
 AntifraudSDK is an easy to use iOS library for protecting your application from fraudulent activities. Our SDK requires minimal permissions and uses device information and sensors to detect and report potential threats, so that app developers can make informed decisions about their application's actions.
@@ -34,7 +34,7 @@ target '[Your app]' do
   use_frameworks!
 
   # AntifraudSDK framework
-  pod 'AntifraudSDK', :git => 'https://github.com/bespot/antifraud-sdk-ios-release', :tag => '0.5.2'
+  pod 'AntifraudSDK', :git => 'https://github.com/bespot/antifraud-sdk-ios-release', :tag => '0.5.3'
 
   # Other CocoaPods libraries/frameworks you may use...
 

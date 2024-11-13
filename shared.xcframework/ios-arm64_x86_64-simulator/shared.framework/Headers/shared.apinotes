@@ -3100,6 +3100,10 @@ Classes:
     PropertyKind: "Instance"
     SwiftName: "configurations"
     Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
+  - Name: "runtimeCheck"
+    PropertyKind: "Instance"
+    SwiftName: "runtimeCheck"
+    Type: "BOOL"
   - Name: "type"
     PropertyKind: "Instance"
     SwiftName: "type"
@@ -3680,6 +3684,10 @@ Classes:
     PropertyKind: "Instance"
     SwiftName: "configurations"
     Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
+  - Name: "runtimeCheck"
+    PropertyKind: "Instance"
+    SwiftName: "runtimeCheck"
+    Type: "BOOL"
   - Name: "type"
     PropertyKind: "Instance"
     SwiftName: "type"
@@ -3717,6 +3725,10 @@ Classes:
     PropertyKind: "Instance"
     SwiftName: "configurations"
     Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
+  - Name: "runtimeCheck"
+    PropertyKind: "Instance"
+    SwiftName: "runtimeCheck"
+    Type: "BOOL"
   - Name: "type"
     PropertyKind: "Instance"
     SwiftName: "type"
@@ -3732,6 +3744,10 @@ Classes:
     PropertyKind: "Instance"
     SwiftName: "configurations"
     Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
+  - Name: "runtimeCheck"
+    PropertyKind: "Instance"
+    SwiftName: "runtimeCheck"
+    Type: "BOOL"
   Methods:
   - Selector: "init"
     MethodKind: "Instance"
@@ -3783,6 +3799,10 @@ Classes:
     PropertyKind: "Instance"
     SwiftName: "configurations"
     Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
+  - Name: "runtimeCheck"
+    PropertyKind: "Instance"
+    SwiftName: "runtimeCheck"
+    Type: "BOOL"
   - Name: "type"
     PropertyKind: "Instance"
     SwiftName: "type"
@@ -3798,6 +3818,10 @@ Classes:
     PropertyKind: "Instance"
     SwiftName: "configurations"
     Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
+  - Name: "runtimeCheck"
+    PropertyKind: "Instance"
+    SwiftName: "runtimeCheck"
+    Type: "BOOL"
   - Name: "type"
     PropertyKind: "Instance"
     SwiftName: "type"
@@ -3918,6 +3942,10 @@ Classes:
     PropertyKind: "Instance"
     SwiftName: "configurations"
     Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
+  - Name: "runtimeCheck"
+    PropertyKind: "Instance"
+    SwiftName: "runtimeCheck"
+    Type: "BOOL"
   - Name: "type"
     PropertyKind: "Instance"
     SwiftName: "type"
@@ -3933,6 +3961,10 @@ Classes:
     PropertyKind: "Instance"
     SwiftName: "configurations"
     Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
+  - Name: "runtimeCheck"
+    PropertyKind: "Instance"
+    SwiftName: "runtimeCheck"
+    Type: "BOOL"
   - Name: "type"
     PropertyKind: "Instance"
     SwiftName: "type"
@@ -3948,6 +3980,10 @@ Classes:
     PropertyKind: "Instance"
     SwiftName: "configurations"
     Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
+  - Name: "runtimeCheck"
+    PropertyKind: "Instance"
+    SwiftName: "runtimeCheck"
+    Type: "BOOL"
   - Name: "type"
     PropertyKind: "Instance"
     SwiftName: "type"
@@ -3963,6 +3999,10 @@ Classes:
     PropertyKind: "Instance"
     SwiftName: "configurations"
     Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
+  - Name: "runtimeCheck"
+    PropertyKind: "Instance"
+    SwiftName: "runtimeCheck"
+    Type: "BOOL"
   - Name: "type"
     PropertyKind: "Instance"
     SwiftName: "type"
@@ -3985,6 +4025,10 @@ Classes:
     PropertyKind: "Instance"
     SwiftName: "configurations"
     Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
+  - Name: "runtimeCheck"
+    PropertyKind: "Instance"
+    SwiftName: "runtimeCheck"
+    Type: "BOOL"
   - Name: "type"
     PropertyKind: "Instance"
     SwiftName: "type"
@@ -4007,6 +4051,10 @@ Classes:
     PropertyKind: "Instance"
     SwiftName: "configurations"
     Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
+  - Name: "runtimeCheck"
+    PropertyKind: "Instance"
+    SwiftName: "runtimeCheck"
+    Type: "BOOL"
   - Name: "type"
     PropertyKind: "Instance"
     SwiftName: "type"
@@ -4029,6 +4077,10 @@ Classes:
     PropertyKind: "Instance"
     SwiftName: "configurations"
     Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
+  - Name: "runtimeCheck"
+    PropertyKind: "Instance"
+    SwiftName: "runtimeCheck"
+    Type: "BOOL"
   - Name: "type"
     PropertyKind: "Instance"
     SwiftName: "type"
@@ -4051,6 +4103,10 @@ Classes:
     PropertyKind: "Instance"
     SwiftName: "configurations"
     Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
+  - Name: "runtimeCheck"
+    PropertyKind: "Instance"
+    SwiftName: "runtimeCheck"
+    Type: "BOOL"
   - Name: "type"
     PropertyKind: "Instance"
     SwiftName: "type"
@@ -4073,6 +4129,10 @@ Classes:
     PropertyKind: "Instance"
     SwiftName: "configurations"
     Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
+  - Name: "runtimeCheck"
+    PropertyKind: "Instance"
+    SwiftName: "runtimeCheck"
+    Type: "BOOL"
   - Name: "type"
     PropertyKind: "Instance"
     SwiftName: "type"
@@ -4116,19 +4176,6 @@ Classes:
       Type: "double"
     - Position: 1
       Type: "int32_t"
-- Name: "SharedUtilsKt"
-  SwiftName: "UtilsKt"
-  Methods:
-  - Selector: "measureTimeMillisCodeBlock:completionHandler:"
-    MethodKind: "Class"
-    SwiftName: "__measureTimeMillis(codeBlock:completionHandler:)"
-    SwiftPrivate: true
-    ResultType: "void"
-    Parameters:
-    - Position: 0
-      Type: "id<SharedKotlinSuspendFunction0> _Nonnull"
-    - Position: 1
-      Type: "void (^ _Nonnull)(SharedLong * _Nullable, NSError * _Nullable)"
 - Name: "SharedUtils_iosKt"
   SwiftName: "Utils_iosKt"
   Methods:
@@ -5071,19 +5118,9 @@ Classes:
   SwiftName: "__SkieSuspendWrappersKt"
   Availability: "nonswift"
   Methods:
-  - Selector: "Skie_Suspend__0__measureTimeMillisCodeBlock:suspendHandler:"
+  - Selector: "Skie_Suspend__0__hasNextDispatchReceiver:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__0__measureTimeMillis(codeBlock:suspendHandler:)"
-    Availability: "nonswift"
-    ResultType: "void"
-    Parameters:
-    - Position: 0
-      Type: "id<SharedKotlinSuspendFunction0> _Nonnull"
-    - Position: 1
-      Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__1__hasNextDispatchReceiver:suspendHandler:"
-    MethodKind: "Class"
-    SwiftName: "Skie_Suspend__1__hasNext(dispatchReceiver:suspendHandler:)"
+    SwiftName: "Skie_Suspend__0__hasNext(dispatchReceiver:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5091,9 +5128,9 @@ Classes:
       Type: "SharedSkieColdFlowIterator<id> * _Nonnull"
     - Position: 1
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__2__collectDispatchReceiver:collector:suspendHandler:"
+  - Selector: "Skie_Suspend__1__collectDispatchReceiver:collector:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__2__collect(dispatchReceiver:collector:suspendHandler:)"
+    SwiftName: "Skie_Suspend__1__collect(dispatchReceiver:collector:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5103,9 +5140,9 @@ Classes:
       Type: "id<SharedKotlinx_coroutines_coreFlowCollector> _Nonnull"
     - Position: 2
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__3__emitDispatchReceiver:value:suspendHandler:"
+  - Selector: "Skie_Suspend__2__emitDispatchReceiver:value:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__3__emit(dispatchReceiver:value:suspendHandler:)"
+    SwiftName: "Skie_Suspend__2__emit(dispatchReceiver:value:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5115,9 +5152,9 @@ Classes:
       Type: "id _Nullable"
     - Position: 2
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__4__awaitDispatchReceiver:suspendHandler:"
+  - Selector: "Skie_Suspend__3__awaitDispatchReceiver:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__4__await(dispatchReceiver:suspendHandler:)"
+    SwiftName: "Skie_Suspend__3__await(dispatchReceiver:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5125,9 +5162,9 @@ Classes:
       Type: "id<SharedRuntimeQueryResult> _Nonnull"
     - Position: 1
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__5__executeDispatchReceiver:parameters:suspendHandler:"
+  - Selector: "Skie_Suspend__4__executeDispatchReceiver:parameters:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__5__execute(dispatchReceiver:parameters:suspendHandler:)"
+    SwiftName: "Skie_Suspend__4__execute(dispatchReceiver:parameters:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5137,9 +5174,9 @@ Classes:
       Type: "id _Nullable"
     - Position: 2
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__6__invokeDispatchReceiver:parameters:suspendHandler:"
+  - Selector: "Skie_Suspend__5__invokeDispatchReceiver:parameters:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__6__invoke(dispatchReceiver:parameters:suspendHandler:)"
+    SwiftName: "Skie_Suspend__5__invoke(dispatchReceiver:parameters:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5149,9 +5186,9 @@ Classes:
       Type: "id _Nullable"
     - Position: 2
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__7__registerDeviceDispatchReceiver:device:suspendHandler:"
+  - Selector: "Skie_Suspend__6__registerDeviceDispatchReceiver:device:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__7__registerDevice(dispatchReceiver:device:suspendHandler:)"
+    SwiftName: "Skie_Suspend__6__registerDevice(dispatchReceiver:device:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5161,9 +5198,9 @@ Classes:
       Type: "SharedDevice * _Nonnull"
     - Position: 2
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__8__sendChecksDispatchReceiver:results:deviceMetadata:suspendHandler:"
+  - Selector: "Skie_Suspend__7__sendChecksDispatchReceiver:results:deviceMetadata:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__8__sendChecks(dispatchReceiver:results:deviceMetadata:suspendHandler:)"
+    SwiftName: "Skie_Suspend__7__sendChecks(dispatchReceiver:results:deviceMetadata:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5175,9 +5212,9 @@ Classes:
       Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
     - Position: 3
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__9__getInfoDispatchReceiver:suspendHandler:"
+  - Selector: "Skie_Suspend__8__getInfoDispatchReceiver:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__9__getInfo(dispatchReceiver:suspendHandler:)"
+    SwiftName: "Skie_Suspend__8__getInfo(dispatchReceiver:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5185,9 +5222,9 @@ Classes:
       Type: "SharedKonnectionKonnection * _Nonnull"
     - Position: 1
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__10__getDispatchReceiver:suspendHandler:"
+  - Selector: "Skie_Suspend__9__getDispatchReceiver:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__10__get(dispatchReceiver:suspendHandler:)"
+    SwiftName: "Skie_Suspend__9__get(dispatchReceiver:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5195,9 +5232,9 @@ Classes:
       Type: "id<SharedKonnectionIpResolver> _Nonnull"
     - Position: 1
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__11__detectDispatchReceiver:triggeredBy:suspendHandler:"
+  - Selector: "Skie_Suspend__10__detectDispatchReceiver:triggeredBy:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__11__detect(dispatchReceiver:triggeredBy:suspendHandler:)"
+    SwiftName: "Skie_Suspend__10__detect(dispatchReceiver:triggeredBy:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5207,19 +5244,9 @@ Classes:
       Type: "SharedTriggeredBy * _Nonnull"
     - Position: 2
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__12__invokeDispatchReceiver:suspendHandler:"
+  - Selector: "Skie_Suspend__11__checksDispatchReceiver:checkResults:metadata:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__12__invoke(dispatchReceiver:suspendHandler:)"
-    Availability: "nonswift"
-    ResultType: "void"
-    Parameters:
-    - Position: 0
-      Type: "id<SharedKotlinSuspendFunction0> _Nonnull"
-    - Position: 1
-      Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__13__checksDispatchReceiver:checkResults:metadata:suspendHandler:"
-    MethodKind: "Class"
-    SwiftName: "Skie_Suspend__13__checks(dispatchReceiver:checkResults:metadata:suspendHandler:)"
+    SwiftName: "Skie_Suspend__11__checks(dispatchReceiver:checkResults:metadata:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5231,9 +5258,9 @@ Classes:
       Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
     - Position: 3
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__14__registerDispatchReceiver:deviceData:metadata:suspendHandler:"
+  - Selector: "Skie_Suspend__12__registerDispatchReceiver:deviceData:metadata:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__14__register(dispatchReceiver:deviceData:metadata:suspendHandler:)"
+    SwiftName: "Skie_Suspend__12__register(dispatchReceiver:deviceData:metadata:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5245,9 +5272,9 @@ Classes:
       Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
     - Position: 3
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__15__checkDispatchReceiver:checks:metadata:suspendHandler:"
+  - Selector: "Skie_Suspend__13__checkDispatchReceiver:checks:metadata:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__15__check(dispatchReceiver:checks:metadata:suspendHandler:)"
+    SwiftName: "Skie_Suspend__13__check(dispatchReceiver:checks:metadata:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5259,9 +5286,9 @@ Classes:
       Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
     - Position: 3
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__16__registerDeviceDispatchReceiver:params:metadata:suspendHandler:"
+  - Selector: "Skie_Suspend__14__registerDeviceDispatchReceiver:params:metadata:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__16__registerDevice(dispatchReceiver:params:metadata:suspendHandler:)"
+    SwiftName: "Skie_Suspend__14__registerDevice(dispatchReceiver:params:metadata:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5273,9 +5300,9 @@ Classes:
       Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
     - Position: 3
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__17__transactionDispatchReceiver:noEnclosing:body:suspendHandler:"
+  - Selector: "Skie_Suspend__15__transactionDispatchReceiver:noEnclosing:body:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__17__transaction(dispatchReceiver:noEnclosing:body:suspendHandler:)"
+    SwiftName: "Skie_Suspend__15__transaction(dispatchReceiver:noEnclosing:body:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5287,9 +5314,9 @@ Classes:
       Type: "id<SharedKotlinSuspendFunction1> _Nonnull"
     - Position: 3
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__18__transactionWithResultDispatchReceiver:noEnclosing:bodyWithReturn:suspendHandler:"
+  - Selector: "Skie_Suspend__16__transactionWithResultDispatchReceiver:noEnclosing:bodyWithReturn:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__18__transactionWithResult(dispatchReceiver:noEnclosing:bodyWithReturn:suspendHandler:)"
+    SwiftName: "Skie_Suspend__16__transactionWithResult(dispatchReceiver:noEnclosing:bodyWithReturn:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5301,9 +5328,9 @@ Classes:
       Type: "id<SharedKotlinSuspendFunction1> _Nonnull"
     - Position: 3
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__19__invokeDispatchReceiver:p1:suspendHandler:"
+  - Selector: "Skie_Suspend__17__invokeDispatchReceiver:p1:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__19__invoke(dispatchReceiver:p1:suspendHandler:)"
+    SwiftName: "Skie_Suspend__17__invoke(dispatchReceiver:p1:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5485,19 +5512,6 @@ Protocols:
     Parameters:
     - Position: 0
       Type: "id<SharedKotlinContinuation> _Nonnull"
-- Name: "SharedKotlinSuspendFunction0"
-  SwiftName: "KotlinSuspendFunction0"
-  Methods:
-  - Selector: "invokeWithCompletionHandler:"
-    MethodKind: "Instance"
-    SwiftName: "__invoke(completionHandler:)"
-    SwiftPrivate: true
-    ResultType: "void"
-    Parameters:
-    - Position: 0
-      Type: "void (^ _Nonnull)(id _Nullable_result, NSError * _Nullable)"
-- Name: "SharedKotlinFunction"
-  SwiftName: "KotlinFunction"
 - Name: "SharedKotlinSuspendFunction1"
   SwiftName: "KotlinSuspendFunction1"
   Methods:
@@ -5511,6 +5525,8 @@ Protocols:
       Type: "id _Nullable"
     - Position: 1
       Type: "void (^ _Nonnull)(id _Nullable_result, NSError * _Nullable)"
+- Name: "SharedKotlinFunction"
+  SwiftName: "KotlinFunction"
 - Name: "SharedSkie_DispatcherDelegate"
   SwiftName: "Skie_DispatcherDelegate"
   SwiftPrivate: true
