@@ -16,6 +16,241 @@
       },
       {
         "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JailbreakSuspiciousSystemPathsDetection",
+        "printedName": "JailbreakSuspiciousSystemPathsDetection",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configurations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JailbreakSuspiciousSystemPathsDetection",
+                "printedName": "AntifraudSDK.JailbreakSuspiciousSystemPathsDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakSuspiciousSystemPathsDetection"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AntifraudSDK39JailbreakSuspiciousSystemPathsDetectionC14configurationsACSDyS2SG_tcfc",
+            "mangledName": "$s12AntifraudSDK39JailbreakSuspiciousSystemPathsDetectionC14configurationsACSDyS2SG_tcfc",
+            "moduleName": "AntifraudSDK",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "__detect",
+            "printedName": "__detect(triggeredBy:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TriggeredBy",
+                "printedName": "shared.TriggeredBy",
+                "usr": "s:6shared11TriggeredByO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(shared.CheckResult?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(shared.CheckResult?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "shared.CheckResult?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CheckResult",
+                            "printedName": "shared.CheckResult",
+                            "usr": "c:objc(cs)SharedCheckResult"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakSuspiciousSystemPathsDetection(im)detectTriggeredBy:completionHandler:",
+            "mangledName": "$s12AntifraudSDK39JailbreakSuspiciousSystemPathsDetectionC8__detect11triggeredBy17completionHandlery6shared09TriggeredJ0O_ySo17SharedCheckResultCSg_s5Error_pSgtctF",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "detectTriggeredBy:completionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JailbreakSuspiciousSystemPathsDetection",
+                "printedName": "AntifraudSDK.JailbreakSuspiciousSystemPathsDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakSuspiciousSystemPathsDetection"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakSuspiciousSystemPathsDetection(im)init",
+            "mangledName": "$s12AntifraudSDK39JailbreakSuspiciousSystemPathsDetectionCACycfc",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakSuspiciousSystemPathsDetection",
+        "mangledName": "$s12AntifraudSDK39JailbreakSuspiciousSystemPathsDetectionC",
+        "moduleName": "AntifraudSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SharedJailbreakSuspiciousSystemPathsOperation",
+        "superclassNames": [
+          "shared.JailbreakSuspiciousSystemPathsOperation",
+          "shared.CheckOperation",
+          "shared.KotlinBase",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -2179,6 +2414,241 @@
         ]
       },
       {
+        "kind": "TypeDecl",
+        "name": "JailbreakSandboxDetection",
+        "printedName": "JailbreakSandboxDetection",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configurations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JailbreakSandboxDetection",
+                "printedName": "AntifraudSDK.JailbreakSandboxDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakSandboxDetection"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AntifraudSDK25JailbreakSandboxDetectionC14configurationsACSDyS2SG_tcfc",
+            "mangledName": "$s12AntifraudSDK25JailbreakSandboxDetectionC14configurationsACSDyS2SG_tcfc",
+            "moduleName": "AntifraudSDK",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "__detect",
+            "printedName": "__detect(triggeredBy:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TriggeredBy",
+                "printedName": "shared.TriggeredBy",
+                "usr": "s:6shared11TriggeredByO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(shared.CheckResult?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(shared.CheckResult?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "shared.CheckResult?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CheckResult",
+                            "printedName": "shared.CheckResult",
+                            "usr": "c:objc(cs)SharedCheckResult"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakSandboxDetection(im)detectTriggeredBy:completionHandler:",
+            "mangledName": "$s12AntifraudSDK25JailbreakSandboxDetectionC8__detect11triggeredBy17completionHandlery6shared09TriggeredH0O_ySo17SharedCheckResultCSg_s5Error_pSgtctF",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "detectTriggeredBy:completionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JailbreakSandboxDetection",
+                "printedName": "AntifraudSDK.JailbreakSandboxDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakSandboxDetection"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakSandboxDetection(im)init",
+            "mangledName": "$s12AntifraudSDK25JailbreakSandboxDetectionCACycfc",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakSandboxDetection",
+        "mangledName": "$s12AntifraudSDK25JailbreakSandboxDetectionC",
+        "moduleName": "AntifraudSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SharedJailbreakSandboxOperation",
+        "superclassNames": [
+          "shared.JailbreakSandboxOperation",
+          "shared.CheckOperation",
+          "shared.KotlinBase",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
         "kind": "Import",
         "name": "NetworkExtension",
         "printedName": "NetworkExtension",
@@ -2635,6 +3105,619 @@
             "mangledName": "$ss28CustomDebugStringConvertibleP"
           }
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JailbreakFridaDetection",
+        "printedName": "JailbreakFridaDetection",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configurations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JailbreakFridaDetection",
+                "printedName": "AntifraudSDK.JailbreakFridaDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakFridaDetection"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AntifraudSDK23JailbreakFridaDetectionC14configurationsACSDyS2SG_tcfc",
+            "mangledName": "$s12AntifraudSDK23JailbreakFridaDetectionC14configurationsACSDyS2SG_tcfc",
+            "moduleName": "AntifraudSDK",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "__detect",
+            "printedName": "__detect(triggeredBy:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TriggeredBy",
+                "printedName": "shared.TriggeredBy",
+                "usr": "s:6shared11TriggeredByO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(shared.CheckResult?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(shared.CheckResult?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "shared.CheckResult?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CheckResult",
+                            "printedName": "shared.CheckResult",
+                            "usr": "c:objc(cs)SharedCheckResult"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakFridaDetection(im)detectTriggeredBy:completionHandler:",
+            "mangledName": "$s12AntifraudSDK23JailbreakFridaDetectionC8__detect11triggeredBy17completionHandlery6shared09TriggeredH0O_ySo17SharedCheckResultCSg_s5Error_pSgtctF",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "detectTriggeredBy:completionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JailbreakFridaDetection",
+                "printedName": "AntifraudSDK.JailbreakFridaDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakFridaDetection"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakFridaDetection(im)init",
+            "mangledName": "$s12AntifraudSDK23JailbreakFridaDetectionCACycfc",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakFridaDetection",
+        "mangledName": "$s12AntifraudSDK23JailbreakFridaDetectionC",
+        "moduleName": "AntifraudSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SharedJailbreakFridaOperation",
+        "superclassNames": [
+          "shared.JailbreakFridaOperation",
+          "shared.CheckOperation",
+          "shared.KotlinBase",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "MachO",
+        "printedName": "MachO",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JailbreakDYLDSuspiciousLibrariesDetection",
+        "printedName": "JailbreakDYLDSuspiciousLibrariesDetection",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "suspiciousLibraries",
+            "printedName": "suspiciousLibraries",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AntifraudSDK41JailbreakDYLDSuspiciousLibrariesDetectionC010suspiciousE033_74AF29E81BC49619FF35BA76197FEA6ALLSaySSGvp",
+            "mangledName": "$s12AntifraudSDK41JailbreakDYLDSuspiciousLibrariesDetectionC010suspiciousE033_74AF29E81BC49619FF35BA76197FEA6ALLSaySSGvp",
+            "moduleName": "AntifraudSDK",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configurations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JailbreakDYLDSuspiciousLibrariesDetection",
+                "printedName": "AntifraudSDK.JailbreakDYLDSuspiciousLibrariesDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakDYLDSuspiciousLibrariesDetection"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AntifraudSDK41JailbreakDYLDSuspiciousLibrariesDetectionC14configurationsACSDyS2SG_tcfc",
+            "mangledName": "$s12AntifraudSDK41JailbreakDYLDSuspiciousLibrariesDetectionC14configurationsACSDyS2SG_tcfc",
+            "moduleName": "AntifraudSDK",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "__detect",
+            "printedName": "__detect(triggeredBy:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TriggeredBy",
+                "printedName": "shared.TriggeredBy",
+                "usr": "s:6shared11TriggeredByO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(shared.CheckResult?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(shared.CheckResult?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "shared.CheckResult?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CheckResult",
+                            "printedName": "shared.CheckResult",
+                            "usr": "c:objc(cs)SharedCheckResult"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakDYLDSuspiciousLibrariesDetection(im)detectTriggeredBy:completionHandler:",
+            "mangledName": "$s12AntifraudSDK41JailbreakDYLDSuspiciousLibrariesDetectionC8__detect11triggeredBy17completionHandlery6shared09TriggeredI0O_ySo17SharedCheckResultCSg_s5Error_pSgtctF",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "detectTriggeredBy:completionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JailbreakDYLDSuspiciousLibrariesDetection",
+                "printedName": "AntifraudSDK.JailbreakDYLDSuspiciousLibrariesDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakDYLDSuspiciousLibrariesDetection"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakDYLDSuspiciousLibrariesDetection(im)init",
+            "mangledName": "$s12AntifraudSDK41JailbreakDYLDSuspiciousLibrariesDetectionCACycfc",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakDYLDSuspiciousLibrariesDetection",
+        "mangledName": "$s12AntifraudSDK41JailbreakDYLDSuspiciousLibrariesDetectionC",
+        "moduleName": "AntifraudSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SharedJailbreakDYLDSuspiciousLibrariesOperation",
+        "superclassNames": [
+          "shared.JailbreakDYLDSuspiciousLibrariesOperation",
+          "shared.CheckOperation",
+          "shared.KotlinBase",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Security",
+        "printedName": "Security",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DeviceSeedManager",
+        "printedName": "DeviceSeedManager",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "deviceSeed",
+            "printedName": "deviceSeed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AntifraudSDK17DeviceSeedManagerC06deviceD0SSvp",
+            "mangledName": "$s12AntifraudSDK17DeviceSeedManagerC06deviceD0SSvp",
+            "moduleName": "AntifraudSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AntifraudSDK17DeviceSeedManagerC06deviceD0SSvg",
+                "mangledName": "$s12AntifraudSDK17DeviceSeedManagerC06deviceD0SSvg",
+                "moduleName": "AntifraudSDK",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DeviceSeedManager",
+                "printedName": "AntifraudSDK.DeviceSeedManager",
+                "usr": "s:12AntifraudSDK17DeviceSeedManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AntifraudSDK17DeviceSeedManagerCACycfc",
+            "mangledName": "$s12AntifraudSDK17DeviceSeedManagerCACycfc",
+            "moduleName": "AntifraudSDK",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12AntifraudSDK17DeviceSeedManagerC",
+        "mangledName": "$s12AntifraudSDK17DeviceSeedManagerC",
+        "moduleName": "AntifraudSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
       },
       {
         "kind": "Import",
@@ -3994,6 +5077,241 @@
       },
       {
         "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JailbreakSuspiciousAppsPathDetection",
+        "printedName": "JailbreakSuspiciousAppsPathDetection",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configurations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JailbreakSuspiciousAppsPathDetection",
+                "printedName": "AntifraudSDK.JailbreakSuspiciousAppsPathDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakSuspiciousAppsPathDetection"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AntifraudSDK36JailbreakSuspiciousAppsPathDetectionC14configurationsACSDyS2SG_tcfc",
+            "mangledName": "$s12AntifraudSDK36JailbreakSuspiciousAppsPathDetectionC14configurationsACSDyS2SG_tcfc",
+            "moduleName": "AntifraudSDK",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "__detect",
+            "printedName": "__detect(triggeredBy:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TriggeredBy",
+                "printedName": "shared.TriggeredBy",
+                "usr": "s:6shared11TriggeredByO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(shared.CheckResult?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(shared.CheckResult?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "shared.CheckResult?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CheckResult",
+                            "printedName": "shared.CheckResult",
+                            "usr": "c:objc(cs)SharedCheckResult"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakSuspiciousAppsPathDetection(im)detectTriggeredBy:completionHandler:",
+            "mangledName": "$s12AntifraudSDK36JailbreakSuspiciousAppsPathDetectionC8__detect11triggeredBy17completionHandlery6shared09TriggeredJ0O_ySo17SharedCheckResultCSg_s5Error_pSgtctF",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "detectTriggeredBy:completionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JailbreakSuspiciousAppsPathDetection",
+                "printedName": "AntifraudSDK.JailbreakSuspiciousAppsPathDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakSuspiciousAppsPathDetection"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakSuspiciousAppsPathDetection(im)init",
+            "mangledName": "$s12AntifraudSDK36JailbreakSuspiciousAppsPathDetectionCACycfc",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakSuspiciousAppsPathDetection",
+        "mangledName": "$s12AntifraudSDK36JailbreakSuspiciousAppsPathDetectionC",
+        "moduleName": "AntifraudSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SharedJailbreakSuspiciousAppsPathOperation",
+        "superclassNames": [
+          "shared.JailbreakSuspiciousAppsPathOperation",
+          "shared.CheckOperation",
+          "shared.KotlinBase",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -4268,6 +5586,283 @@
         "mangledName": "$s12AntifraudSDK13SystemManagerC",
         "moduleName": "AntifraudSDK",
         "isOpen": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK"
+      },
+      {
+        "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "JailbreakURISchemesDetection",
+        "printedName": "JailbreakURISchemesDetection",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "packageURLs",
+            "printedName": "packageURLs",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AntifraudSDK28JailbreakURISchemesDetectionC11packageURLs33_97C639AB30A401F89901D5DBE092B9FDLLSaySSGvp",
+            "mangledName": "$s12AntifraudSDK28JailbreakURISchemesDetectionC11packageURLs33_97C639AB30A401F89901D5DBE092B9FDLLSaySSGvp",
+            "moduleName": "AntifraudSDK",
+            "isInternal": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configurations:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JailbreakURISchemesDetection",
+                "printedName": "AntifraudSDK.JailbreakURISchemesDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakURISchemesDetection"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12AntifraudSDK28JailbreakURISchemesDetectionC14configurationsACSDyS2SG_tcfc",
+            "mangledName": "$s12AntifraudSDK28JailbreakURISchemesDetectionC14configurationsACSDyS2SG_tcfc",
+            "moduleName": "AntifraudSDK",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "__detect",
+            "printedName": "__detect(triggeredBy:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TriggeredBy",
+                "printedName": "shared.TriggeredBy",
+                "usr": "s:6shared11TriggeredByO"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(shared.CheckResult?, (any Swift.Error)?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(shared.CheckResult?, (any Swift.Error)?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "shared.CheckResult?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CheckResult",
+                            "printedName": "shared.CheckResult",
+                            "usr": "c:objc(cs)SharedCheckResult"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "(any Swift.Error)?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "any Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakURISchemesDetection(im)detectTriggeredBy:completionHandler:",
+            "mangledName": "$s12AntifraudSDK28JailbreakURISchemesDetectionC8__detect11triggeredBy17completionHandlery6shared09TriggeredH0O_ySo17SharedCheckResultCSg_s5Error_pSgtctF",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "detectTriggeredBy:completionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "JailbreakURISchemesDetection",
+                "printedName": "AntifraudSDK.JailbreakURISchemesDetection",
+                "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakURISchemesDetection"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakURISchemesDetection(im)init",
+            "mangledName": "$s12AntifraudSDK28JailbreakURISchemesDetectionCACycfc",
+            "moduleName": "AntifraudSDK",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@AntifraudSDK@objc(cs)JailbreakURISchemesDetection",
+        "mangledName": "$s12AntifraudSDK28JailbreakURISchemesDetectionC",
+        "moduleName": "AntifraudSDK",
+        "isOpen": true,
+        "declAttributes": [
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)SharedJailbreakURISchemesOperation",
+        "superclassNames": [
+          "shared.JailbreakURISchemesOperation",
+          "shared.CheckOperation",
+          "shared.KotlinBase",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -8560,6 +10155,13 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/JailbreakSuspiciousSystemPathsDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 179,
+      "length": 39,
+      "value": "\"AntifraudSDK.JailbreakSuspiciousSystemPathsDetection\""
+    },
+    {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNNetworkUTUNDetection.swift",
       "kind": "StringLiteral",
       "offset": 207,
@@ -8595,6 +10197,13 @@
       "value": "\"AntifraudSDK.LocationMockFlagsDetection\""
     },
     {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/JailbreakSandboxDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 165,
+      "length": 25,
+      "value": "\"AntifraudSDK.JailbreakSandboxDetection\""
+    },
+    {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/NetworkInterfaceDetection.swift",
       "kind": "StringLiteral",
       "offset": 233,
@@ -8607,6 +10216,41 @@
       "offset": 169,
       "length": 22,
       "value": "\"AntifraudSDK.VPNNetworkTUNDetection\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/JailbreakFridaDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 163,
+      "length": 23,
+      "value": "\"AntifraudSDK.JailbreakFridaDetection\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/JailbreakDYLDSuspiciousLibrariesDetection.swift",
+      "kind": "Array",
+      "offset": 324,
+      "length": 499,
+      "value": "[\"FridaGadget\", \"frida\", \"cynject\", \"libcycript\", \"systemhook.dylib\", \"SubstrateLoader.dylib\", \"SSLKillSwitch2.dylib\", \"SSLKillSwitch.dylib\", \"MobileSubstrate.dylib\", \"TweakInject.dylib\", \"CydiaSubstrate\", \"CustomWidgetIcons\", \"PreferenceLoader\", \"RocketBootstrap\", \"WeeLoader\", \"\/.file\", \"libhooker\", \"SubstrateInserter\", \"SubstrateBootstrap\", \"ABypass\", \"FlyJB\", \"Substitute\", \"Cephei\", \"Electra\", \"AppSyncUnified-FrontBoard.dylib\", \"Shadow\"]"
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/JailbreakDYLDSuspiciousLibrariesDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 194,
+      "length": 41,
+      "value": "\"AntifraudSDK.JailbreakDYLDSuspiciousLibrariesDetection\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Manager\/DeviceSeedManager.swift",
+      "kind": "StringLiteral",
+      "offset": 216,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Manager\/DeviceSeedManager.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
+      "length": 13,
+      "value": "\"device-seed\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNNetworkTAPDetection.swift",
@@ -8630,11 +10274,32 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/JailbreakSuspiciousAppsPathDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 176,
+      "length": 36,
+      "value": "\"AntifraudSDK.JailbreakSuspiciousAppsPathDetection\""
+    },
+    {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Manager\/AppStateManager.swift",
       "kind": "BooleanLiteral",
       "offset": 258,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/JailbreakURISchemesDetection.swift",
+      "kind": "Array",
+      "offset": 277,
+      "length": 197,
+      "value": "[\"sileo:\/\/package\/org.coolstar.Sileo\", \"cydia:\/\/package\/com.saurik.Cydia\", \"zbra:\/\/package\/com.apptapp.Zebra\", \"filza:\/\/package\/com.tigisoftware.filza\", \"cydia:\/\/package\/libactivator\"]"
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/JailbreakURISchemesDetection.swift",
+      "kind": "StringLiteral",
+      "offset": 181,
+      "length": 28,
+      "value": "\"AntifraudSDK.JailbreakURISchemesDetection\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
@@ -8751,84 +10416,84 @@
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5941,
+      "offset": 4032,
       "length": 18,
       "value": "\"VirtualOrUnknown\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6005,
+      "offset": 4096,
       "length": 6,
       "value": "\"WiFi\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6032,
+      "offset": 4123,
       "length": 10,
       "value": "\"Cellular\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6063,
+      "offset": 4154,
       "length": 10,
       "value": "\"Ethernet\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6094,
+      "offset": 4185,
       "length": 10,
       "value": "\"Loopback\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6129,
+      "offset": 4220,
       "length": 14,
       "value": "\"NoConnection\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 5941,
+      "offset": 4032,
       "length": 18,
       "value": "\"VirtualOrUnknown\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6005,
+      "offset": 4096,
       "length": 6,
       "value": "\"WiFi\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6032,
+      "offset": 4123,
       "length": 10,
       "value": "\"Cellular\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6063,
+      "offset": 4154,
       "length": 10,
       "value": "\"Ethernet\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6094,
+      "offset": 4185,
       "length": 10,
       "value": "\"Loopback\""
     },
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 6129,
+      "offset": 4220,
       "length": 14,
       "value": "\"NoConnection\""
     }

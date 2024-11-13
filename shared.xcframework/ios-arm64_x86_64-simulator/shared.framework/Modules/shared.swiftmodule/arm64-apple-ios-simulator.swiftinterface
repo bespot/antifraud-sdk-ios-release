@@ -352,17 +352,6 @@ public enum Skie {
   @objc deinit
 }
 #endif
-extension shared.UtilsKt {
-  #if compiler(>=5.3) && $AsyncAwait
-  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
-  public static func measureTimeMillis(codeBlock: any shared.KotlinSuspendFunction0) async throws -> shared.KotlinLong
-  #endif
-}
-public func __measureTimeMillis(codeBlock: any shared.KotlinSuspendFunction0, completionHandler: @escaping (shared.KotlinLong?, (any Swift.Error)?) -> Swift.Void)
-#if compiler(>=5.3) && $AsyncAwait
-@available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
-public func measureTimeMillis(codeBlock: any shared.KotlinSuspendFunction0) async throws -> shared.KotlinLong
-#endif
 extension shared.Skie.RuntimeKotlin.SkieColdFlowIterator {
   public struct __Suspend<E> where E : AnyObject {
     public let __kotlinObject: shared.SkieColdFlowIterator<E>
@@ -451,12 +440,6 @@ extension shared.CheckOperation {
   #if compiler(>=5.3) && $AsyncAwait
   @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
   public func detect(triggeredBy: shared.TriggeredBy) async throws -> shared.CheckResult
-  #endif
-}
-extension shared.KotlinSuspendFunction0 {
-  #if compiler(>=5.3) && $AsyncAwait
-  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
-  public func invoke() async throws -> Any?
   #endif
 }
 extension shared.RemoteDataSource {
