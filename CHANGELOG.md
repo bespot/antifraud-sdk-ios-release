@@ -1,3 +1,11 @@
+# 1.0.0 (2024-11-25)
+
+### Added
+- Enhanced authentication supporting OAuth 2.0
+
+### Changed
+- Method `initialize` requires extra arguments - find more info in readme
+
 # 0.5.3 (2024-11-13)
 
 ### Added

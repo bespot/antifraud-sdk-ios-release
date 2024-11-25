@@ -1749,6 +1749,10 @@ Classes:
     PropertyKind: "Instance"
     SwiftName: "setUserIdUseCase"
     Type: "SharedSetUserIdUseCase * _Nonnull"
+  - Name: "settings"
+    PropertyKind: "Instance"
+    SwiftName: "settings"
+    Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
   - Name: "sqlDriver"
     PropertyKind: "Instance"
     SwiftName: "sqlDriver"
@@ -1757,9 +1761,9 @@ Classes:
   - Selector: "init"
     MethodKind: "Instance"
     SwiftName: "init()"
-  - Selector: "doInitApiBaseUrl:apiKey:packageName:appVersion:platformSystemObserver:platformForegroundObserver:platformDeviceInfoProvider:"
+  - Selector: "doInitApiBaseUrl:apiKey:packageName:appVersion:oAuth2Credentials:platformSystemObserver:platformForegroundObserver:platformDeviceInfoProvider:"
     MethodKind: "Instance"
-    SwiftName: "doInit(apiBaseUrl:apiKey:packageName:appVersion:platformSystemObserver:platformForegroundObserver:platformDeviceInfoProvider:)"
+    SwiftName: "doInit(apiBaseUrl:apiKey:packageName:appVersion:oAuth2Credentials:platformSystemObserver:platformForegroundObserver:platformDeviceInfoProvider:)"
     ResultType: "void"
     Parameters:
     - Position: 0
@@ -1771,10 +1775,12 @@ Classes:
     - Position: 3
       Type: "NSString * _Nonnull"
     - Position: 4
-      Type: "id<SharedSystemObserver> _Nonnull"
+      Type: "SharedOAuth2Credentials * _Nonnull"
     - Position: 5
-      Type: "id<SharedForegroundObserver> _Nonnull"
+      Type: "id<SharedSystemObserver> _Nonnull"
     - Position: 6
+      Type: "id<SharedForegroundObserver> _Nonnull"
+    - Position: 7
       Type: "id<SharedDeviceInfoProvider> _Nonnull"
 - Name: "SharedDevice"
   SwiftName: "Device"
@@ -2527,6 +2533,97 @@ Classes:
     MethodKind: "Instance"
     SwiftName: "init(name:ordinal:)"
     Availability: "nonswift"
+- Name: "SharedOAuth2Credentials"
+  SwiftName: "OAuth2Credentials"
+  Methods:
+  - Selector: "toRemoteOauth2Credentials"
+    MethodKind: "Instance"
+    SwiftName: "toRemoteOauth2Credentials()"
+    ResultType: "SharedNetwork_contractOAuth2Credentials * _Nonnull"
+- Name: "SharedOAuth2CredentialsCompanion"
+  SwiftName: "OAuth2Credentials.Companion"
+  Methods:
+  - Selector: "fromClientId:clientSecret:authTokenUrl:"
+    MethodKind: "Instance"
+    SwiftName: "from(clientId:clientSecret:authTokenUrl:)"
+    ResultType: "SharedOAuth2Credentials * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "NSString * _Nonnull"
+- Name: "SharedOAuth2CredentialsEmpty"
+  SwiftName: "OAuth2Credentials.Empty"
+  Methods:
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+- Name: "SharedOAuth2CredentialsFull"
+  SwiftName: "OAuth2Credentials.Full"
+  Properties:
+  - Name: "authTokenUrl"
+    PropertyKind: "Instance"
+    SwiftName: "authTokenUrl"
+    Type: "NSString * _Nonnull"
+  - Name: "clientId"
+    PropertyKind: "Instance"
+    SwiftName: "clientId"
+    Type: "NSString * _Nonnull"
+  - Name: "clientSecret"
+    PropertyKind: "Instance"
+    SwiftName: "clientSecret"
+    Type: "NSString * _Nonnull"
+  Methods:
+  - Selector: "initWithClientId:clientSecret:authTokenUrl:"
+    MethodKind: "Instance"
+    SwiftName: "init(clientId:clientSecret:authTokenUrl:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "NSString * _Nonnull"
+  - Selector: "doCopyClientId:clientSecret:authTokenUrl:"
+    MethodKind: "Instance"
+    SwiftName: "doCopy(clientId:clientSecret:authTokenUrl:)"
+    ResultType: "SharedOAuth2CredentialsFull * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "NSString * _Nonnull"
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
 - Name: "SharedSetUserIdUseCase"
   SwiftName: "SetUserIdUseCase"
   Methods:
@@ -3200,6 +3297,10 @@ Classes:
     PropertyKind: "Instance"
     SwiftName: "networkConnectionDetector"
     Type: "SharedKonnectionKonnection * _Nonnull"
+  - Name: "settings"
+    PropertyKind: "Instance"
+    SwiftName: "settings"
+    Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
   - Name: "sqlDriver"
     PropertyKind: "Instance"
     SwiftName: "sqlDriver"
@@ -4531,6 +4632,78 @@ Classes:
     MethodKind: "Instance"
     SwiftName: "serializer()"
     ResultType: "id<SharedKotlinx_serialization_coreKSerializer> _Nonnull"
+- Name: "SharedNetwork_contractOAuth2Credentials"
+  SwiftName: "Network_contractOAuth2Credentials"
+- Name: "SharedNetwork_contractOAuth2CredentialsEmpty"
+  SwiftName: "Network_contractOAuth2Credentials.Empty"
+  Methods:
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
+- Name: "SharedNetwork_contractOAuth2CredentialsFullCredentials"
+  SwiftName: "Network_contractOAuth2Credentials.FullCredentials"
+  Properties:
+  - Name: "authServerUrl"
+    PropertyKind: "Instance"
+    SwiftName: "authServerUrl"
+    Type: "NSString * _Nonnull"
+  - Name: "clientId"
+    PropertyKind: "Instance"
+    SwiftName: "clientId"
+    Type: "NSString * _Nonnull"
+  - Name: "clientSecret"
+    PropertyKind: "Instance"
+    SwiftName: "clientSecret"
+    Type: "NSString * _Nonnull"
+  Methods:
+  - Selector: "initWithClientId:clientSecret:authServerUrl:"
+    MethodKind: "Instance"
+    SwiftName: "init(clientId:clientSecret:authServerUrl:)"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "NSString * _Nonnull"
+  - Selector: "doCopyClientId:clientSecret:authServerUrl:"
+    MethodKind: "Instance"
+    SwiftName: "doCopy(clientId:clientSecret:authServerUrl:)"
+    ResultType: "SharedNetwork_contractOAuth2CredentialsFullCredentials * _Nonnull"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "NSString * _Nonnull"
+  - Selector: "isEqual:"
+    MethodKind: "Instance"
+    SwiftName: "isEqual(_:)"
+    ResultType: "BOOL"
+    Parameters:
+    - Position: 0
+      Type: "id _Nullable"
+  - Selector: "hash"
+    MethodKind: "Instance"
+    SwiftName: "hash()"
+    ResultType: "NSUInteger"
+  - Selector: "description"
+    MethodKind: "Instance"
+    SwiftName: "description()"
+    ResultType: "NSString * _Nonnull"
 - Name: "SharedNetwork_contractDeviceResponse"
   SwiftName: "Network_contractDeviceResponse"
   Properties:
@@ -5062,9 +5235,9 @@ Classes:
   SwiftName: "__SkieTypeExportsKt"
   Availability: "nonswift"
   Methods:
-  - Selector: "skieTypeExports_0P0:p1:p2:p3:p4:p5:p6:p7:p8:p9:p10:p11:p12:p13:p14:p15:p16:p17:p18:p19:p20:p21:p22:"
+  - Selector: "skieTypeExports_0P0:p1:p2:p3:p4:p5:p6:p7:p8:p9:p10:p11:p12:p13:p14:p15:p16:p17:p18:p19:p20:p21:p22:p23:p24:"
     MethodKind: "Class"
-    SwiftName: "skieTypeExports_0(p0:p1:p2:p3:p4:p5:p6:p7:p8:p9:p10:p11:p12:p13:p14:p15:p16:p17:p18:p19:p20:p21:p22:)"
+    SwiftName: "skieTypeExports_0(p0:p1:p2:p3:p4:p5:p6:p7:p8:p9:p10:p11:p12:p13:p14:p15:p16:p17:p18:p19:p20:p21:p22:p23:p24:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5075,44 +5248,48 @@ Classes:
     - Position: 2
       Type: "SharedNetwork_contractFailureUnknownFailure * _Nonnull"
     - Position: 3
-      Type: "SharedKotlinx_serialization_corePolymorphicKind * _Nonnull"
+      Type: "SharedNetwork_contractOAuth2CredentialsEmpty * _Nonnull"
     - Position: 4
-      Type: "SharedKotlinx_serialization_corePolymorphicKindOPEN * _Nonnull"
+      Type: "SharedNetwork_contractOAuth2CredentialsFullCredentials * _Nonnull"
     - Position: 5
-      Type: "SharedKotlinx_serialization_corePolymorphicKindSEALED * _Nonnull"
+      Type: "SharedKotlinx_serialization_corePolymorphicKind * _Nonnull"
     - Position: 6
-      Type: "SharedKotlinx_serialization_corePrimitiveKind * _Nonnull"
+      Type: "SharedKotlinx_serialization_corePolymorphicKindOPEN * _Nonnull"
     - Position: 7
-      Type: "SharedKotlinx_serialization_corePrimitiveKindBOOLEAN * _Nonnull"
+      Type: "SharedKotlinx_serialization_corePolymorphicKindSEALED * _Nonnull"
     - Position: 8
-      Type: "SharedKotlinx_serialization_corePrimitiveKindBYTE * _Nonnull"
+      Type: "SharedKotlinx_serialization_corePrimitiveKind * _Nonnull"
     - Position: 9
-      Type: "SharedKotlinx_serialization_corePrimitiveKindCHAR * _Nonnull"
+      Type: "SharedKotlinx_serialization_corePrimitiveKindBOOLEAN * _Nonnull"
     - Position: 10
-      Type: "SharedKotlinx_serialization_corePrimitiveKindDOUBLE * _Nonnull"
+      Type: "SharedKotlinx_serialization_corePrimitiveKindBYTE * _Nonnull"
     - Position: 11
-      Type: "SharedKotlinx_serialization_corePrimitiveKindFLOAT * _Nonnull"
+      Type: "SharedKotlinx_serialization_corePrimitiveKindCHAR * _Nonnull"
     - Position: 12
-      Type: "SharedKotlinx_serialization_corePrimitiveKindINT * _Nonnull"
+      Type: "SharedKotlinx_serialization_corePrimitiveKindDOUBLE * _Nonnull"
     - Position: 13
-      Type: "SharedKotlinx_serialization_corePrimitiveKindLONG * _Nonnull"
+      Type: "SharedKotlinx_serialization_corePrimitiveKindFLOAT * _Nonnull"
     - Position: 14
-      Type: "SharedKotlinx_serialization_corePrimitiveKindSHORT * _Nonnull"
+      Type: "SharedKotlinx_serialization_corePrimitiveKindINT * _Nonnull"
     - Position: 15
-      Type: "SharedKotlinx_serialization_corePrimitiveKindSTRING * _Nonnull"
+      Type: "SharedKotlinx_serialization_corePrimitiveKindLONG * _Nonnull"
     - Position: 16
-      Type: "SharedKotlinx_serialization_coreSerialKindCONTEXTUAL * _Nonnull"
+      Type: "SharedKotlinx_serialization_corePrimitiveKindSHORT * _Nonnull"
     - Position: 17
-      Type: "SharedKotlinx_serialization_coreSerialKindENUM * _Nonnull"
+      Type: "SharedKotlinx_serialization_corePrimitiveKindSTRING * _Nonnull"
     - Position: 18
-      Type: "SharedKotlinx_serialization_coreStructureKind * _Nonnull"
+      Type: "SharedKotlinx_serialization_coreSerialKindCONTEXTUAL * _Nonnull"
     - Position: 19
-      Type: "SharedKotlinx_serialization_coreStructureKindCLASS * _Nonnull"
+      Type: "SharedKotlinx_serialization_coreSerialKindENUM * _Nonnull"
     - Position: 20
-      Type: "SharedKotlinx_serialization_coreStructureKindLIST * _Nonnull"
+      Type: "SharedKotlinx_serialization_coreStructureKind * _Nonnull"
     - Position: 21
-      Type: "SharedKotlinx_serialization_coreStructureKindMAP * _Nonnull"
+      Type: "SharedKotlinx_serialization_coreStructureKindCLASS * _Nonnull"
     - Position: 22
+      Type: "SharedKotlinx_serialization_coreStructureKindLIST * _Nonnull"
+    - Position: 23
+      Type: "SharedKotlinx_serialization_coreStructureKindMAP * _Nonnull"
+    - Position: 24
       Type: "SharedKotlinx_serialization_coreStructureKindOBJECT * _Nonnull"
 - Name: "Shared__SkieSuspendWrappersKt"
   SwiftName: "__SkieSuspendWrappersKt"
@@ -5162,9 +5339,303 @@ Classes:
       Type: "id<SharedRuntimeQueryResult> _Nonnull"
     - Position: 1
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__4__executeDispatchReceiver:parameters:suspendHandler:"
+  - Selector: "Skie_Suspend__4__clearDispatchReceiver:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__4__execute(dispatchReceiver:parameters:suspendHandler:)"
+    SwiftName: "Skie_Suspend__4__clear(dispatchReceiver:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__5__getBooleanDispatchReceiver:key:defaultValue:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__5__getBoolean(dispatchReceiver:key:defaultValue:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "BOOL"
+    - Position: 3
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__6__getBooleanOrNullDispatchReceiver:key:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__6__getBooleanOrNull(dispatchReceiver:key:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__7__getDoubleDispatchReceiver:key:defaultValue:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__7__getDouble(dispatchReceiver:key:defaultValue:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "double"
+    - Position: 3
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__8__getDoubleOrNullDispatchReceiver:key:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__8__getDoubleOrNull(dispatchReceiver:key:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__9__getFloatDispatchReceiver:key:defaultValue:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__9__getFloat(dispatchReceiver:key:defaultValue:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "float"
+    - Position: 3
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__10__getFloatOrNullDispatchReceiver:key:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__10__getFloatOrNull(dispatchReceiver:key:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__11__getIntDispatchReceiver:key:defaultValue:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__11__getInt(dispatchReceiver:key:defaultValue:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "int32_t"
+    - Position: 3
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__12__getIntOrNullDispatchReceiver:key:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__12__getIntOrNull(dispatchReceiver:key:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__13__getLongDispatchReceiver:key:defaultValue:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__13__getLong(dispatchReceiver:key:defaultValue:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "int64_t"
+    - Position: 3
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__14__getLongOrNullDispatchReceiver:key:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__14__getLongOrNull(dispatchReceiver:key:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__15__getStringDispatchReceiver:key:defaultValue:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__15__getString(dispatchReceiver:key:defaultValue:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "NSString * _Nonnull"
+    - Position: 3
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__16__getStringOrNullDispatchReceiver:key:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__16__getStringOrNull(dispatchReceiver:key:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__17__hasKeyDispatchReceiver:key:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__17__hasKey(dispatchReceiver:key:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__18__keysDispatchReceiver:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__18__keys(dispatchReceiver:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__19__putBooleanDispatchReceiver:key:value:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__19__putBoolean(dispatchReceiver:key:value:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "BOOL"
+    - Position: 3
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__20__putDoubleDispatchReceiver:key:value:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__20__putDouble(dispatchReceiver:key:value:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "double"
+    - Position: 3
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__21__putFloatDispatchReceiver:key:value:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__21__putFloat(dispatchReceiver:key:value:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "float"
+    - Position: 3
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__22__putIntDispatchReceiver:key:value:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__22__putInt(dispatchReceiver:key:value:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "int32_t"
+    - Position: 3
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__23__putLongDispatchReceiver:key:value:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__23__putLong(dispatchReceiver:key:value:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "int64_t"
+    - Position: 3
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__24__putStringDispatchReceiver:key:value:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__24__putString(dispatchReceiver:key:value:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "NSString * _Nonnull"
+    - Position: 3
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__25__removeDispatchReceiver:key:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__25__remove(dispatchReceiver:key:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__26__sizeDispatchReceiver:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__26__size(dispatchReceiver:suspendHandler:)"
+    Availability: "nonswift"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedMultiplatform_settings_coroutinesSuspendSettings> _Nonnull"
+    - Position: 1
+      Type: "SharedSkie_SuspendHandler * _Nonnull"
+  - Selector: "Skie_Suspend__27__executeDispatchReceiver:parameters:suspendHandler:"
+    MethodKind: "Class"
+    SwiftName: "Skie_Suspend__27__execute(dispatchReceiver:parameters:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5174,9 +5645,9 @@ Classes:
       Type: "id _Nullable"
     - Position: 2
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__5__invokeDispatchReceiver:parameters:suspendHandler:"
+  - Selector: "Skie_Suspend__28__invokeDispatchReceiver:parameters:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__5__invoke(dispatchReceiver:parameters:suspendHandler:)"
+    SwiftName: "Skie_Suspend__28__invoke(dispatchReceiver:parameters:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5186,9 +5657,9 @@ Classes:
       Type: "id _Nullable"
     - Position: 2
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__6__registerDeviceDispatchReceiver:device:suspendHandler:"
+  - Selector: "Skie_Suspend__29__registerDeviceDispatchReceiver:device:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__6__registerDevice(dispatchReceiver:device:suspendHandler:)"
+    SwiftName: "Skie_Suspend__29__registerDevice(dispatchReceiver:device:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5198,9 +5669,9 @@ Classes:
       Type: "SharedDevice * _Nonnull"
     - Position: 2
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__7__sendChecksDispatchReceiver:results:deviceMetadata:suspendHandler:"
+  - Selector: "Skie_Suspend__30__sendChecksDispatchReceiver:results:deviceMetadata:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__7__sendChecks(dispatchReceiver:results:deviceMetadata:suspendHandler:)"
+    SwiftName: "Skie_Suspend__30__sendChecks(dispatchReceiver:results:deviceMetadata:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5212,9 +5683,9 @@ Classes:
       Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
     - Position: 3
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__8__getInfoDispatchReceiver:suspendHandler:"
+  - Selector: "Skie_Suspend__31__getInfoDispatchReceiver:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__8__getInfo(dispatchReceiver:suspendHandler:)"
+    SwiftName: "Skie_Suspend__31__getInfo(dispatchReceiver:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5222,9 +5693,9 @@ Classes:
       Type: "SharedKonnectionKonnection * _Nonnull"
     - Position: 1
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__9__getDispatchReceiver:suspendHandler:"
+  - Selector: "Skie_Suspend__32__getDispatchReceiver:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__9__get(dispatchReceiver:suspendHandler:)"
+    SwiftName: "Skie_Suspend__32__get(dispatchReceiver:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5232,9 +5703,9 @@ Classes:
       Type: "id<SharedKonnectionIpResolver> _Nonnull"
     - Position: 1
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__10__detectDispatchReceiver:triggeredBy:suspendHandler:"
+  - Selector: "Skie_Suspend__33__detectDispatchReceiver:triggeredBy:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__10__detect(dispatchReceiver:triggeredBy:suspendHandler:)"
+    SwiftName: "Skie_Suspend__33__detect(dispatchReceiver:triggeredBy:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5244,9 +5715,9 @@ Classes:
       Type: "SharedTriggeredBy * _Nonnull"
     - Position: 2
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__11__checksDispatchReceiver:checkResults:metadata:suspendHandler:"
+  - Selector: "Skie_Suspend__34__checksDispatchReceiver:checkResults:metadata:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__11__checks(dispatchReceiver:checkResults:metadata:suspendHandler:)"
+    SwiftName: "Skie_Suspend__34__checks(dispatchReceiver:checkResults:metadata:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5258,9 +5729,9 @@ Classes:
       Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
     - Position: 3
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__12__registerDispatchReceiver:deviceData:metadata:suspendHandler:"
+  - Selector: "Skie_Suspend__35__registerDispatchReceiver:deviceData:metadata:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__12__register(dispatchReceiver:deviceData:metadata:suspendHandler:)"
+    SwiftName: "Skie_Suspend__35__register(dispatchReceiver:deviceData:metadata:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5272,9 +5743,9 @@ Classes:
       Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
     - Position: 3
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__13__checkDispatchReceiver:checks:metadata:suspendHandler:"
+  - Selector: "Skie_Suspend__36__checkDispatchReceiver:checks:metadata:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__13__check(dispatchReceiver:checks:metadata:suspendHandler:)"
+    SwiftName: "Skie_Suspend__36__check(dispatchReceiver:checks:metadata:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5286,9 +5757,9 @@ Classes:
       Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
     - Position: 3
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__14__registerDeviceDispatchReceiver:params:metadata:suspendHandler:"
+  - Selector: "Skie_Suspend__37__registerDeviceDispatchReceiver:params:metadata:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__14__registerDevice(dispatchReceiver:params:metadata:suspendHandler:)"
+    SwiftName: "Skie_Suspend__37__registerDevice(dispatchReceiver:params:metadata:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5300,9 +5771,9 @@ Classes:
       Type: "NSDictionary<NSString *, NSString *> * _Nonnull"
     - Position: 3
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__15__transactionDispatchReceiver:noEnclosing:body:suspendHandler:"
+  - Selector: "Skie_Suspend__38__transactionDispatchReceiver:noEnclosing:body:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__15__transaction(dispatchReceiver:noEnclosing:body:suspendHandler:)"
+    SwiftName: "Skie_Suspend__38__transaction(dispatchReceiver:noEnclosing:body:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5314,9 +5785,9 @@ Classes:
       Type: "id<SharedKotlinSuspendFunction1> _Nonnull"
     - Position: 3
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__16__transactionWithResultDispatchReceiver:noEnclosing:bodyWithReturn:suspendHandler:"
+  - Selector: "Skie_Suspend__39__transactionWithResultDispatchReceiver:noEnclosing:bodyWithReturn:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__16__transactionWithResult(dispatchReceiver:noEnclosing:bodyWithReturn:suspendHandler:)"
+    SwiftName: "Skie_Suspend__39__transactionWithResult(dispatchReceiver:noEnclosing:bodyWithReturn:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -5328,9 +5799,9 @@ Classes:
       Type: "id<SharedKotlinSuspendFunction1> _Nonnull"
     - Position: 3
       Type: "SharedSkie_SuspendHandler * _Nonnull"
-  - Selector: "Skie_Suspend__17__invokeDispatchReceiver:p1:suspendHandler:"
+  - Selector: "Skie_Suspend__40__invokeDispatchReceiver:p1:suspendHandler:"
     MethodKind: "Class"
-    SwiftName: "Skie_Suspend__17__invoke(dispatchReceiver:p1:suspendHandler:)"
+    SwiftName: "Skie_Suspend__40__invoke(dispatchReceiver:p1:suspendHandler:)"
     Availability: "nonswift"
     ResultType: "void"
     Parameters:
@@ -6510,15 +6981,6 @@ Protocols:
 - Name: "SharedKotlinx_serialization_coreSerializersModuleCollector"
   SwiftName: "Kotlinx_serialization_coreSerializersModuleCollector"
   Methods:
-  - Selector: "contextualKClass:provider:"
-    MethodKind: "Instance"
-    SwiftName: "contextual(kClass:provider:)"
-    ResultType: "void"
-    Parameters:
-    - Position: 0
-      Type: "id<SharedKotlinKClass> _Nonnull"
-    - Position: 1
-      Type: "id<SharedKotlinx_serialization_coreKSerializer> _Nonnull (^ _Nonnull)(NSArray<id<SharedKotlinx_serialization_coreKSerializer>> * _Nonnull)"
   - Selector: "contextualKClass:serializer:"
     MethodKind: "Instance"
     SwiftName: "contextual(kClass:serializer:)"
@@ -6528,6 +6990,15 @@ Protocols:
       Type: "id<SharedKotlinKClass> _Nonnull"
     - Position: 1
       Type: "id<SharedKotlinx_serialization_coreKSerializer> _Nonnull"
+  - Selector: "contextualKClass:provider:"
+    MethodKind: "Instance"
+    SwiftName: "contextual(kClass:provider:)"
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "id<SharedKotlinKClass> _Nonnull"
+    - Position: 1
+      Type: "id<SharedKotlinx_serialization_coreKSerializer> _Nonnull (^ _Nonnull)(NSArray<id<SharedKotlinx_serialization_coreKSerializer>> * _Nonnull)"
   - Selector: "polymorphicBaseClass:actualClass:actualSerializer:"
     MethodKind: "Instance"
     SwiftName: "polymorphic(baseClass:actualClass:actualSerializer:)"
@@ -6876,6 +7347,257 @@ Protocols:
       Type: "id<SharedKotlinSuspendFunction1> _Nonnull"
     - Position: 2
       Type: "void (^ _Nonnull)(id _Nullable_result, NSError * _Nullable)"
+- Name: "SharedMultiplatform_settings_coroutinesSuspendSettings"
+  SwiftName: "Multiplatform_settings_coroutinesSuspendSettings"
+  Methods:
+  - Selector: "clearWithCompletionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__clear(completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+  - Selector: "getBooleanKey:defaultValue:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__getBoolean(key:defaultValue:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "BOOL"
+    - Position: 2
+      Type: "void (^ _Nonnull)(SharedBoolean * _Nullable, NSError * _Nullable)"
+  - Selector: "getBooleanOrNullKey:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__getBooleanOrNull(key:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(SharedBoolean * _Nullable_result, NSError * _Nullable)"
+  - Selector: "getDoubleKey:defaultValue:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__getDouble(key:defaultValue:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "double"
+    - Position: 2
+      Type: "void (^ _Nonnull)(SharedDouble * _Nullable, NSError * _Nullable)"
+  - Selector: "getDoubleOrNullKey:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__getDoubleOrNull(key:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(SharedDouble * _Nullable_result, NSError * _Nullable)"
+  - Selector: "getFloatKey:defaultValue:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__getFloat(key:defaultValue:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "float"
+    - Position: 2
+      Type: "void (^ _Nonnull)(SharedFloat * _Nullable, NSError * _Nullable)"
+  - Selector: "getFloatOrNullKey:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__getFloatOrNull(key:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(SharedFloat * _Nullable_result, NSError * _Nullable)"
+  - Selector: "getIntKey:defaultValue:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__getInt(key:defaultValue:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "int32_t"
+    - Position: 2
+      Type: "void (^ _Nonnull)(SharedInt * _Nullable, NSError * _Nullable)"
+  - Selector: "getIntOrNullKey:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__getIntOrNull(key:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(SharedInt * _Nullable_result, NSError * _Nullable)"
+  - Selector: "getLongKey:defaultValue:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__getLong(key:defaultValue:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "int64_t"
+    - Position: 2
+      Type: "void (^ _Nonnull)(SharedLong * _Nullable, NSError * _Nullable)"
+  - Selector: "getLongOrNullKey:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__getLongOrNull(key:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(SharedLong * _Nullable_result, NSError * _Nullable)"
+  - Selector: "getStringKey:defaultValue:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__getString(key:defaultValue:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "void (^ _Nonnull)(NSString * _Nullable, NSError * _Nullable)"
+  - Selector: "getStringOrNullKey:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__getStringOrNull(key:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSString * _Nullable_result, NSError * _Nullable)"
+  - Selector: "hasKeyKey:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__hasKey(key:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(SharedBoolean * _Nullable, NSError * _Nullable)"
+  - Selector: "keysWithCompletionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__keys(completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "void (^ _Nonnull)(NSSet<NSString *> * _Nullable, NSError * _Nullable)"
+  - Selector: "putBooleanKey:value:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__putBoolean(key:value:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "BOOL"
+    - Position: 2
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+  - Selector: "putDoubleKey:value:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__putDouble(key:value:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "double"
+    - Position: 2
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+  - Selector: "putFloatKey:value:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__putFloat(key:value:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "float"
+    - Position: 2
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+  - Selector: "putIntKey:value:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__putInt(key:value:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "int32_t"
+    - Position: 2
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+  - Selector: "putLongKey:value:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__putLong(key:value:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "int64_t"
+    - Position: 2
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+  - Selector: "putStringKey:value:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__putString(key:value:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "NSString * _Nonnull"
+    - Position: 2
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+  - Selector: "removeKey:completionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__remove(key:completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "NSString * _Nonnull"
+    - Position: 1
+      Type: "void (^ _Nonnull)(NSError * _Nullable)"
+  - Selector: "sizeWithCompletionHandler:"
+    MethodKind: "Instance"
+    SwiftName: "__size(completionHandler:)"
+    SwiftPrivate: true
+    ResultType: "void"
+    Parameters:
+    - Position: 0
+      Type: "void (^ _Nonnull)(SharedInt * _Nullable, NSError * _Nullable)"
 - Name: "SharedNetwork_contractApiService"
   SwiftName: "Network_contractApiService"
   Methods:

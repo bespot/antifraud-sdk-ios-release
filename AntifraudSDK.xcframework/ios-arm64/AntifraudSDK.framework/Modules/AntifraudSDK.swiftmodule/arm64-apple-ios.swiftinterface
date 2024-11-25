@@ -2,6 +2,7 @@
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
 // swift-module-flags: -target arm64-apple-ios15.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name AntifraudSDK
 import AVFoundation
+import CocoaLumberjack
 import CoreLocation
 import Foundation
 import MachO
@@ -16,7 +17,7 @@ import _SwiftConcurrencyShims
 import shared
 @_hasMissingDesignatedInitializers public class SafeSDK {
   public static let sharedSafeSDK: AntifraudSDK.SafeSDK
-  public func initialize(apiBaseUrl: Swift.String, apiKey: Swift.String, params: [Swift.String : Any]? = nil)
+  public func initialize(apiBaseUrl: Swift.String, apiKey: Swift.String, authTokenUrl: Swift.String, clientId: Swift.String, clientSecret: Swift.String, params: [Swift.String : Any]? = nil)
   public func check(checkCompletion: @escaping (Swift.Result<AntifraudSDK.Action, AntifraudSDK.SDKError>) -> Swift.Void)
   public func setUserId(_ userId: Swift.String)
   @objc deinit

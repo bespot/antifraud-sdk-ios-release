@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class Shared__SkieTypeExportsKt, Shared__SkieSuspendWrappersKt, SharedVpnNetworkUTUNOperationCompanion, SharedVpnNetworkUTUNOperation, SharedVpnNetworkTUNOperationCompanion, SharedVpnNetworkTUNOperation, SharedVpnNetworkTAPOperationCompanion, SharedVpnNetworkTAPOperation, SharedVpnNetworkPPTPOperationCompanion, SharedVpnNetworkPPTPOperation, SharedVpnNetworkPPPOperationCompanion, SharedVpnNetworkPPPOperation, SharedVpnNetworkIPSECOperationCompanion, SharedVpnNetworkIPSECOperation, SharedUtils_iosKt, SharedUseCase<P, R>, SharedUShort, SharedULong, SharedUInt, SharedUByte, SharedTriggeredBy, SharedSystemSpecificDataProviderCompanion, SharedStoreValidationOperationCompanion, SharedStoreValidationOperation, SharedSkie_SuspendResultSuccess, SharedSkie_SuspendResultError, SharedSkie_SuspendResultCanceled, SharedSkie_SuspendResult, SharedSkie_SuspendHandler, SharedSkie_CancellationHandler, SharedSkieKotlinStateFlow<T>, SharedSkieKotlinSharedFlow<T>, SharedSkieKotlinOptionalStateFlow<T>, SharedSkieKotlinOptionalSharedFlow<T>, SharedSkieKotlinOptionalMutableStateFlow<T>, SharedSkieKotlinOptionalMutableSharedFlow<T>, SharedSkieKotlinOptionalFlow<T>, SharedSkieKotlinMutableStateFlow<T>, SharedSkieKotlinMutableSharedFlow<T>, SharedSkieKotlinFlow<T>, SharedSkieColdFlowIterator<E>, SharedShort, SharedSetUserIdUseCaseParams, SharedSetUserIdUseCase, SharedServiceProvider, SharedSendChecksForActionUseCaseSendChecksForActionParameters, SharedSendChecksForActionUseCase, SharedSeedCompanion, SharedSeed, SharedSdkLogger, SharedSafeSdk, SharedSafeAntilog, SharedRuntimeTransacterTransaction, SharedRuntimeTransacterImpl, SharedRuntimeQuery<RowType>, SharedRuntimeExecutableQuery<RowType>, SharedRuntimeBaseTransacterImpl, SharedRuntimeAfterVersion, SharedRootOperation, SharedRemoteDataSourceImpl, SharedRegisterHardwareUseCaseRegisterHardwareParameters, SharedRegisterHardwareUseCase, SharedRecipeNoRecipeFoundFailure, SharedRecipeNoChecksAvailableFailure, SharedRecipe, SharedProcMapsOperation, SharedOperationEmptyCheckConfigurationFailure, SharedOperationCannotNavigateToProcMapsFailure, SharedOperation, SharedOSType, SharedOSCompanion, SharedOS, SharedNumber, SharedNetwork_contractOsVersionRangeCompanion, SharedNetwork_contractOsVersionRange, SharedNetwork_contractFailureUnknownFailure, SharedNetwork_contractFailureApiFailure, SharedNetwork_contractFailure, SharedNetwork_contractErrorResponseCompanion, SharedNetwork_contractErrorResponse, SharedNetwork_contractDeviceResponseCompanion, SharedNetwork_contractDeviceResponse, SharedNetwork_contractDeviceCheckCompanion, SharedNetwork_contractDeviceCheck, SharedNetwork_contractCheckResultCompanion, SharedNetwork_contractCheckResult, SharedNetworkTransportCapabilityOperation, SharedNetworkNotVpnOperation, SharedNetworkInterfaceOperation, SharedNetworkConnectionImpl, SharedNapierLogLevel, SharedNapierAntilog, SharedMutableSet<ObjectType>, SharedMutableDictionary<KeyType, ObjectType>, SharedMultiplePackageNamesInstalledOperation, SharedMultipleDisplaysOperation, SharedLong, SharedLocationMockFlagsOperation, SharedKotlinx_serialization_coreStructureKindOBJECT, SharedKotlinx_serialization_coreStructureKindMAP, SharedKotlinx_serialization_coreStructureKindLIST, SharedKotlinx_serialization_coreStructureKindCLASS, SharedKotlinx_serialization_coreStructureKind, SharedKotlinx_serialization_coreSerializersModule, SharedKotlinx_serialization_coreSerialKindENUM, SharedKotlinx_serialization_coreSerialKindCONTEXTUAL, SharedKotlinx_serialization_coreSerialKind, SharedKotlinx_serialization_corePrimitiveKindSTRING, SharedKotlinx_serialization_corePrimitiveKindSHORT, SharedKotlinx_serialization_corePrimitiveKindLONG, SharedKotlinx_serialization_corePrimitiveKindINT, SharedKotlinx_serialization_corePrimitiveKindFLOAT, SharedKotlinx_serialization_corePrimitiveKindDOUBLE, SharedKotlinx_serialization_corePrimitiveKindCHAR, SharedKotlinx_serialization_corePrimitiveKindBYTE, SharedKotlinx_serialization_corePrimitiveKindBOOLEAN, SharedKotlinx_serialization_corePrimitiveKind, SharedKotlinx_serialization_corePolymorphicKindSEALED, SharedKotlinx_serialization_corePolymorphicKindOPEN, SharedKotlinx_serialization_corePolymorphicKind, SharedKotlinx_coroutines_coreCoroutineDispatcherKey, SharedKotlinx_coroutines_coreCoroutineDispatcher, SharedKotlinUnit, SharedKotlinThrowable, SharedKotlinStringCompanion, SharedKotlinRuntimeException, SharedKotlinPair<A, B>, SharedKotlinNothing, SharedKotlinLongCompanion, SharedKotlinIntCompanion, SharedKotlinIllegalStateException, SharedKotlinFloatCompanion, SharedKotlinException, SharedKotlinEnumCompanion, SharedKotlinEnum<E>, SharedKotlinDoubleCompanion, SharedKotlinCancellationException, SharedKotlinByteIterator, SharedKotlinByteArray, SharedKotlinArray<T>, SharedKotlinAbstractCoroutineContextKey<B, E>, SharedKotlinAbstractCoroutineContextElement, SharedKonnectionNetworkConnection, SharedKonnectionKonnectionCompanion, SharedKonnectionKonnection, SharedKonnectionConnectionInfo, SharedJailbreakURISchemesOperation, SharedJailbreakSuspiciousSystemPathsOperation, SharedJailbreakSuspiciousAppsPathOperation, SharedJailbreakSandboxOperation, SharedJailbreakFridaOperation, SharedJailbreakDYLDSuspiciousLibrariesOperation, SharedIosSafeAntilogCompanion, SharedIosSafeAntilog, SharedInternalDirectionConflictsOperationCompanion, SharedInternalDirectionConflictsOperation, SharedInt, SharedInstalledAppsOperationCompanion, SharedInstalledAppsOperation, SharedIdentifiersCompanion, SharedIdentifiers, SharedFraudulentCheckObserverCompanion, SharedFloat, SharedFailure_UnknownError, SharedFailure_ServerError, SharedFailure_NotInitialized, SharedFailure_NoRecipeFoundFailure, SharedFailure_NoChecksAvailableFailure, SharedFailure_NoActiveApiKey, SharedFailure_NetworkConnection, SharedFailure_, SharedFailureUnknownError, SharedFailureUnknownApiError, SharedFailureServerError, SharedFailureNotInitialized, SharedFailureNoLocationAvailable, SharedFailureNetworkConnection, SharedFailureLocationServicesDisabled, SharedFailureLocationPermissionDenied, SharedFailureFeatureFailure, SharedFailureDatabaseError, SharedFailure, SharedExtensionsKt, SharedErrorCallbackCompanion, SharedEmulatorOperation, SharedDouble, SharedDevice_, SharedDeviceLocalDataSourceImpl, SharedDeviceEntityCompanion, SharedDeviceEntity, SharedDeviceCompanion, SharedDevice, SharedDevMenuOperation, SharedDefaultIdentifiersRepository, SharedDefaultDeviceRepository, SharedDefaultChecksRepository, SharedDatabaseDriverFactory, SharedCheckWithConfigurations, SharedCheckType, SharedCheckResultCompanion, SharedCheckResult, SharedCheckOperation, SharedByte, SharedBoolean, SharedBespotException, SharedBaseServiceProvider, SharedBaseSafeSdkManagerCompanion, SharedBaseSafeSdkManager, SharedBaseLocationCompanion, SharedBaseLocation, SharedBase, SharedAuthFailureNoActiveApiKey, SharedAuthFailure, SharedApplicationInfo, SharedAppSignatureValidationOperationCompanion, SharedAppSignatureValidationOperation, SharedAppDebuggableOperation, SharedAntifraudDatabaseQueries, SharedAntifraudDatabaseCompanion, SharedAdvertisingIdTypeCompanion, SharedAdvertisingIdType, SharedAction, SharedAIDCompanion, SharedAID, NSString, NSSet<ObjectType>, NSObject, NSNumber, NSMutableSet<ObjectType>, NSMutableDictionary<KeyType, ObjectType>, NSMutableArray<ObjectType>, NSError, NSDictionary<KeyType, ObjectType>, NSArray<ObjectType>;
+@class Shared__SkieTypeExportsKt, Shared__SkieSuspendWrappersKt, SharedVpnNetworkUTUNOperationCompanion, SharedVpnNetworkUTUNOperation, SharedVpnNetworkTUNOperationCompanion, SharedVpnNetworkTUNOperation, SharedVpnNetworkTAPOperationCompanion, SharedVpnNetworkTAPOperation, SharedVpnNetworkPPTPOperationCompanion, SharedVpnNetworkPPTPOperation, SharedVpnNetworkPPPOperationCompanion, SharedVpnNetworkPPPOperation, SharedVpnNetworkIPSECOperationCompanion, SharedVpnNetworkIPSECOperation, SharedUtils_iosKt, SharedUseCase<P, R>, SharedUShort, SharedULong, SharedUInt, SharedUByte, SharedTriggeredBy, SharedSystemSpecificDataProviderCompanion, SharedStoreValidationOperationCompanion, SharedStoreValidationOperation, SharedSkie_SuspendResultSuccess, SharedSkie_SuspendResultError, SharedSkie_SuspendResultCanceled, SharedSkie_SuspendResult, SharedSkie_SuspendHandler, SharedSkie_CancellationHandler, SharedSkieKotlinStateFlow<T>, SharedSkieKotlinSharedFlow<T>, SharedSkieKotlinOptionalStateFlow<T>, SharedSkieKotlinOptionalSharedFlow<T>, SharedSkieKotlinOptionalMutableStateFlow<T>, SharedSkieKotlinOptionalMutableSharedFlow<T>, SharedSkieKotlinOptionalFlow<T>, SharedSkieKotlinMutableStateFlow<T>, SharedSkieKotlinMutableSharedFlow<T>, SharedSkieKotlinFlow<T>, SharedSkieColdFlowIterator<E>, SharedShort, SharedSetUserIdUseCaseParams, SharedSetUserIdUseCase, SharedServiceProvider, SharedSendChecksForActionUseCaseSendChecksForActionParameters, SharedSendChecksForActionUseCase, SharedSeedCompanion, SharedSeed, SharedSdkLogger, SharedSafeSdk, SharedSafeAntilog, SharedRuntimeTransacterTransaction, SharedRuntimeTransacterImpl, SharedRuntimeQuery<RowType>, SharedRuntimeExecutableQuery<RowType>, SharedRuntimeBaseTransacterImpl, SharedRuntimeAfterVersion, SharedRootOperation, SharedRemoteDataSourceImpl, SharedRegisterHardwareUseCaseRegisterHardwareParameters, SharedRegisterHardwareUseCase, SharedRecipeNoRecipeFoundFailure, SharedRecipeNoChecksAvailableFailure, SharedRecipe, SharedProcMapsOperation, SharedOperationEmptyCheckConfigurationFailure, SharedOperationCannotNavigateToProcMapsFailure, SharedOperation, SharedOSType, SharedOSCompanion, SharedOS, SharedOAuth2CredentialsFull, SharedOAuth2CredentialsEmpty, SharedOAuth2CredentialsCompanion, SharedOAuth2Credentials, SharedNumber, SharedNetwork_contractOsVersionRangeCompanion, SharedNetwork_contractOsVersionRange, SharedNetwork_contractOAuth2CredentialsFullCredentials, SharedNetwork_contractOAuth2CredentialsEmpty, SharedNetwork_contractOAuth2Credentials, SharedNetwork_contractFailureUnknownFailure, SharedNetwork_contractFailureApiFailure, SharedNetwork_contractFailure, SharedNetwork_contractErrorResponseCompanion, SharedNetwork_contractErrorResponse, SharedNetwork_contractDeviceResponseCompanion, SharedNetwork_contractDeviceResponse, SharedNetwork_contractDeviceCheckCompanion, SharedNetwork_contractDeviceCheck, SharedNetwork_contractCheckResultCompanion, SharedNetwork_contractCheckResult, SharedNetworkTransportCapabilityOperation, SharedNetworkNotVpnOperation, SharedNetworkInterfaceOperation, SharedNetworkConnectionImpl, SharedNapierLogLevel, SharedNapierAntilog, SharedMutableSet<ObjectType>, SharedMutableDictionary<KeyType, ObjectType>, SharedMultiplePackageNamesInstalledOperation, SharedMultipleDisplaysOperation, SharedLong, SharedLocationMockFlagsOperation, SharedKotlinx_serialization_coreStructureKindOBJECT, SharedKotlinx_serialization_coreStructureKindMAP, SharedKotlinx_serialization_coreStructureKindLIST, SharedKotlinx_serialization_coreStructureKindCLASS, SharedKotlinx_serialization_coreStructureKind, SharedKotlinx_serialization_coreSerializersModule, SharedKotlinx_serialization_coreSerialKindENUM, SharedKotlinx_serialization_coreSerialKindCONTEXTUAL, SharedKotlinx_serialization_coreSerialKind, SharedKotlinx_serialization_corePrimitiveKindSTRING, SharedKotlinx_serialization_corePrimitiveKindSHORT, SharedKotlinx_serialization_corePrimitiveKindLONG, SharedKotlinx_serialization_corePrimitiveKindINT, SharedKotlinx_serialization_corePrimitiveKindFLOAT, SharedKotlinx_serialization_corePrimitiveKindDOUBLE, SharedKotlinx_serialization_corePrimitiveKindCHAR, SharedKotlinx_serialization_corePrimitiveKindBYTE, SharedKotlinx_serialization_corePrimitiveKindBOOLEAN, SharedKotlinx_serialization_corePrimitiveKind, SharedKotlinx_serialization_corePolymorphicKindSEALED, SharedKotlinx_serialization_corePolymorphicKindOPEN, SharedKotlinx_serialization_corePolymorphicKind, SharedKotlinx_coroutines_coreCoroutineDispatcherKey, SharedKotlinx_coroutines_coreCoroutineDispatcher, SharedKotlinUnit, SharedKotlinThrowable, SharedKotlinStringCompanion, SharedKotlinRuntimeException, SharedKotlinPair<A, B>, SharedKotlinNothing, SharedKotlinLongCompanion, SharedKotlinIntCompanion, SharedKotlinIllegalStateException, SharedKotlinFloatCompanion, SharedKotlinException, SharedKotlinEnumCompanion, SharedKotlinEnum<E>, SharedKotlinDoubleCompanion, SharedKotlinCancellationException, SharedKotlinByteIterator, SharedKotlinByteArray, SharedKotlinArray<T>, SharedKotlinAbstractCoroutineContextKey<B, E>, SharedKotlinAbstractCoroutineContextElement, SharedKonnectionNetworkConnection, SharedKonnectionKonnectionCompanion, SharedKonnectionKonnection, SharedKonnectionConnectionInfo, SharedJailbreakURISchemesOperation, SharedJailbreakSuspiciousSystemPathsOperation, SharedJailbreakSuspiciousAppsPathOperation, SharedJailbreakSandboxOperation, SharedJailbreakFridaOperation, SharedJailbreakDYLDSuspiciousLibrariesOperation, SharedIosSafeAntilogCompanion, SharedIosSafeAntilog, SharedInternalDirectionConflictsOperationCompanion, SharedInternalDirectionConflictsOperation, SharedInt, SharedInstalledAppsOperationCompanion, SharedInstalledAppsOperation, SharedIdentifiersCompanion, SharedIdentifiers, SharedFraudulentCheckObserverCompanion, SharedFloat, SharedFailure_UnknownError, SharedFailure_ServerError, SharedFailure_NotInitialized, SharedFailure_NoRecipeFoundFailure, SharedFailure_NoChecksAvailableFailure, SharedFailure_NoActiveApiKey, SharedFailure_NetworkConnection, SharedFailure_, SharedFailureUnknownError, SharedFailureUnknownApiError, SharedFailureServerError, SharedFailureNotInitialized, SharedFailureNoLocationAvailable, SharedFailureNetworkConnection, SharedFailureLocationServicesDisabled, SharedFailureLocationPermissionDenied, SharedFailureFeatureFailure, SharedFailureDatabaseError, SharedFailure, SharedExtensionsKt, SharedErrorCallbackCompanion, SharedEmulatorOperation, SharedDouble, SharedDevice_, SharedDeviceLocalDataSourceImpl, SharedDeviceEntityCompanion, SharedDeviceEntity, SharedDeviceCompanion, SharedDevice, SharedDevMenuOperation, SharedDefaultIdentifiersRepository, SharedDefaultDeviceRepository, SharedDefaultChecksRepository, SharedDatabaseDriverFactory, SharedCheckWithConfigurations, SharedCheckType, SharedCheckResultCompanion, SharedCheckResult, SharedCheckOperation, SharedByte, SharedBoolean, SharedBespotException, SharedBaseServiceProvider, SharedBaseSafeSdkManagerCompanion, SharedBaseSafeSdkManager, SharedBaseLocationCompanion, SharedBaseLocation, SharedBase, SharedAuthFailureNoActiveApiKey, SharedAuthFailure, SharedApplicationInfo, SharedAppSignatureValidationOperationCompanion, SharedAppSignatureValidationOperation, SharedAppDebuggableOperation, SharedAntifraudDatabaseQueries, SharedAntifraudDatabaseCompanion, SharedAdvertisingIdTypeCompanion, SharedAdvertisingIdType, SharedAction, SharedAIDCompanion, SharedAID, NSString, NSSet<ObjectType>, NSObject, NSNumber, NSMutableSet<ObjectType>, NSMutableDictionary<KeyType, ObjectType>, NSMutableArray<ObjectType>, NSError, NSDictionary<KeyType, ObjectType>, NSArray<ObjectType>;
 
-@protocol SharedSystemSpecificDataProvider, SharedSystemObserver, SharedSkie_DispatcherDelegate, SharedSeedProvider, SharedSafeSdkInterface, SharedRuntimeTransactionWithoutReturn, SharedRuntimeTransactionWithReturn, SharedRuntimeTransactionCallbacks, SharedRuntimeTransacterBase, SharedRuntimeTransacter, SharedRuntimeSuspendingTransacter, SharedRuntimeSqlSchema, SharedRuntimeSqlPreparedStatement, SharedRuntimeSqlDriver, SharedRuntimeSqlCursor, SharedRuntimeQueryResult, SharedRuntimeQueryListener, SharedRuntimeCloseable, SharedRemoteDataSource, SharedNetwork_contractApiService, SharedNetworkConnection, SharedKtor_client_loggingLogger, SharedKotlinx_serialization_coreSerializersModuleCollector, SharedKotlinx_serialization_coreSerializationStrategy, SharedKotlinx_serialization_coreSerialDescriptor, SharedKotlinx_serialization_coreKSerializer, SharedKotlinx_serialization_coreEncoder, SharedKotlinx_serialization_coreDeserializationStrategy, SharedKotlinx_serialization_coreDecoder, SharedKotlinx_serialization_coreCompositeEncoder, SharedKotlinx_serialization_coreCompositeDecoder, SharedKotlinx_coroutines_coreStateFlow, SharedKotlinx_coroutines_coreSharedFlow, SharedKotlinx_coroutines_coreRunnable, SharedKotlinx_coroutines_coreMutableStateFlow, SharedKotlinx_coroutines_coreMutableSharedFlow, SharedKotlinx_coroutines_coreFlowCollector, SharedKotlinx_coroutines_coreFlow, SharedKotlinx_coroutines_coreCoroutineScope, SharedKotlinSuspendFunction1, SharedKotlinKDeclarationContainer, SharedKotlinKClassifier, SharedKotlinKClass, SharedKotlinKAnnotatedElement, SharedKotlinIterator, SharedKotlinFunction, SharedKotlinCoroutineContextKey, SharedKotlinCoroutineContextElement, SharedKotlinCoroutineContext, SharedKotlinContinuationInterceptor, SharedKotlinContinuation, SharedKotlinComparable, SharedKotlinAnnotation, SharedKonnectionIpResolver, SharedIdentifiersRepository, SharedFraudulentCheckObserver, SharedForegroundObserver, SharedErrorCallback, SharedDeviceRepository, SharedDeviceLocalDataSource, SharedDeviceInfoProvider, SharedChecksRepository, SharedAntifraudDatabase, NSCopying;
+@protocol SharedSystemSpecificDataProvider, SharedSystemObserver, SharedSkie_DispatcherDelegate, SharedSeedProvider, SharedSafeSdkInterface, SharedRuntimeTransactionWithoutReturn, SharedRuntimeTransactionWithReturn, SharedRuntimeTransactionCallbacks, SharedRuntimeTransacterBase, SharedRuntimeTransacter, SharedRuntimeSuspendingTransacter, SharedRuntimeSqlSchema, SharedRuntimeSqlPreparedStatement, SharedRuntimeSqlDriver, SharedRuntimeSqlCursor, SharedRuntimeQueryResult, SharedRuntimeQueryListener, SharedRuntimeCloseable, SharedRemoteDataSource, SharedNetwork_contractApiService, SharedNetworkConnection, SharedMultiplatform_settings_coroutinesSuspendSettings, SharedKtor_client_loggingLogger, SharedKotlinx_serialization_coreSerializersModuleCollector, SharedKotlinx_serialization_coreSerializationStrategy, SharedKotlinx_serialization_coreSerialDescriptor, SharedKotlinx_serialization_coreKSerializer, SharedKotlinx_serialization_coreEncoder, SharedKotlinx_serialization_coreDeserializationStrategy, SharedKotlinx_serialization_coreDecoder, SharedKotlinx_serialization_coreCompositeEncoder, SharedKotlinx_serialization_coreCompositeDecoder, SharedKotlinx_coroutines_coreStateFlow, SharedKotlinx_coroutines_coreSharedFlow, SharedKotlinx_coroutines_coreRunnable, SharedKotlinx_coroutines_coreMutableStateFlow, SharedKotlinx_coroutines_coreMutableSharedFlow, SharedKotlinx_coroutines_coreFlowCollector, SharedKotlinx_coroutines_coreFlow, SharedKotlinx_coroutines_coreCoroutineScope, SharedKotlinSuspendFunction1, SharedKotlinKDeclarationContainer, SharedKotlinKClassifier, SharedKotlinKClass, SharedKotlinKAnnotatedElement, SharedKotlinIterator, SharedKotlinFunction, SharedKotlinCoroutineContextKey, SharedKotlinCoroutineContextElement, SharedKotlinCoroutineContext, SharedKotlinContinuationInterceptor, SharedKotlinContinuation, SharedKotlinComparable, SharedKotlinAnnotation, SharedKonnectionIpResolver, SharedIdentifiersRepository, SharedFraudulentCheckObserver, SharedForegroundObserver, SharedErrorCallback, SharedDeviceRepository, SharedDeviceLocalDataSource, SharedDeviceInfoProvider, SharedChecksRepository, SharedAntifraudDatabase, NSCopying;
 
 // Due to an Obj-C/Swift interop limitation, SKIE cannot generate Swift types with a lambda type argument.
 // Example of such type is: A<() -> Unit> where A<T> is a generic class.
@@ -1345,6 +1345,46 @@ __attribute__((swift_name("FraudulentCheckObserverCompanion")))
 + (instancetype)companion __attribute__((swift_name("init()")));
 @end
 
+__attribute__((swift_name("OAuth2Credentials")))
+@interface SharedOAuth2Credentials : SharedBase
+@property (class, readonly, getter=companion) SharedOAuth2CredentialsCompanion *companion __attribute__((swift_name("companion")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OAuth2Credentials.Companion")))
+@interface SharedOAuth2CredentialsCompanion : SharedBase
+@property (class, readonly, getter=shared) SharedOAuth2CredentialsCompanion *shared __attribute__((swift_name("shared")));
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+- (SharedOAuth2Credentials *)fromClientId:(NSString *)clientId clientSecret:(NSString *)clientSecret authTokenUrl:(NSString *)authTokenUrl __attribute__((swift_name("from(clientId:clientSecret:authTokenUrl:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OAuth2Credentials.Empty")))
+@interface SharedOAuth2CredentialsEmpty : SharedOAuth2Credentials
+@property (class, readonly, getter=shared) SharedOAuth2CredentialsEmpty *shared __attribute__((swift_name("shared")));
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)empty __attribute__((swift_name("init()")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("OAuth2Credentials.Full")))
+@interface SharedOAuth2CredentialsFull : SharedOAuth2Credentials
+@property (readonly) NSString *authTokenUrl __attribute__((swift_name("authTokenUrl")));
+@property (readonly) NSString *clientId __attribute__((swift_name("clientId")));
+@property (readonly) NSString *clientSecret __attribute__((swift_name("clientSecret")));
+- (instancetype)initWithClientId:(NSString *)clientId clientSecret:(NSString *)clientSecret authTokenUrl:(NSString *)authTokenUrl __attribute__((swift_name("init(clientId:clientSecret:authTokenUrl:)"))) __attribute__((objc_designated_initializer));
+- (SharedOAuth2CredentialsFull *)doCopyClientId:(NSString *)clientId clientSecret:(NSString *)clientSecret authTokenUrl:(NSString *)authTokenUrl __attribute__((swift_name("doCopy(clientId:clientSecret:authTokenUrl:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end
+
 __attribute__((swift_name("SafeSdkInterface")))
 @protocol SharedSafeSdkInterface
 @required
@@ -1996,10 +2036,11 @@ __attribute__((swift_name("BaseServiceProvider")))
 @property SharedRegisterHardwareUseCase *registerHardwareUseCase __attribute__((swift_name("registerHardwareUseCase")));
 @property SharedSendChecksForActionUseCase *sendChecksForActionUseCase __attribute__((swift_name("sendChecksForActionUseCase")));
 @property SharedSetUserIdUseCase *setUserIdUseCase __attribute__((swift_name("setUserIdUseCase")));
+@property (readonly) id<SharedMultiplatform_settings_coroutinesSuspendSettings> settings __attribute__((swift_name("settings")));
 @property (readonly) id<SharedRuntimeSqlDriver> sqlDriver __attribute__((swift_name("sqlDriver")));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (void)doInitApiBaseUrl:(NSString *)apiBaseUrl apiKey:(NSString *)apiKey packageName:(NSString *)packageName appVersion:(NSString *)appVersion platformSystemObserver:(id<SharedSystemObserver>)platformSystemObserver platformForegroundObserver:(id<SharedForegroundObserver>)platformForegroundObserver platformDeviceInfoProvider:(id<SharedDeviceInfoProvider>)platformDeviceInfoProvider __attribute__((swift_name("doInit(apiBaseUrl:apiKey:packageName:appVersion:platformSystemObserver:platformForegroundObserver:platformDeviceInfoProvider:)")));
+- (void)doInitApiBaseUrl:(NSString *)apiBaseUrl apiKey:(NSString *)apiKey packageName:(NSString *)packageName appVersion:(NSString *)appVersion oAuth2Credentials:(SharedOAuth2Credentials *)oAuth2Credentials platformSystemObserver:(id<SharedSystemObserver>)platformSystemObserver platformForegroundObserver:(id<SharedForegroundObserver>)platformForegroundObserver platformDeviceInfoProvider:(id<SharedDeviceInfoProvider>)platformDeviceInfoProvider __attribute__((swift_name("doInit(apiBaseUrl:apiKey:packageName:appVersion:oAuth2Credentials:platformSystemObserver:platformForegroundObserver:platformDeviceInfoProvider:)")));
 @end
 
 __attribute__((swift_name("Ktor_client_loggingLogger")))
@@ -2023,6 +2064,7 @@ __attribute__((swift_name("ServiceProvider")))
 @interface SharedServiceProvider : SharedBaseServiceProvider
 @property (readonly) SharedSafeAntilog *logger __attribute__((swift_name("logger")));
 @property (readonly) SharedKonnectionKonnection *networkConnectionDetector __attribute__((swift_name("networkConnectionDetector")));
+@property (readonly) id<SharedMultiplatform_settings_coroutinesSuspendSettings> settings __attribute__((swift_name("settings")));
 @property (readonly) id<SharedRuntimeSqlDriver> sqlDriver __attribute__((swift_name("sqlDriver")));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
@@ -2131,6 +2173,10 @@ __attribute__((swift_name("SeedProvider")))
 
 @interface SharedFailure (Extensions)
 - (SharedFailure_ *)toPublicFailure __attribute__((swift_name("toPublicFailure()")));
+@end
+
+@interface SharedOAuth2Credentials (Extensions)
+- (SharedNetwork_contractOAuth2Credentials *)toRemoteOauth2Credentials __attribute__((swift_name("toRemoteOauth2Credentials()")));
 @end
 
 
@@ -2306,33 +2352,56 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("__SkieSuspendWrappersKt")))
 @interface Shared__SkieSuspendWrappersKt : SharedBase
 + (void)Skie_Suspend__0__hasNextDispatchReceiver:(SharedSkieColdFlowIterator<id> *)dispatchReceiver suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__0__hasNext(dispatchReceiver:suspendHandler:)")));
-+ (void)Skie_Suspend__10__detectDispatchReceiver:(SharedCheckOperation *)dispatchReceiver triggeredBy:(SharedTriggeredBy *)triggeredBy suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__10__detect(dispatchReceiver:triggeredBy:suspendHandler:)")));
-+ (void)Skie_Suspend__11__checksDispatchReceiver:(id<SharedRemoteDataSource>)dispatchReceiver checkResults:(NSArray<SharedNetwork_contractCheckResult *> *)checkResults metadata:(NSDictionary<NSString *, NSString *> *)metadata suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__11__checks(dispatchReceiver:checkResults:metadata:suspendHandler:)")));
-+ (void)Skie_Suspend__12__registerDispatchReceiver:(id<SharedRemoteDataSource>)dispatchReceiver deviceData:(NSArray<SharedKotlinPair<NSString *, NSString *> *> *)deviceData metadata:(NSDictionary<NSString *, NSString *> *)metadata suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__12__register(dispatchReceiver:deviceData:metadata:suspendHandler:)")));
-+ (void)Skie_Suspend__13__checkDispatchReceiver:(id<SharedNetwork_contractApiService>)dispatchReceiver checks:(NSArray<SharedNetwork_contractCheckResult *> *)checks metadata:(NSDictionary<NSString *, NSString *> *)metadata suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__13__check(dispatchReceiver:checks:metadata:suspendHandler:)")));
-+ (void)Skie_Suspend__14__registerDeviceDispatchReceiver:(id<SharedNetwork_contractApiService>)dispatchReceiver params:(NSArray<SharedKotlinPair<NSString *, NSString *> *> *)params metadata:(NSDictionary<NSString *, NSString *> *)metadata suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__14__registerDevice(dispatchReceiver:params:metadata:suspendHandler:)")));
-+ (void)Skie_Suspend__15__transactionDispatchReceiver:(id<SharedRuntimeSuspendingTransacter>)dispatchReceiver noEnclosing:(BOOL)noEnclosing body:(id<SharedKotlinSuspendFunction1>)body suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__15__transaction(dispatchReceiver:noEnclosing:body:suspendHandler:)")));
-+ (void)Skie_Suspend__16__transactionWithResultDispatchReceiver:(id<SharedRuntimeSuspendingTransacter>)dispatchReceiver noEnclosing:(BOOL)noEnclosing bodyWithReturn:(id<SharedKotlinSuspendFunction1>)bodyWithReturn suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__16__transactionWithResult(dispatchReceiver:noEnclosing:bodyWithReturn:suspendHandler:)")));
-+ (void)Skie_Suspend__17__invokeDispatchReceiver:(id<SharedKotlinSuspendFunction1>)dispatchReceiver p1:(id _Nullable)p1 suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__17__invoke(dispatchReceiver:p1:suspendHandler:)")));
++ (void)Skie_Suspend__10__getFloatOrNullDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver key:(NSString *)key suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__10__getFloatOrNull(dispatchReceiver:key:suspendHandler:)")));
++ (void)Skie_Suspend__11__getIntDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver key:(NSString *)key defaultValue:(int32_t)defaultValue suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__11__getInt(dispatchReceiver:key:defaultValue:suspendHandler:)")));
++ (void)Skie_Suspend__12__getIntOrNullDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver key:(NSString *)key suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__12__getIntOrNull(dispatchReceiver:key:suspendHandler:)")));
++ (void)Skie_Suspend__13__getLongDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver key:(NSString *)key defaultValue:(int64_t)defaultValue suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__13__getLong(dispatchReceiver:key:defaultValue:suspendHandler:)")));
++ (void)Skie_Suspend__14__getLongOrNullDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver key:(NSString *)key suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__14__getLongOrNull(dispatchReceiver:key:suspendHandler:)")));
++ (void)Skie_Suspend__15__getStringDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver key:(NSString *)key defaultValue:(NSString *)defaultValue suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__15__getString(dispatchReceiver:key:defaultValue:suspendHandler:)")));
++ (void)Skie_Suspend__16__getStringOrNullDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver key:(NSString *)key suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__16__getStringOrNull(dispatchReceiver:key:suspendHandler:)")));
++ (void)Skie_Suspend__17__hasKeyDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver key:(NSString *)key suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__17__hasKey(dispatchReceiver:key:suspendHandler:)")));
++ (void)Skie_Suspend__18__keysDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__18__keys(dispatchReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__19__putBooleanDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver key:(NSString *)key value:(BOOL)value suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__19__putBoolean(dispatchReceiver:key:value:suspendHandler:)")));
 + (void)Skie_Suspend__1__collectDispatchReceiver:(id<SharedKotlinx_coroutines_coreFlow>)dispatchReceiver collector:(id<SharedKotlinx_coroutines_coreFlowCollector>)collector suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__1__collect(dispatchReceiver:collector:suspendHandler:)")));
-+ (void)Skie_Suspend__2__emitDispatchReceiver:(id<SharedKotlinx_coroutines_coreFlowCollector>)dispatchReceiver value:(id _Nullable)value suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__2__emit(dispatchReceiver:value:suspendHandler:)")));
-+ (void)Skie_Suspend__3__awaitDispatchReceiver:(id<SharedRuntimeQueryResult>)dispatchReceiver suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__3__await(dispatchReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__20__putDoubleDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver key:(NSString *)key value:(double)value suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__20__putDouble(dispatchReceiver:key:value:suspendHandler:)")));
++ (void)Skie_Suspend__21__putFloatDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver key:(NSString *)key value:(float)value suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__21__putFloat(dispatchReceiver:key:value:suspendHandler:)")));
++ (void)Skie_Suspend__22__putIntDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver key:(NSString *)key value:(int32_t)value suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__22__putInt(dispatchReceiver:key:value:suspendHandler:)")));
++ (void)Skie_Suspend__23__putLongDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver key:(NSString *)key value:(int64_t)value suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__23__putLong(dispatchReceiver:key:value:suspendHandler:)")));
++ (void)Skie_Suspend__24__putStringDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver key:(NSString *)key value:(NSString *)value suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__24__putString(dispatchReceiver:key:value:suspendHandler:)")));
++ (void)Skie_Suspend__25__removeDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver key:(NSString *)key suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__25__remove(dispatchReceiver:key:suspendHandler:)")));
++ (void)Skie_Suspend__26__sizeDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__26__size(dispatchReceiver:suspendHandler:)")));
 
 /**
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
-+ (void)Skie_Suspend__4__executeDispatchReceiver:(SharedUseCase<id, id> *)dispatchReceiver parameters:(id _Nullable)parameters suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__4__execute(dispatchReceiver:parameters:suspendHandler:)")));
-+ (void)Skie_Suspend__5__invokeDispatchReceiver:(SharedUseCase<id, id> *)dispatchReceiver parameters:(id _Nullable)parameters suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__5__invoke(dispatchReceiver:parameters:suspendHandler:)")));
-+ (void)Skie_Suspend__6__registerDeviceDispatchReceiver:(id<SharedDeviceRepository>)dispatchReceiver device:(SharedDevice *)device suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__6__registerDevice(dispatchReceiver:device:suspendHandler:)")));
-+ (void)Skie_Suspend__7__sendChecksDispatchReceiver:(id<SharedChecksRepository>)dispatchReceiver results:(NSArray<SharedCheckResult *> *)results deviceMetadata:(NSDictionary<NSString *, NSString *> *)deviceMetadata suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__7__sendChecks(dispatchReceiver:results:deviceMetadata:suspendHandler:)")));
-+ (void)Skie_Suspend__8__getInfoDispatchReceiver:(SharedKonnectionKonnection *)dispatchReceiver suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__8__getInfo(dispatchReceiver:suspendHandler:)")));
-+ (void)Skie_Suspend__9__getDispatchReceiver:(id<SharedKonnectionIpResolver>)dispatchReceiver suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__9__get(dispatchReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__27__executeDispatchReceiver:(SharedUseCase<id, id> *)dispatchReceiver parameters:(id _Nullable)parameters suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__27__execute(dispatchReceiver:parameters:suspendHandler:)")));
++ (void)Skie_Suspend__28__invokeDispatchReceiver:(SharedUseCase<id, id> *)dispatchReceiver parameters:(id _Nullable)parameters suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__28__invoke(dispatchReceiver:parameters:suspendHandler:)")));
++ (void)Skie_Suspend__29__registerDeviceDispatchReceiver:(id<SharedDeviceRepository>)dispatchReceiver device:(SharedDevice *)device suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__29__registerDevice(dispatchReceiver:device:suspendHandler:)")));
++ (void)Skie_Suspend__2__emitDispatchReceiver:(id<SharedKotlinx_coroutines_coreFlowCollector>)dispatchReceiver value:(id _Nullable)value suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__2__emit(dispatchReceiver:value:suspendHandler:)")));
++ (void)Skie_Suspend__30__sendChecksDispatchReceiver:(id<SharedChecksRepository>)dispatchReceiver results:(NSArray<SharedCheckResult *> *)results deviceMetadata:(NSDictionary<NSString *, NSString *> *)deviceMetadata suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__30__sendChecks(dispatchReceiver:results:deviceMetadata:suspendHandler:)")));
++ (void)Skie_Suspend__31__getInfoDispatchReceiver:(SharedKonnectionKonnection *)dispatchReceiver suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__31__getInfo(dispatchReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__32__getDispatchReceiver:(id<SharedKonnectionIpResolver>)dispatchReceiver suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__32__get(dispatchReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__33__detectDispatchReceiver:(SharedCheckOperation *)dispatchReceiver triggeredBy:(SharedTriggeredBy *)triggeredBy suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__33__detect(dispatchReceiver:triggeredBy:suspendHandler:)")));
++ (void)Skie_Suspend__34__checksDispatchReceiver:(id<SharedRemoteDataSource>)dispatchReceiver checkResults:(NSArray<SharedNetwork_contractCheckResult *> *)checkResults metadata:(NSDictionary<NSString *, NSString *> *)metadata suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__34__checks(dispatchReceiver:checkResults:metadata:suspendHandler:)")));
++ (void)Skie_Suspend__35__registerDispatchReceiver:(id<SharedRemoteDataSource>)dispatchReceiver deviceData:(NSArray<SharedKotlinPair<NSString *, NSString *> *> *)deviceData metadata:(NSDictionary<NSString *, NSString *> *)metadata suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__35__register(dispatchReceiver:deviceData:metadata:suspendHandler:)")));
++ (void)Skie_Suspend__36__checkDispatchReceiver:(id<SharedNetwork_contractApiService>)dispatchReceiver checks:(NSArray<SharedNetwork_contractCheckResult *> *)checks metadata:(NSDictionary<NSString *, NSString *> *)metadata suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__36__check(dispatchReceiver:checks:metadata:suspendHandler:)")));
++ (void)Skie_Suspend__37__registerDeviceDispatchReceiver:(id<SharedNetwork_contractApiService>)dispatchReceiver params:(NSArray<SharedKotlinPair<NSString *, NSString *> *> *)params metadata:(NSDictionary<NSString *, NSString *> *)metadata suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__37__registerDevice(dispatchReceiver:params:metadata:suspendHandler:)")));
++ (void)Skie_Suspend__38__transactionDispatchReceiver:(id<SharedRuntimeSuspendingTransacter>)dispatchReceiver noEnclosing:(BOOL)noEnclosing body:(id<SharedKotlinSuspendFunction1>)body suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__38__transaction(dispatchReceiver:noEnclosing:body:suspendHandler:)")));
++ (void)Skie_Suspend__39__transactionWithResultDispatchReceiver:(id<SharedRuntimeSuspendingTransacter>)dispatchReceiver noEnclosing:(BOOL)noEnclosing bodyWithReturn:(id<SharedKotlinSuspendFunction1>)bodyWithReturn suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__39__transactionWithResult(dispatchReceiver:noEnclosing:bodyWithReturn:suspendHandler:)")));
++ (void)Skie_Suspend__3__awaitDispatchReceiver:(id<SharedRuntimeQueryResult>)dispatchReceiver suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__3__await(dispatchReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__40__invokeDispatchReceiver:(id<SharedKotlinSuspendFunction1>)dispatchReceiver p1:(id _Nullable)p1 suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__40__invoke(dispatchReceiver:p1:suspendHandler:)")));
++ (void)Skie_Suspend__4__clearDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__4__clear(dispatchReceiver:suspendHandler:)")));
++ (void)Skie_Suspend__5__getBooleanDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver key:(NSString *)key defaultValue:(BOOL)defaultValue suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__5__getBoolean(dispatchReceiver:key:defaultValue:suspendHandler:)")));
++ (void)Skie_Suspend__6__getBooleanOrNullDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver key:(NSString *)key suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__6__getBooleanOrNull(dispatchReceiver:key:suspendHandler:)")));
++ (void)Skie_Suspend__7__getDoubleDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver key:(NSString *)key defaultValue:(double)defaultValue suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__7__getDouble(dispatchReceiver:key:defaultValue:suspendHandler:)")));
++ (void)Skie_Suspend__8__getDoubleOrNullDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver key:(NSString *)key suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__8__getDoubleOrNull(dispatchReceiver:key:suspendHandler:)")));
++ (void)Skie_Suspend__9__getFloatDispatchReceiver:(id<SharedMultiplatform_settings_coroutinesSuspendSettings>)dispatchReceiver key:(NSString *)key defaultValue:(float)defaultValue suspendHandler:(SharedSkie_SuspendHandler *)suspendHandler __attribute__((swift_name("Skie_Suspend__9__getFloat(dispatchReceiver:key:defaultValue:suspendHandler:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("__SkieTypeExportsKt")))
 @interface Shared__SkieTypeExportsKt : SharedBase
-+ (void)skieTypeExports_0P0:(id<SharedRuntimeSuspendingTransacter>)p0 p1:(SharedNetwork_contractFailureApiFailure *)p1 p2:(SharedNetwork_contractFailureUnknownFailure *)p2 p3:(SharedKotlinx_serialization_corePolymorphicKind *)p3 p4:(SharedKotlinx_serialization_corePolymorphicKindOPEN *)p4 p5:(SharedKotlinx_serialization_corePolymorphicKindSEALED *)p5 p6:(SharedKotlinx_serialization_corePrimitiveKind *)p6 p7:(SharedKotlinx_serialization_corePrimitiveKindBOOLEAN *)p7 p8:(SharedKotlinx_serialization_corePrimitiveKindBYTE *)p8 p9:(SharedKotlinx_serialization_corePrimitiveKindCHAR *)p9 p10:(SharedKotlinx_serialization_corePrimitiveKindDOUBLE *)p10 p11:(SharedKotlinx_serialization_corePrimitiveKindFLOAT *)p11 p12:(SharedKotlinx_serialization_corePrimitiveKindINT *)p12 p13:(SharedKotlinx_serialization_corePrimitiveKindLONG *)p13 p14:(SharedKotlinx_serialization_corePrimitiveKindSHORT *)p14 p15:(SharedKotlinx_serialization_corePrimitiveKindSTRING *)p15 p16:(SharedKotlinx_serialization_coreSerialKindCONTEXTUAL *)p16 p17:(SharedKotlinx_serialization_coreSerialKindENUM *)p17 p18:(SharedKotlinx_serialization_coreStructureKind *)p18 p19:(SharedKotlinx_serialization_coreStructureKindCLASS *)p19 p20:(SharedKotlinx_serialization_coreStructureKindLIST *)p20 p21:(SharedKotlinx_serialization_coreStructureKindMAP *)p21 p22:(SharedKotlinx_serialization_coreStructureKindOBJECT *)p22 __attribute__((swift_name("skieTypeExports_0(p0:p1:p2:p3:p4:p5:p6:p7:p8:p9:p10:p11:p12:p13:p14:p15:p16:p17:p18:p19:p20:p21:p22:)")));
++ (void)skieTypeExports_0P0:(id<SharedRuntimeSuspendingTransacter>)p0 p1:(SharedNetwork_contractFailureApiFailure *)p1 p2:(SharedNetwork_contractFailureUnknownFailure *)p2 p3:(SharedNetwork_contractOAuth2CredentialsEmpty *)p3 p4:(SharedNetwork_contractOAuth2CredentialsFullCredentials *)p4 p5:(SharedKotlinx_serialization_corePolymorphicKind *)p5 p6:(SharedKotlinx_serialization_corePolymorphicKindOPEN *)p6 p7:(SharedKotlinx_serialization_corePolymorphicKindSEALED *)p7 p8:(SharedKotlinx_serialization_corePrimitiveKind *)p8 p9:(SharedKotlinx_serialization_corePrimitiveKindBOOLEAN *)p9 p10:(SharedKotlinx_serialization_corePrimitiveKindBYTE *)p10 p11:(SharedKotlinx_serialization_corePrimitiveKindCHAR *)p11 p12:(SharedKotlinx_serialization_corePrimitiveKindDOUBLE *)p12 p13:(SharedKotlinx_serialization_corePrimitiveKindFLOAT *)p13 p14:(SharedKotlinx_serialization_corePrimitiveKindINT *)p14 p15:(SharedKotlinx_serialization_corePrimitiveKindLONG *)p15 p16:(SharedKotlinx_serialization_corePrimitiveKindSHORT *)p16 p17:(SharedKotlinx_serialization_corePrimitiveKindSTRING *)p17 p18:(SharedKotlinx_serialization_coreSerialKindCONTEXTUAL *)p18 p19:(SharedKotlinx_serialization_coreSerialKindENUM *)p19 p20:(SharedKotlinx_serialization_coreStructureKind *)p20 p21:(SharedKotlinx_serialization_coreStructureKindCLASS *)p21 p22:(SharedKotlinx_serialization_coreStructureKindLIST *)p22 p23:(SharedKotlinx_serialization_coreStructureKindMAP *)p23 p24:(SharedKotlinx_serialization_coreStructureKindOBJECT *)p24 __attribute__((swift_name("skieTypeExports_0(p0:p1:p2:p3:p4:p5:p6:p7:p8:p9:p10:p11:p12:p13:p14:p15:p16:p17:p18:p19:p20:p21:p22:p23:p24:)")));
 @end
 
 __attribute__((swift_name("KotlinRuntimeException")))
@@ -2617,6 +2686,149 @@ __attribute__((swift_name("RuntimeQuery")))
 - (void)removeListenerListener:(id<SharedRuntimeQueryListener>)listener __attribute__((swift_name("removeListener(listener:)")));
 @end
 
+__attribute__((swift_name("Multiplatform_settings_coroutinesSuspendSettings")))
+@protocol SharedMultiplatform_settings_coroutinesSuspendSettings
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)clearWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("clear(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getBooleanKey:(NSString *)key defaultValue:(BOOL)defaultValue completionHandler:(void (^)(SharedBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getBoolean(key:defaultValue:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getBooleanOrNullKey:(NSString *)key completionHandler:(void (^)(SharedBoolean * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getBooleanOrNull(key:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getDoubleKey:(NSString *)key defaultValue:(double)defaultValue completionHandler:(void (^)(SharedDouble * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getDouble(key:defaultValue:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getDoubleOrNullKey:(NSString *)key completionHandler:(void (^)(SharedDouble * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getDoubleOrNull(key:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getFloatKey:(NSString *)key defaultValue:(float)defaultValue completionHandler:(void (^)(SharedFloat * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getFloat(key:defaultValue:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getFloatOrNullKey:(NSString *)key completionHandler:(void (^)(SharedFloat * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getFloatOrNull(key:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getIntKey:(NSString *)key defaultValue:(int32_t)defaultValue completionHandler:(void (^)(SharedInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getInt(key:defaultValue:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getIntOrNullKey:(NSString *)key completionHandler:(void (^)(SharedInt * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getIntOrNull(key:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getLongKey:(NSString *)key defaultValue:(int64_t)defaultValue completionHandler:(void (^)(SharedLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getLong(key:defaultValue:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getLongOrNullKey:(NSString *)key completionHandler:(void (^)(SharedLong * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getLongOrNull(key:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getStringKey:(NSString *)key defaultValue:(NSString *)defaultValue completionHandler:(void (^)(NSString * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getString(key:defaultValue:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getStringOrNullKey:(NSString *)key completionHandler:(void (^)(NSString * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getStringOrNull(key:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)hasKeyKey:(NSString *)key completionHandler:(void (^)(SharedBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("hasKey(key:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)keysWithCompletionHandler:(void (^)(NSSet<NSString *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("keys(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)putBooleanKey:(NSString *)key value:(BOOL)value completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("putBoolean(key:value:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)putDoubleKey:(NSString *)key value:(double)value completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("putDouble(key:value:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)putFloatKey:(NSString *)key value:(float)value completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("putFloat(key:value:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)putIntKey:(NSString *)key value:(int32_t)value completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("putInt(key:value:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)putLongKey:(NSString *)key value:(int64_t)value completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("putLong(key:value:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)putStringKey:(NSString *)key value:(NSString *)value completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("putString(key:value:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)removeKey:(NSString *)key completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("remove(key:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)sizeWithCompletionHandler:(void (^)(SharedInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("size(completionHandler:)")));
+@end
+
 __attribute__((swift_name("KotlinCoroutineContextElement")))
 @protocol SharedKotlinCoroutineContextElement <SharedKotlinCoroutineContext>
 @required
@@ -2667,6 +2879,10 @@ __attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher")))
 - (NSString *)description __attribute__((swift_name("description()")));
 @end
 
+__attribute__((swift_name("Network_contractOAuth2Credentials")))
+@interface SharedNetwork_contractOAuth2Credentials : SharedBase
+@end
+
 
 /**
  * @note annotations
@@ -2715,6 +2931,17 @@ __attribute__((swift_name("Network_contractFailure")))
 - (instancetype)initWithMessage:(NSString * _Nullable)message cause:(SharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @end
 
+__attribute__((swift_name("KonnectionIpResolver")))
+@protocol SharedKonnectionIpResolver
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getWithCompletionHandler:(void (^)(NSString * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("get(completionHandler:)")));
+@end
+
 __attribute__((swift_name("RuntimeSuspendingTransacter")))
 @protocol SharedRuntimeSuspendingTransacter <SharedRuntimeTransacterBase>
 @required
@@ -2760,17 +2987,6 @@ __attribute__((swift_name("RuntimeQueryResult")))
 @property (readonly) id _Nullable value __attribute__((swift_name("value")));
 @end
 
-__attribute__((swift_name("KonnectionIpResolver")))
-@protocol SharedKonnectionIpResolver
-@required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)getWithCompletionHandler:(void (^)(NSString * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("get(completionHandler:)")));
-@end
-
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Network_contractFailure.ApiFailure")))
 @interface SharedNetwork_contractFailureApiFailure : SharedNetwork_contractFailure
@@ -2786,6 +3002,31 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Network_contractFailure.UnknownFailure")))
 @interface SharedNetwork_contractFailureUnknownFailure : SharedNetwork_contractFailure
 - (instancetype)initWithMessage:(NSString * _Nullable)message cause:(SharedKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Network_contractOAuth2Credentials.Empty")))
+@interface SharedNetwork_contractOAuth2CredentialsEmpty : SharedNetwork_contractOAuth2Credentials
+@property (class, readonly, getter=shared) SharedNetwork_contractOAuth2CredentialsEmpty *shared __attribute__((swift_name("shared")));
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)empty __attribute__((swift_name("init()")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Network_contractOAuth2Credentials.FullCredentials")))
+@interface SharedNetwork_contractOAuth2CredentialsFullCredentials : SharedNetwork_contractOAuth2Credentials
+@property (readonly) NSString *authServerUrl __attribute__((swift_name("authServerUrl")));
+@property (readonly) NSString *clientId __attribute__((swift_name("clientId")));
+@property (readonly) NSString *clientSecret __attribute__((swift_name("clientSecret")));
+- (instancetype)initWithClientId:(NSString *)clientId clientSecret:(NSString *)clientSecret authServerUrl:(NSString *)authServerUrl __attribute__((swift_name("init(clientId:clientSecret:authServerUrl:)"))) __attribute__((objc_designated_initializer));
+- (SharedNetwork_contractOAuth2CredentialsFullCredentials *)doCopyClientId:(NSString *)clientId clientSecret:(NSString *)clientSecret authServerUrl:(NSString *)authServerUrl __attribute__((swift_name("doCopy(clientId:clientSecret:authServerUrl:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @end
 

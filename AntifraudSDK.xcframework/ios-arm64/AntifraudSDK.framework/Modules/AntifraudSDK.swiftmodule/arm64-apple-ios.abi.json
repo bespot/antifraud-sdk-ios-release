@@ -130,6 +130,13 @@
       },
       {
         "kind": "Import",
+        "name": "CocoaLumberjack",
+        "printedName": "CocoaLumberjack",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK"
+      },
+      {
+        "kind": "Import",
         "name": "shared",
         "printedName": "shared",
         "declKind": "Import",
@@ -198,12 +205,30 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(apiBaseUrl:apiKey:params:)",
+            "printedName": "initialize(apiBaseUrl:apiKey:authTokenUrl:clientId:clientSecret:params:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -247,8 +272,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12AntifraudSDK04SafeB0C10initialize10apiBaseUrl0E3Key6paramsySS_SSSDySSypGSgtF",
-            "mangledName": "$s12AntifraudSDK04SafeB0C10initialize10apiBaseUrl0E3Key6paramsySS_SSSDySSypGSgtF",
+            "usr": "s:12AntifraudSDK04SafeB0C10initialize10apiBaseUrl0E3Key09authTokenG08clientId0K6Secret6paramsySS_S4SSDySSypGSgtF",
+            "mangledName": "$s12AntifraudSDK04SafeB0C10initialize10apiBaseUrl0E3Key09authTokenG08clientId0K6Secret6paramsySS_S4SSDySSypGSgtF",
             "moduleName": "AntifraudSDK",
             "declAttributes": [
               "AccessControl",
@@ -2082,7 +2107,7 @@
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/SafeSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 351,
+      "offset": 374,
       "length": 5,
       "value": "false"
     },
@@ -2145,7 +2170,14 @@
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Manager\/DeviceSeedManager.swift",
       "kind": "StringLiteral",
-      "offset": 306,
+      "offset": 248,
+      "length": 25,
+      "value": "\"com.bespot.AntifraudSDK\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Manager\/DeviceSeedManager.swift",
+      "kind": "StringLiteral",
+      "offset": 303,
       "length": 13,
       "value": "\"device-seed\""
     },
