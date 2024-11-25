@@ -100,6 +100,8 @@ public enum Skie {
     }
     public enum Failure {
     }
+    public enum OAuth2Credentials {
+    }
     public enum Failure_ {
     }
     public enum AuthFailure {
@@ -131,6 +133,8 @@ public enum Skie {
   }
   public typealias app_cash_sqldelight__runtime = shared.Skie.Runtime
   public enum NetworkContract {
+    public enum OAuth2Credentials {
+    }
     public enum Failure {
     }
   }
@@ -395,6 +399,100 @@ extension shared.Skie.Runtime.QueryResult {
 }
 public func onEnum<__Sealed>(of sealed: __Sealed) -> shared.Skie.Runtime.QueryResult.__Sealed where __Sealed : shared.RuntimeQueryResult
 @_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> shared.Skie.Runtime.QueryResult.__Sealed? where __Sealed : shared.RuntimeQueryResult
+extension shared.Multiplatform_settings_coroutinesSuspendSettings {
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func clear() async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getBoolean(key: Swift.String, defaultValue: Swift.Bool) async throws -> shared.KotlinBoolean
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getBooleanOrNull(key: Swift.String) async throws -> shared.KotlinBoolean?
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getDouble(key: Swift.String, defaultValue: Swift.Double) async throws -> shared.KotlinDouble
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getDoubleOrNull(key: Swift.String) async throws -> shared.KotlinDouble?
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getFloat(key: Swift.String, defaultValue: Swift.Float) async throws -> shared.KotlinFloat
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getFloatOrNull(key: Swift.String) async throws -> shared.KotlinFloat?
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getInt(key: Swift.String, defaultValue: Swift.Int32) async throws -> shared.KotlinInt
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getIntOrNull(key: Swift.String) async throws -> shared.KotlinInt?
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getLong(key: Swift.String, defaultValue: Swift.Int64) async throws -> shared.KotlinLong
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getLongOrNull(key: Swift.String) async throws -> shared.KotlinLong?
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getString(key: Swift.String, defaultValue: Swift.String) async throws -> Swift.String
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func getStringOrNull(key: Swift.String) async throws -> Swift.String?
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func hasKey(key: Swift.String) async throws -> shared.KotlinBoolean
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func keys() async throws -> Swift.Set<Swift.String>
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func putBoolean(key: Swift.String, value: Swift.Bool) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func putDouble(key: Swift.String, value: Swift.Double) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func putFloat(key: Swift.String, value: Swift.Float) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func putInt(key: Swift.String, value: Swift.Int32) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func putLong(key: Swift.String, value: Swift.Int64) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func putString(key: Swift.String, value: Swift.String) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func remove(key: Swift.String) async throws
+  #endif
+  #if compiler(>=5.3) && $AsyncAwait
+  @available(iOS 13, macOS 10.15, watchOS 6, tvOS 13, *)
+  public func size() async throws -> shared.KotlinInt
+  #endif
+}
 extension shared.Skie.Shared.UseCase {
   public struct __Suspend<P, R> where P : AnyObject, R : AnyObject {
     public let __kotlinObject: shared.UseCase<P, R>
@@ -1303,6 +1401,19 @@ extension shared.Skie.Shared.Failure_ {
 }
 public func onEnum<__Sealed>(of sealed: __Sealed) -> shared.Skie.Shared.Failure_.__Sealed where __Sealed : shared.Failure
 @_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> shared.Skie.Shared.Failure_.__Sealed? where __Sealed : shared.Failure
+extension shared.Skie.Shared.OAuth2Credentials {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case empty(shared.OAuth2Credentials.Empty)
+    case full(shared.OAuth2Credentials.Full)
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: shared.Skie.Shared.OAuth2Credentials.__Sealed, b: shared.Skie.Shared.OAuth2Credentials.__Sealed) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> shared.Skie.Shared.OAuth2Credentials.__Sealed where __Sealed : shared.OAuth2Credentials
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> shared.Skie.Shared.OAuth2Credentials.__Sealed? where __Sealed : shared.OAuth2Credentials
 extension shared.Skie.Shared.AuthFailure {
   @frozen public enum __Sealed : Swift.Hashable {
     case noActiveApiKey(shared.AuthFailure.NoActiveApiKey)
@@ -1425,6 +1536,19 @@ extension shared.Skie.Runtime.TransacterBase {
 }
 public func onEnum<__Sealed>(of sealed: __Sealed) -> shared.Skie.Runtime.TransacterBase.__Sealed where __Sealed : shared.RuntimeTransacterBase
 @_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> shared.Skie.Runtime.TransacterBase.__Sealed? where __Sealed : shared.RuntimeTransacterBase
+extension shared.Skie.NetworkContract.OAuth2Credentials {
+  @frozen public enum __Sealed : Swift.Hashable {
+    case empty(shared.Network_contractOAuth2Credentials.Empty)
+    case fullCredentials(shared.Network_contractOAuth2Credentials.FullCredentials)
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: shared.Skie.NetworkContract.OAuth2Credentials.__Sealed, b: shared.Skie.NetworkContract.OAuth2Credentials.__Sealed) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+public func onEnum<__Sealed>(of sealed: __Sealed) -> shared.Skie.NetworkContract.OAuth2Credentials.__Sealed where __Sealed : shared.Network_contractOAuth2Credentials
+@_disfavoredOverload public func onEnum<__Sealed>(of sealed: __Sealed?) -> shared.Skie.NetworkContract.OAuth2Credentials.__Sealed? where __Sealed : shared.Network_contractOAuth2Credentials
 extension shared.Skie.NetworkContract.Failure {
   @frozen public enum __Sealed : Swift.Hashable {
     case apiFailure(shared.Network_contractFailure.ApiFailure)

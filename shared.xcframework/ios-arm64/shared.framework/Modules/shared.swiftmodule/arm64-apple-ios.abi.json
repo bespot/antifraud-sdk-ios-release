@@ -1584,6 +1584,251 @@
               },
               {
                 "kind": "TypeDecl",
+                "name": "OAuth2Credentials",
+                "printedName": "OAuth2Credentials",
+                "children": [
+                  {
+                    "kind": "TypeDecl",
+                    "name": "__Sealed",
+                    "printedName": "__Sealed",
+                    "children": [
+                      {
+                        "kind": "Var",
+                        "name": "empty",
+                        "printedName": "empty",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(shared.Skie.Shared.OAuth2Credentials.__Sealed.Type) -> (shared.OAuth2Credentials.Empty) -> shared.Skie.Shared.OAuth2Credentials.__Sealed",
+                            "children": [
+                              {
+                                "kind": "TypeFunc",
+                                "name": "Function",
+                                "printedName": "(shared.OAuth2Credentials.Empty) -> shared.Skie.Shared.OAuth2Credentials.__Sealed",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "__Sealed",
+                                    "printedName": "shared.Skie.Shared.OAuth2Credentials.__Sealed",
+                                    "usr": "s:6shared4SkieO6SharedO17OAuth2CredentialsO8__SealedO"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Empty",
+                                    "printedName": "shared.OAuth2Credentials.Empty",
+                                    "usr": "c:objc(cs)SharedOAuth2CredentialsEmpty"
+                                  }
+                                ]
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Metatype",
+                                "printedName": "shared.Skie.Shared.OAuth2Credentials.__Sealed.Type",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "__Sealed",
+                                    "printedName": "shared.Skie.Shared.OAuth2Credentials.__Sealed",
+                                    "usr": "s:6shared4SkieO6SharedO17OAuth2CredentialsO8__SealedO"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "declKind": "EnumElement",
+                        "usr": "s:6shared4SkieO6SharedO17OAuth2CredentialsO8__SealedO5emptyyAISo0cdE5EmptyCcAImF",
+                        "mangledName": "$s6shared4SkieO6SharedO17OAuth2CredentialsO8__SealedO5emptyyAISo0cdE5EmptyCcAImF",
+                        "moduleName": "shared",
+                        "fixedbinaryorder": 0
+                      },
+                      {
+                        "kind": "Var",
+                        "name": "full",
+                        "printedName": "full",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(shared.Skie.Shared.OAuth2Credentials.__Sealed.Type) -> (shared.OAuth2Credentials.Full) -> shared.Skie.Shared.OAuth2Credentials.__Sealed",
+                            "children": [
+                              {
+                                "kind": "TypeFunc",
+                                "name": "Function",
+                                "printedName": "(shared.OAuth2Credentials.Full) -> shared.Skie.Shared.OAuth2Credentials.__Sealed",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "__Sealed",
+                                    "printedName": "shared.Skie.Shared.OAuth2Credentials.__Sealed",
+                                    "usr": "s:6shared4SkieO6SharedO17OAuth2CredentialsO8__SealedO"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Full",
+                                    "printedName": "shared.OAuth2Credentials.Full",
+                                    "usr": "c:objc(cs)SharedOAuth2CredentialsFull"
+                                  }
+                                ]
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Metatype",
+                                "printedName": "shared.Skie.Shared.OAuth2Credentials.__Sealed.Type",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "__Sealed",
+                                    "printedName": "shared.Skie.Shared.OAuth2Credentials.__Sealed",
+                                    "usr": "s:6shared4SkieO6SharedO17OAuth2CredentialsO8__SealedO"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "declKind": "EnumElement",
+                        "usr": "s:6shared4SkieO6SharedO17OAuth2CredentialsO8__SealedO4fullyAISo0cdE4FullCcAImF",
+                        "mangledName": "$s6shared4SkieO6SharedO17OAuth2CredentialsO8__SealedO4fullyAISo0cdE4FullCcAImF",
+                        "moduleName": "shared",
+                        "fixedbinaryorder": 1
+                      },
+                      {
+                        "kind": "Var",
+                        "name": "hashValue",
+                        "printedName": "hashValue",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "declKind": "Var",
+                        "usr": "s:6shared4SkieO6SharedO17OAuth2CredentialsO8__SealedO9hashValueSivp",
+                        "mangledName": "$s6shared4SkieO6SharedO17OAuth2CredentialsO8__SealedO9hashValueSivp",
+                        "moduleName": "shared",
+                        "implicit": true,
+                        "accessors": [
+                          {
+                            "kind": "Accessor",
+                            "name": "Get",
+                            "printedName": "Get()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              }
+                            ],
+                            "declKind": "Accessor",
+                            "usr": "s:6shared4SkieO6SharedO17OAuth2CredentialsO8__SealedO9hashValueSivg",
+                            "mangledName": "$s6shared4SkieO6SharedO17OAuth2CredentialsO8__SealedO9hashValueSivg",
+                            "moduleName": "shared",
+                            "implicit": true,
+                            "accessorKind": "get"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "Function",
+                        "name": "hash",
+                        "printedName": "hash(into:)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Hasher",
+                            "printedName": "Swift.Hasher",
+                            "paramValueOwnership": "InOut",
+                            "usr": "s:s6HasherV"
+                          }
+                        ],
+                        "declKind": "Func",
+                        "usr": "s:6shared4SkieO6SharedO17OAuth2CredentialsO8__SealedO4hash4intoys6HasherVz_tF",
+                        "mangledName": "$s6shared4SkieO6SharedO17OAuth2CredentialsO8__SealedO4hash4intoys6HasherVz_tF",
+                        "moduleName": "shared",
+                        "implicit": true,
+                        "funcSelfKind": "NonMutating"
+                      },
+                      {
+                        "kind": "Function",
+                        "name": "==",
+                        "printedName": "==(_:_:)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "__Sealed",
+                            "printedName": "shared.Skie.Shared.OAuth2Credentials.__Sealed",
+                            "usr": "s:6shared4SkieO6SharedO17OAuth2CredentialsO8__SealedO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "__Sealed",
+                            "printedName": "shared.Skie.Shared.OAuth2Credentials.__Sealed",
+                            "usr": "s:6shared4SkieO6SharedO17OAuth2CredentialsO8__SealedO"
+                          }
+                        ],
+                        "declKind": "Func",
+                        "usr": "s:6shared4SkieO6SharedO17OAuth2CredentialsO8__SealedO2eeoiySbAI_AItFZ",
+                        "mangledName": "$s6shared4SkieO6SharedO17OAuth2CredentialsO8__SealedO2eeoiySbAI_AItFZ",
+                        "moduleName": "shared",
+                        "static": true,
+                        "implicit": true,
+                        "funcSelfKind": "NonMutating"
+                      }
+                    ],
+                    "declKind": "Enum",
+                    "usr": "s:6shared4SkieO6SharedO17OAuth2CredentialsO8__SealedO",
+                    "mangledName": "$s6shared4SkieO6SharedO17OAuth2CredentialsO8__SealedO",
+                    "moduleName": "shared",
+                    "declAttributes": [
+                      "AccessControl",
+                      "Frozen"
+                    ],
+                    "isFromExtension": true,
+                    "isEnumExhaustive": true,
+                    "conformances": [
+                      {
+                        "kind": "Conformance",
+                        "name": "Hashable",
+                        "printedName": "Hashable",
+                        "usr": "s:SH",
+                        "mangledName": "$sSH"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "Equatable",
+                        "printedName": "Equatable",
+                        "usr": "s:SQ",
+                        "mangledName": "$sSQ"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Enum",
+                "usr": "s:6shared4SkieO6SharedO17OAuth2CredentialsO",
+                "mangledName": "$s6shared4SkieO6SharedO17OAuth2CredentialsO",
+                "moduleName": "shared",
+                "declAttributes": [
+                  "AccessControl"
+                ]
+              },
+              {
+                "kind": "TypeDecl",
                 "name": "Failure_",
                 "printedName": "Failure_",
                 "children": [
@@ -5215,6 +5460,251 @@
             "name": "NetworkContract",
             "printedName": "NetworkContract",
             "children": [
+              {
+                "kind": "TypeDecl",
+                "name": "OAuth2Credentials",
+                "printedName": "OAuth2Credentials",
+                "children": [
+                  {
+                    "kind": "TypeDecl",
+                    "name": "__Sealed",
+                    "printedName": "__Sealed",
+                    "children": [
+                      {
+                        "kind": "Var",
+                        "name": "empty",
+                        "printedName": "empty",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(shared.Skie.NetworkContract.OAuth2Credentials.__Sealed.Type) -> (shared.Network_contractOAuth2Credentials.Empty) -> shared.Skie.NetworkContract.OAuth2Credentials.__Sealed",
+                            "children": [
+                              {
+                                "kind": "TypeFunc",
+                                "name": "Function",
+                                "printedName": "(shared.Network_contractOAuth2Credentials.Empty) -> shared.Skie.NetworkContract.OAuth2Credentials.__Sealed",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "__Sealed",
+                                    "printedName": "shared.Skie.NetworkContract.OAuth2Credentials.__Sealed",
+                                    "usr": "s:6shared4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedO"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "Empty",
+                                    "printedName": "shared.Network_contractOAuth2Credentials.Empty",
+                                    "usr": "c:objc(cs)SharedNetwork_contractOAuth2CredentialsEmpty"
+                                  }
+                                ]
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Metatype",
+                                "printedName": "shared.Skie.NetworkContract.OAuth2Credentials.__Sealed.Type",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "__Sealed",
+                                    "printedName": "shared.Skie.NetworkContract.OAuth2Credentials.__Sealed",
+                                    "usr": "s:6shared4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedO"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "declKind": "EnumElement",
+                        "usr": "s:6shared4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedO5emptyyAISo06Sharedc9_contracteF5EmptyCcAImF",
+                        "mangledName": "$s6shared4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedO5emptyyAISo06Sharedc9_contracteF5EmptyCcAImF",
+                        "moduleName": "shared",
+                        "fixedbinaryorder": 0
+                      },
+                      {
+                        "kind": "Var",
+                        "name": "fullCredentials",
+                        "printedName": "fullCredentials",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(shared.Skie.NetworkContract.OAuth2Credentials.__Sealed.Type) -> (shared.Network_contractOAuth2Credentials.FullCredentials) -> shared.Skie.NetworkContract.OAuth2Credentials.__Sealed",
+                            "children": [
+                              {
+                                "kind": "TypeFunc",
+                                "name": "Function",
+                                "printedName": "(shared.Network_contractOAuth2Credentials.FullCredentials) -> shared.Skie.NetworkContract.OAuth2Credentials.__Sealed",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "__Sealed",
+                                    "printedName": "shared.Skie.NetworkContract.OAuth2Credentials.__Sealed",
+                                    "usr": "s:6shared4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedO"
+                                  },
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "FullCredentials",
+                                    "printedName": "shared.Network_contractOAuth2Credentials.FullCredentials",
+                                    "usr": "c:objc(cs)SharedNetwork_contractOAuth2CredentialsFullCredentials"
+                                  }
+                                ]
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Metatype",
+                                "printedName": "shared.Skie.NetworkContract.OAuth2Credentials.__Sealed.Type",
+                                "children": [
+                                  {
+                                    "kind": "TypeNominal",
+                                    "name": "__Sealed",
+                                    "printedName": "shared.Skie.NetworkContract.OAuth2Credentials.__Sealed",
+                                    "usr": "s:6shared4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedO"
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ],
+                        "declKind": "EnumElement",
+                        "usr": "s:6shared4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedO04fullF0yAISo06Sharedc9_contractef4FullF0CcAImF",
+                        "mangledName": "$s6shared4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedO04fullF0yAISo06Sharedc9_contractef4FullF0CcAImF",
+                        "moduleName": "shared",
+                        "fixedbinaryorder": 1
+                      },
+                      {
+                        "kind": "Var",
+                        "name": "hashValue",
+                        "printedName": "hashValue",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Int",
+                            "printedName": "Swift.Int",
+                            "usr": "s:Si"
+                          }
+                        ],
+                        "declKind": "Var",
+                        "usr": "s:6shared4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedO9hashValueSivp",
+                        "mangledName": "$s6shared4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedO9hashValueSivp",
+                        "moduleName": "shared",
+                        "implicit": true,
+                        "accessors": [
+                          {
+                            "kind": "Accessor",
+                            "name": "Get",
+                            "printedName": "Get()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Int",
+                                "printedName": "Swift.Int",
+                                "usr": "s:Si"
+                              }
+                            ],
+                            "declKind": "Accessor",
+                            "usr": "s:6shared4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedO9hashValueSivg",
+                            "mangledName": "$s6shared4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedO9hashValueSivg",
+                            "moduleName": "shared",
+                            "implicit": true,
+                            "accessorKind": "get"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "Function",
+                        "name": "hash",
+                        "printedName": "hash(into:)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Hasher",
+                            "printedName": "Swift.Hasher",
+                            "paramValueOwnership": "InOut",
+                            "usr": "s:s6HasherV"
+                          }
+                        ],
+                        "declKind": "Func",
+                        "usr": "s:6shared4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedO4hash4intoys6HasherVz_tF",
+                        "mangledName": "$s6shared4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedO4hash4intoys6HasherVz_tF",
+                        "moduleName": "shared",
+                        "implicit": true,
+                        "funcSelfKind": "NonMutating"
+                      },
+                      {
+                        "kind": "Function",
+                        "name": "==",
+                        "printedName": "==(_:_:)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "__Sealed",
+                            "printedName": "shared.Skie.NetworkContract.OAuth2Credentials.__Sealed",
+                            "usr": "s:6shared4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "__Sealed",
+                            "printedName": "shared.Skie.NetworkContract.OAuth2Credentials.__Sealed",
+                            "usr": "s:6shared4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedO"
+                          }
+                        ],
+                        "declKind": "Func",
+                        "usr": "s:6shared4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedO2eeoiySbAI_AItFZ",
+                        "mangledName": "$s6shared4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedO2eeoiySbAI_AItFZ",
+                        "moduleName": "shared",
+                        "static": true,
+                        "implicit": true,
+                        "funcSelfKind": "NonMutating"
+                      }
+                    ],
+                    "declKind": "Enum",
+                    "usr": "s:6shared4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedO",
+                    "mangledName": "$s6shared4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedO",
+                    "moduleName": "shared",
+                    "declAttributes": [
+                      "AccessControl",
+                      "Frozen"
+                    ],
+                    "isFromExtension": true,
+                    "isEnumExhaustive": true,
+                    "conformances": [
+                      {
+                        "kind": "Conformance",
+                        "name": "Hashable",
+                        "printedName": "Hashable",
+                        "usr": "s:SH",
+                        "mangledName": "$sSH"
+                      },
+                      {
+                        "kind": "Conformance",
+                        "name": "Equatable",
+                        "printedName": "Equatable",
+                        "usr": "s:SQ",
+                        "mangledName": "$sSQ"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Enum",
+                "usr": "s:6shared4SkieO15NetworkContractO17OAuth2CredentialsO",
+                "mangledName": "$s6shared4SkieO15NetworkContractO17OAuth2CredentialsO",
+                "moduleName": "shared",
+                "declAttributes": [
+                  "AccessControl"
+                ]
+              },
               {
                 "kind": "TypeDecl",
                 "name": "Failure",
@@ -19545,6 +20035,16 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "shared",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "Function",
         "name": "skie",
         "printedName": "skie(_:)",
@@ -29116,6 +29616,89 @@
           {
             "kind": "TypeNominal",
             "name": "__Sealed",
+            "printedName": "shared.Skie.Shared.OAuth2Credentials.__Sealed",
+            "usr": "s:6shared4SkieO6SharedO17OAuth2CredentialsO8__SealedO"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_0"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:6shared6onEnum2ofAA4SkieO6SharedO17OAuth2CredentialsO8__SealedOx_tSo0fgH0CRbzlF",
+        "mangledName": "$s6shared6onEnum2ofAA4SkieO6SharedO17OAuth2CredentialsO8__SealedOx_tSo0fgH0CRbzlF",
+        "moduleName": "shared",
+        "genericSig": "<τ_0_0 where τ_0_0 : shared.OAuth2Credentials>",
+        "sugared_genericSig": "<__Sealed where __Sealed : shared.OAuth2Credentials>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "onEnum",
+        "printedName": "onEnum(of:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "shared.Skie.Shared.OAuth2Credentials.__Sealed?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "__Sealed",
+                "printedName": "shared.Skie.Shared.OAuth2Credentials.__Sealed",
+                "usr": "s:6shared4SkieO6SharedO17OAuth2CredentialsO8__SealedO"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "τ_0_0?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:6shared6onEnum2ofAA4SkieO6SharedO17OAuth2CredentialsO8__SealedOSgxSg_tSo0fgH0CRbzlF",
+        "mangledName": "$s6shared6onEnum2ofAA4SkieO6SharedO17OAuth2CredentialsO8__SealedOSgxSg_tSo0fgH0CRbzlF",
+        "moduleName": "shared",
+        "genericSig": "<τ_0_0 where τ_0_0 : shared.OAuth2Credentials>",
+        "sugared_genericSig": "<__Sealed where __Sealed : shared.OAuth2Credentials>",
+        "declAttributes": [
+          "AccessControl",
+          "DisfavoredOverload"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "shared",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "onEnum",
+        "printedName": "onEnum(of:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "__Sealed",
             "printedName": "shared.Skie.Shared.AuthFailure.__Sealed",
             "usr": "s:6shared4SkieO6SharedO11AuthFailureO8__SealedO"
           },
@@ -29863,6 +30446,89 @@
           {
             "kind": "TypeNominal",
             "name": "__Sealed",
+            "printedName": "shared.Skie.NetworkContract.OAuth2Credentials.__Sealed",
+            "usr": "s:6shared4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedO"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_0"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:6shared6onEnum2ofAA4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedOx_tSo06Sharedf9_contracthI0CRbzlF",
+        "mangledName": "$s6shared6onEnum2ofAA4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedOx_tSo06Sharedf9_contracthI0CRbzlF",
+        "moduleName": "shared",
+        "genericSig": "<τ_0_0 where τ_0_0 : shared.Network_contractOAuth2Credentials>",
+        "sugared_genericSig": "<__Sealed where __Sealed : shared.Network_contractOAuth2Credentials>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "onEnum",
+        "printedName": "onEnum(of:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "shared.Skie.NetworkContract.OAuth2Credentials.__Sealed?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "__Sealed",
+                "printedName": "shared.Skie.NetworkContract.OAuth2Credentials.__Sealed",
+                "usr": "s:6shared4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedO"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "τ_0_0?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "usr": "s:Sq"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:6shared6onEnum2ofAA4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedOSgxSg_tSo06Sharedf9_contracthI0CRbzlF",
+        "mangledName": "$s6shared6onEnum2ofAA4SkieO15NetworkContractO17OAuth2CredentialsO8__SealedOSgxSg_tSo06Sharedf9_contracthI0CRbzlF",
+        "moduleName": "shared",
+        "genericSig": "<τ_0_0 where τ_0_0 : shared.Network_contractOAuth2Credentials>",
+        "sugared_genericSig": "<__Sealed where __Sealed : shared.Network_contractOAuth2Credentials>",
+        "declAttributes": [
+          "AccessControl",
+          "DisfavoredOverload"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "shared",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "onEnum",
+        "printedName": "onEnum(of:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "__Sealed",
             "printedName": "shared.Skie.NetworkContract.Failure.__Sealed",
             "usr": "s:6shared4SkieO15NetworkContractO7FailureO8__SealedO"
           },
@@ -30177,6 +30843,1023 @@
         "genericSig": "<τ_0_0 : AnyObject>",
         "sugared_genericSig": "<Self : AnyObject>",
         "objc_name": "SharedRuntimeQueryResult",
+        "declAttributes": [
+          "ObjC",
+          "Dynamic"
+        ],
+        "isExternal": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Multiplatform_settings_coroutinesSuspendSettings",
+        "printedName": "Multiplatform_settings_coroutinesSuspendSettings",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "clear",
+            "printedName": "clear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE5clearyyYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE5clearyyYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBoolean",
+            "printedName": "getBoolean(key:defaultValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KotlinBoolean",
+                "printedName": "shared.KotlinBoolean",
+                "usr": "c:objc(cs)SharedBoolean"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE10getBoolean3key12defaultValueSo0aI0CSS_SbtYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE10getBoolean3key12defaultValueSo0aI0CSS_SbtYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getBooleanOrNull",
+            "printedName": "getBooleanOrNull(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "shared.KotlinBoolean?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KotlinBoolean",
+                    "printedName": "shared.KotlinBoolean",
+                    "usr": "c:objc(cs)SharedBoolean"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE16getBooleanOrNull3keySo0aI0CSgSS_tYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE16getBooleanOrNull3keySo0aI0CSgSS_tYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDouble",
+            "printedName": "getDouble(key:defaultValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KotlinDouble",
+                "printedName": "shared.KotlinDouble",
+                "usr": "c:objc(cs)SharedDouble"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE9getDouble3key12defaultValueSo0aI0CSS_SdtYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE9getDouble3key12defaultValueSo0aI0CSS_SdtYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDoubleOrNull",
+            "printedName": "getDoubleOrNull(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "shared.KotlinDouble?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KotlinDouble",
+                    "printedName": "shared.KotlinDouble",
+                    "usr": "c:objc(cs)SharedDouble"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE15getDoubleOrNull3keySo0aI0CSgSS_tYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE15getDoubleOrNull3keySo0aI0CSgSS_tYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getFloat",
+            "printedName": "getFloat(key:defaultValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KotlinFloat",
+                "printedName": "shared.KotlinFloat",
+                "usr": "c:objc(cs)SharedFloat"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE8getFloat3key12defaultValueSo0aI0CSS_SftYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE8getFloat3key12defaultValueSo0aI0CSS_SftYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getFloatOrNull",
+            "printedName": "getFloatOrNull(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "shared.KotlinFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KotlinFloat",
+                    "printedName": "shared.KotlinFloat",
+                    "usr": "c:objc(cs)SharedFloat"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE14getFloatOrNull3keySo0aI0CSgSS_tYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE14getFloatOrNull3keySo0aI0CSgSS_tYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getInt",
+            "printedName": "getInt(key:defaultValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KotlinInt",
+                "printedName": "shared.KotlinInt",
+                "usr": "c:objc(cs)SharedInt"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE6getInt3key12defaultValueSo0aI0CSS_s5Int32VtYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE6getInt3key12defaultValueSo0aI0CSS_s5Int32VtYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getIntOrNull",
+            "printedName": "getIntOrNull(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "shared.KotlinInt?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KotlinInt",
+                    "printedName": "shared.KotlinInt",
+                    "usr": "c:objc(cs)SharedInt"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE12getIntOrNull3keySo0aI0CSgSS_tYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE12getIntOrNull3keySo0aI0CSgSS_tYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLong",
+            "printedName": "getLong(key:defaultValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KotlinLong",
+                "printedName": "shared.KotlinLong",
+                "usr": "c:objc(cs)SharedLong"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE7getLong3key12defaultValueSo0aI0CSS_s5Int64VtYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE7getLong3key12defaultValueSo0aI0CSS_s5Int64VtYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getLongOrNull",
+            "printedName": "getLongOrNull(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "shared.KotlinLong?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KotlinLong",
+                    "printedName": "shared.KotlinLong",
+                    "usr": "c:objc(cs)SharedLong"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE13getLongOrNull3keySo0aI0CSgSS_tYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE13getLongOrNull3keySo0aI0CSgSS_tYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getString",
+            "printedName": "getString(key:defaultValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE9getString3key12defaultValueS2S_SStYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE9getString3key12defaultValueS2S_SStYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getStringOrNull",
+            "printedName": "getStringOrNull(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE15getStringOrNull3keySSSgSS_tYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE15getStringOrNull3keySSSgSS_tYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hasKey",
+            "printedName": "hasKey(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KotlinBoolean",
+                "printedName": "shared.KotlinBoolean",
+                "usr": "c:objc(cs)SharedBoolean"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE6hasKey3keySo0A7BooleanCSS_tYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE6hasKey3keySo0A7BooleanCSS_tYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "keys",
+            "printedName": "keys()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE4keysShySSGyYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE4keysShySSGyYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "putBoolean",
+            "printedName": "putBoolean(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE10putBoolean3key5valueySS_SbtYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE10putBoolean3key5valueySS_SbtYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "putDouble",
+            "printedName": "putDouble(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE9putDouble3key5valueySS_SdtYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE9putDouble3key5valueySS_SdtYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "putFloat",
+            "printedName": "putFloat(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE8putFloat3key5valueySS_SftYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE8putFloat3key5valueySS_SftYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "putInt",
+            "printedName": "putInt(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE6putInt3key5valueySS_s5Int32VtYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE6putInt3key5valueySS_s5Int32VtYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "putLong",
+            "printedName": "putLong(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int64",
+                "printedName": "Swift.Int64",
+                "usr": "s:s5Int64V"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE7putLong3key5valueySS_s5Int64VtYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE7putLong3key5valueySS_s5Int64VtYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "putString",
+            "printedName": "putString(key:value:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE9putString3key5valueySS_SStYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE9putString3key5valueySS_SStYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "remove",
+            "printedName": "remove(key:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE6remove3keyySS_tYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE6remove3keyySS_tYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "size",
+            "printedName": "size()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KotlinInt",
+                "printedName": "shared.KotlinInt",
+                "usr": "c:objc(cs)SharedInt"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE4sizeSo0A3IntCyYaKF",
+            "mangledName": "$sSo54SharedMultiplatform_settings_coroutinesSuspendSettingsP6sharedE4sizeSo0A3IntCyYaKF",
+            "moduleName": "shared",
+            "genericSig": "<τ_0_0 where τ_0_0 : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "sugared_genericSig": "<Self where Self : shared.Multiplatform_settings_coroutinesSuspendSettings>",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13",
+            "intro_tvOS": "13",
+            "intro_watchOS": "6",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "isFromExtension": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:objc(pl)SharedMultiplatform_settings_coroutinesSuspendSettings",
+        "moduleName": "shared",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "objc_name": "SharedMultiplatform_settings_coroutinesSuspendSettings",
         "declAttributes": [
           "ObjC",
           "Dynamic"

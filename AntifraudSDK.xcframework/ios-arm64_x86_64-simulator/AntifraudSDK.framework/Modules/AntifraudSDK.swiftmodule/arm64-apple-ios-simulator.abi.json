@@ -1325,6 +1325,13 @@
       },
       {
         "kind": "Import",
+        "name": "CocoaLumberjack",
+        "printedName": "CocoaLumberjack",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK"
+      },
+      {
+        "kind": "Import",
         "name": "shared",
         "printedName": "shared",
         "declKind": "Import",
@@ -1484,12 +1491,30 @@
           {
             "kind": "Function",
             "name": "initialize",
-            "printedName": "initialize(apiBaseUrl:apiKey:params:)",
+            "printedName": "initialize(apiBaseUrl:apiKey:authTokenUrl:clientId:clientSecret:params:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -1533,8 +1558,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:12AntifraudSDK04SafeB0C10initialize10apiBaseUrl0E3Key6paramsySS_SSSDySSypGSgtF",
-            "mangledName": "$s12AntifraudSDK04SafeB0C10initialize10apiBaseUrl0E3Key6paramsySS_SSSDySSypGSgtF",
+            "usr": "s:12AntifraudSDK04SafeB0C10initialize10apiBaseUrl0E3Key09authTokenG08clientId0K6Secret6paramsySS_S4SSDySSypGSgtF",
+            "mangledName": "$s12AntifraudSDK04SafeB0C10initialize10apiBaseUrl0E3Key09authTokenG08clientId0K6Secret6paramsySS_S4SSDySSypGSgtF",
             "moduleName": "AntifraudSDK",
             "isOpen": true,
             "declAttributes": [
@@ -2080,7 +2105,8 @@
             "moduleName": "AntifraudSDK",
             "isOpen": true,
             "declAttributes": [
-              "HasStorage"
+              "HasStorage",
+              "RawDocComment"
             ],
             "fixedbinaryorder": 1,
             "hasStorage": true,
@@ -2260,6 +2286,301 @@
           },
           {
             "kind": "Var",
+            "name": "authTokenUrl",
+            "printedName": "authTokenUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AntifraudSDK15ServiceProviderC12authTokenUrlSSvp",
+            "mangledName": "$s12AntifraudSDK15ServiceProviderC12authTokenUrlSSvp",
+            "moduleName": "AntifraudSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 3,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AntifraudSDK15ServiceProviderC12authTokenUrlSSvg",
+                "mangledName": "$s12AntifraudSDK15ServiceProviderC12authTokenUrlSSvg",
+                "moduleName": "AntifraudSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AntifraudSDK15ServiceProviderC12authTokenUrlSSvs",
+                "mangledName": "$s12AntifraudSDK15ServiceProviderC12authTokenUrlSSvs",
+                "moduleName": "AntifraudSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AntifraudSDK15ServiceProviderC12authTokenUrlSSvM",
+                "mangledName": "$s12AntifraudSDK15ServiceProviderC12authTokenUrlSSvM",
+                "moduleName": "AntifraudSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clientId",
+            "printedName": "clientId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AntifraudSDK15ServiceProviderC8clientIdSSvp",
+            "mangledName": "$s12AntifraudSDK15ServiceProviderC8clientIdSSvp",
+            "moduleName": "AntifraudSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 4,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AntifraudSDK15ServiceProviderC8clientIdSSvg",
+                "mangledName": "$s12AntifraudSDK15ServiceProviderC8clientIdSSvg",
+                "moduleName": "AntifraudSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AntifraudSDK15ServiceProviderC8clientIdSSvs",
+                "mangledName": "$s12AntifraudSDK15ServiceProviderC8clientIdSSvs",
+                "moduleName": "AntifraudSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AntifraudSDK15ServiceProviderC8clientIdSSvM",
+                "mangledName": "$s12AntifraudSDK15ServiceProviderC8clientIdSSvM",
+                "moduleName": "AntifraudSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clientSecret",
+            "printedName": "clientSecret",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12AntifraudSDK15ServiceProviderC12clientSecretSSvp",
+            "mangledName": "$s12AntifraudSDK15ServiceProviderC12clientSecretSSvp",
+            "moduleName": "AntifraudSDK",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 5,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AntifraudSDK15ServiceProviderC12clientSecretSSvg",
+                "mangledName": "$s12AntifraudSDK15ServiceProviderC12clientSecretSSvg",
+                "moduleName": "AntifraudSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AntifraudSDK15ServiceProviderC12clientSecretSSvs",
+                "mangledName": "$s12AntifraudSDK15ServiceProviderC12clientSecretSSvs",
+                "moduleName": "AntifraudSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12AntifraudSDK15ServiceProviderC12clientSecretSSvM",
+                "mangledName": "$s12AntifraudSDK15ServiceProviderC12clientSecretSSvM",
+                "moduleName": "AntifraudSDK",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "packageName",
             "printedName": "packageName",
             "children": [
@@ -2276,9 +2597,10 @@
             "moduleName": "AntifraudSDK",
             "declAttributes": [
               "Final",
-              "HasStorage"
+              "HasStorage",
+              "RawDocComment"
             ],
-            "fixedbinaryorder": 3,
+            "fixedbinaryorder": 6,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -2327,7 +2649,7 @@
               "Final",
               "HasStorage"
             ],
-            "fixedbinaryorder": 4,
+            "fixedbinaryorder": 7,
             "isLet": true,
             "hasStorage": true,
             "accessors": [
@@ -2359,7 +2681,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(apiBaseUrl:apiKey:)",
+            "printedName": "init(apiBaseUrl:apiKey:authTokenUrl:clientId:clientSecret:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2378,11 +2700,29 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12AntifraudSDK15ServiceProviderC10apiBaseUrl0E3KeyACSS_SStcfc",
-            "mangledName": "$s12AntifraudSDK15ServiceProviderC10apiBaseUrl0E3KeyACSS_SStcfc",
+            "usr": "s:12AntifraudSDK15ServiceProviderC10apiBaseUrl0E3Key09authTokenG08clientId0K6SecretACSS_S4Stcfc",
+            "mangledName": "$s12AntifraudSDK15ServiceProviderC10apiBaseUrl0E3Key09authTokenG08clientId0K6SecretACSS_S4Stcfc",
             "moduleName": "AntifraudSDK",
             "init_kind": "Designated"
           }
@@ -3861,7 +4201,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(apiBaseUrl:apiKey:)",
+            "printedName": "init(apiBaseUrl:apiKey:authTokenUrl:clientId:clientSecret:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3880,11 +4220,29 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:12AntifraudSDK14SafeSDKManagerC10apiBaseUrl0E3KeyACSS_SStcfc",
-            "mangledName": "$s12AntifraudSDK14SafeSDKManagerC10apiBaseUrl0E3KeyACSS_SStcfc",
+            "usr": "s:12AntifraudSDK14SafeSDKManagerC10apiBaseUrl0E3Key09authTokenG08clientId0K6SecretACSS_S4Stcfc",
+            "mangledName": "$s12AntifraudSDK14SafeSDKManagerC10apiBaseUrl0E3Key09authTokenG08clientId0K6SecretACSS_S4Stcfc",
             "moduleName": "AntifraudSDK",
             "declAttributes": [
               "Convenience"
@@ -10185,7 +10543,7 @@
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/SafeSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 351,
+      "offset": 374,
       "length": 5,
       "value": "false"
     },
@@ -10248,7 +10606,14 @@
     {
       "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Manager\/DeviceSeedManager.swift",
       "kind": "StringLiteral",
-      "offset": 306,
+      "offset": 248,
+      "length": 25,
+      "value": "\"com.bespot.AntifraudSDK\""
+    },
+    {
+      "filePath": "\/Users\/k.dimitros\/Projects\/Bespot\/antifraud-sdk\/iOSLib\/AntifraudSDK\/Manager\/DeviceSeedManager.swift",
+      "kind": "StringLiteral",
+      "offset": 303,
       "length": 13,
       "value": "\"device-seed\""
     },

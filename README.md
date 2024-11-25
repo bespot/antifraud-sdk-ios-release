@@ -1,6 +1,6 @@
 # Antifraud SDK iOS - Release
 
-[![VERSION](https://img.shields.io/badge/VERSION-0.5.3-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-1.0.0-green)](#)
 [![Swift Version][swift-image]][swift-url]
 
 AntifraudSDK is an easy to use iOS library for protecting your application from fraudulent activities. Our SDK requires minimal permissions and uses device information and sensors to detect and report potential threats, so that app developers can make informed decisions about their application's actions.
@@ -34,7 +34,7 @@ target '[Your app]' do
   use_frameworks!
 
   # AntifraudSDK framework
-  pod 'AntifraudSDK', :git => 'https://github.com/bespot/antifraud-sdk-ios-release', :tag => '0.5.3'
+  pod 'AntifraudSDK', :git => 'https://github.com/bespot/antifraud-sdk-ios-release', :tag => '1.0.0'
 
   # Other CocoaPods libraries/frameworks you may use...
 
@@ -70,6 +70,9 @@ For manually installing *AntifraudSDK* into your app, follow the steps below:
 
 1. Download and drop `AntifraudSDK.xcframework` and `shared.xcframework` folder in your project (select "copy items if needed" in the popup menu).
 2. Select "Embed & Sign" at the `AntifraudSDK.xcframework` & `shared.xcframework` listing in your application's Target General settings menu
+3. Integrate the following dependencies as well:
+ - `CocoaLumberjack/Swift`
+ - `PaperTrailLumberjack/Swift`
 
 
 ## Usage example
@@ -103,7 +106,10 @@ In your application's AppDelegate ```application(_:didFinishLaunchingWithOptions
 
 ```swift
 SafeSDK.shared.initialize(apiKey: "the_provided_API_key",
-                      apiBaseURL: "the_provided_API_base_URL")
+                      apiBaseURL: "the_provided_API_base_URL",
+                      authTokenUrl: "the_provided_oauth2_URL",
+                      clientId: "the_provided_oauth2_clientid",
+                      clientSecret: "the_provided_oauth2_clientsecret")
 ```
 
 #### Parametrization
@@ -113,8 +119,15 @@ During initialization, use the params `[String: Any]` optional array for further
 ```swift
 SafeSDK.shared.initialize(apiKey: "the_provided_API_key",
                       apiBaseURL: "the_provided_API_base_URL",
+                      authTokenUrl: "the_provided_oauth2_URL",
+                      clientId: "the_provided_oauth2_clientid",
+                      clientSecret: "the_provided_oauth2_clientsecret",
                       params: ["debugLoggingEnabled": true])
 ```
+
+
+#### Security
+OAuth 2.0 client credentials provided (*client id* & *client secret*) should be used in a safe and secure manner. It is strongly advised **not** to be part of the application bundle when submitting to the App Store.
 
 #### Delegation
 Use the _optional_ `InitializationDelegate` delegate in case you need to be informed for a successful or unsuccessful SafeSDK initialization. In your view controller's ```viewDidLoad``` method add this:
