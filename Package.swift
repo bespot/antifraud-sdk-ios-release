@@ -1,41 +1,6 @@
 // swift-tools-version: 5.10
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
-//import PackageDescription
-//
-//let package = Package(
-//    name: "AntifraudSPM",
-//    platforms: [.iOS(.v15)],
-//    products: [
-//        // Products define the executables and libraries a package produces, making them visible to other packages.
-//        .library(
-//            name: "AntifraudSPM",
-//            type: .dynamic,
-//            targets: ["AntifraudSPM"]),
-//    ],
-//    dependencies: [
-//        .package(url: "https://github.com/bespot/sharedSPM.git", exact: "1.0.2")
-//    ],
-//    targets: [
-//        // Targets are the basic building blocks of a package, defining a module or a test suite.
-//        // Targets can depend on other targets in this package and products from dependencies.
-//        .target(
-//            name: "AntifraudSPM",
-//            dependencies: [
-//                .target(name: "AntifraudSDK"),
-//                .product(name: "sharedSPM", package: "sharedSPM")
-//            ]
-//        ),
-//        .testTarget(
-//            name: "AntifraudSPMTests",
-//            dependencies: ["AntifraudSPM"]),
-//        .binaryTarget(
-//            name: "AntifraudSDK",
-//            url: "https://github.com/bespot/antifraud-sdk-ios-release/releases/download/1.0.3/AntifraudSDK.xcframework.zip",
-//            checksum: "8ed590973e38f04a7499e1921ea8dea2983fe847152d90ecacab4a8cc105adae")
-//    ]
-//)
-
 import PackageDescription
 
 let package = Package(
@@ -66,7 +31,7 @@ let package = Package(
             dependencies: ["AntifraudSPM"]),
         .binaryTarget(
             name: "AntifraudSDK",
-            url: "https://github.com/bespot/antifraud-sdk-ios-release/releases/download/1.0.4/AntifraudSDK.xcframework.zip",
-            checksum: "29bc45e8ec60530072b576f037fe7e0a7cb7f2494ea001ac737e263195ab6b7b")
+            url: "https://github.com/bespot/antifraud-sdk-ios-release/releases/download/1.0.5/AntifraudSDK.xcframework.zip",
+            checksum: "71bbfcc33db72bf230bb1edbcfaa5e6a230a4ea4cd5586dff909eb81a726176e")
     ]
 )
