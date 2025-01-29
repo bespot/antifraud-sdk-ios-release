@@ -1,5 +1,5 @@
 {
-  "originHash" : "596befbe08a30353f0ea1e72a55c59a56abb9819dbfbb27b62984038ee3e5219",
+  "originHash" : "86789653654afc34f64f8bb730ca4b29793b07ac5e81ea3282a7ac020e31be62",
   "pins" : [
     {
       "identity" : "cocoalumberjack",
@@ -15,7 +15,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/bespot/sharedSPM.git",
       "state" : {
-        "revision" : "93bb6051c0a2216446f4c6c41ee3752233b269e1",
+        "revision" : "58ca17bce44bb8d0b7112850203058cef99d9260",
         "version" : "1.0.1"
       }
     },
