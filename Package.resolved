@@ -15,7 +15,7 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/bespot/sharedSPM.git",
       "state" : {
-        "revision" : "4a91b321df017aafeee23639c15ec1c76cba7d05",
+        "revision" : "93bb6051c0a2216446f4c6c41ee3752233b269e1",
         "version" : "1.0.1"
       }
     },
