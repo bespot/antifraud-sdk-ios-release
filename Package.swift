@@ -14,7 +14,8 @@ let package = Package(
             targets: ["AntifraudSPM"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/bespot/sharedSPM.git", exact: "1.0.2")
+        .package(url: "https://github.com/bespot/sharedSPM.git", exact: "1.0.1"),
+        .package(url: "https://github.com/robbiehanson/CocoaAsyncSocket", from: "7.6.4")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -23,14 +24,15 @@ let package = Package(
             name: "AntifraudSPM",
             dependencies: [
                 .target(name: "AntifraudSDK"),
-                .product(name: "sharedSPM", package: "sharedSPM")
+                .product(name: "sharedSPM", package: "sharedSPM"),
+                .product(name: "CocoaAsyncSocket", package: "CocoaAsyncSocket")
             ]),
         .testTarget(
             name: "AntifraudSPMTests",
             dependencies: ["AntifraudSPM"]),
         .binaryTarget(
             name: "AntifraudSDK",
-            url: "https://github.com/bespot/antifraud-sdk-ios-release/releases/download/1.0.2/AntifraudSDK.xcframework.zip",
+            url: "https://github.com/bespot/antifraud-sdk-ios-release/releases/download/1.0.3/AntifraudSDK.xcframework.zip",
             checksum: "71bbfcc33db72bf230bb1edbcfaa5e6a230a4ea4cd5586dff909eb81a726176e")
     ]
 )

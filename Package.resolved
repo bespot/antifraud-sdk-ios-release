@@ -1,5 +1,5 @@
 {
-  "originHash" : "02777aac56e32f066b3cdf3cb1c7bd1af058306a7124c9d8b39937e37bb5dcdb",
+  "originHash" : "c782edb6c78d42dad46308f8d2f3bc3fb22c22b80f1be9aac4d612f5ddd0e30a",
   "pins" : [
     {
       "identity" : "cocoaasyncsocket",
@@ -24,8 +24,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/bespot/sharedSPM.git",
       "state" : {
-        "revision" : "26b8ed5b6884b39a2d26ff429d7e0c3d0736bc92",
-        "version" : "1.0.2"
+        "revision" : "58ca17bce44bb8d0b7112850203058cef99d9260",
+        "version" : "1.0.1"
       }
     },
     {
