@@ -25,15 +25,21 @@ let package = Package(
             dependencies: [
                 .target(name: "AntifraudSDK"),
                 .product(name: "sharedSPM", package: "sharedSPM"),
-                .product(name: "CocoaAsyncSocket", package: "CocoaAsyncSocket")
+                .target(name: "CocoaAsyncSocketDynamic")
             ]),
         .testTarget(
             name: "AntifraudSPMTests",
             dependencies: ["AntifraudSPM"]),
         .binaryTarget(
             name: "AntifraudSDK",
-            url: "https://github.com/bespot/antifraud-sdk-ios-release/releases/download/1.0.3/AntifraudSDK.xcframework.zip",
-            checksum: "71bbfcc33db72bf230bb1edbcfaa5e6a230a4ea4cd5586dff909eb81a726176e")
+            url: "https://github.com/bespot/antifraud-sdk-ios-release/releases/download/1.0.4/AntifraudSDK.xcframework.zip",
+            checksum: "71bbfcc33db72bf230bb1edbcfaa5e6a230a4ea4cd5586dff909eb81a726176e"),
+        .target(
+            name: "CocoaAsyncSocketDynamic",
+            dependencies: [
+                .product(name: "CocoaAsyncSocket", package: "CocoaAsyncSocket")
+            ]
+        )
     ]
 )
 
