@@ -1,5 +1,5 @@
 {
-  "originHash" : "c782edb6c78d42dad46308f8d2f3bc3fb22c22b80f1be9aac4d612f5ddd0e30a",
+  "originHash" : "29046add191cfdffd085578c7e58abf28593cbf947bdd6b99e4eba0139127999",
   "pins" : [
     {
       "identity" : "cocoaasyncsocket",
@@ -20,12 +20,21 @@
       }
     },
     {
+      "identity" : "papertrail-lumberjack-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mlorincz/papertrail-lumberjack-ios.git",
+      "state" : {
+        "revision" : "58cd10840759f4083858ce25af1bab5f344a060d",
+        "version" : "2.1.0"
+      }
+    },
+    {
       "identity" : "sharedspm",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/bespot/sharedSPM.git",
       "state" : {
-        "revision" : "58ca17bce44bb8d0b7112850203058cef99d9260",
-        "version" : "1.0.1"
+        "revision" : "3d575386536e0e0bc7e3bcc4f226dac117db397b",
+        "version" : "1.0.3"
       }
     },
     {
