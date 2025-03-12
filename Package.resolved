@@ -1,0 +1,51 @@
+{
+  "originHash" : "29046add191cfdffd085578c7e58abf28593cbf947bdd6b99e4eba0139127999",
+  "pins" : [
+    {
+      "identity" : "cocoaasyncsocket",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/robbiehanson/CocoaAsyncSocket",
+      "state" : {
+        "revision" : "dbdc00669c1ced63b27c3c5f052ee4d28f10150c",
+        "version" : "7.6.5"
+      }
+    },
+    {
+      "identity" : "cocoalumberjack",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/CocoaLumberjack/CocoaLumberjack.git",
+      "state" : {
+        "revision" : "4b8714a7fb84d42393314ce897127b3939885ec3",
+        "version" : "3.8.5"
+      }
+    },
+    {
+      "identity" : "papertrail-lumberjack-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/mlorincz/papertrail-lumberjack-ios.git",
+      "state" : {
+        "revision" : "58cd10840759f4083858ce25af1bab5f344a060d",
+        "version" : "2.1.0"
+      }
+    },
+    {
+      "identity" : "sharedspm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/bespot/sharedSPM.git",
+      "state" : {
+        "revision" : "3d575386536e0e0bc7e3bcc4f226dac117db397b",
+        "version" : "1.0.3"
+      }
+    },
+    {
+      "identity" : "swift-log",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-log",
+      "state" : {
+        "revision" : "96a2f8a0fa41e9e09af4585e2724c4e825410b91",
+        "version" : "1.6.2"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -20,6 +20,18 @@ AntifraudSDK is an easy to use iOS library for protecting your application from 
 
 ## Installation
 
+### Swift Package Manager
+You can use [Swift Package Manager](https://github.com/swiftlang/swift-package-manager) to install *AntifraudSDK* following the [tutorial by Apple](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app).
+
+1. In Xcode, select "File" -> "Add Package Dependencies..."
+2. Enter [https://github.com/bespot/antifraud-sdk-ios-release.git](https://github.com/bespot/antifraud-sdk-ios-release.git)
+
+or you can add the following dependency to your `Package.swift`:
+
+```
+.package(url: "https://github.com/bespot/antifraud-sdk-ios-release.git", exact: "1.0.1")
+```
+
 ### CocoaPods
 You can use [CocoaPods](http://cocoapods.org/) to install *AntifraudSDK*. See steps below:
 
