@@ -1,26 +1,22 @@
-# Antifraud SDK iOS - Release
+# Bespot Gatekeeper iOS SDK
 
 [![VERSION](https://img.shields.io/badge/VERSION-1.0.0-green)](#)
 [![Swift Version][swift-image]][swift-url]
 
-AntifraudSDK is an easy to use iOS library for protecting your application from fraudulent activities. Our SDK requires minimal permissions and uses device information and sensors to detect and report potential threats, so that app developers can make informed decisions about their application's actions.
+Bespot Gatekeeper is a highly customizable fraud prevention and geolocation verification platform for mobile and web applications. It verifies user locations, detects device integrity issues, and monitors network connections to help organizations—particularly in the iGaming, Media Streaming, and Financial Services industries—comply with regulations and protect digital transactions from fraud.
 
 ## Features
-| Detection       | Description                             	                 |
-|:---------------:|:----------------------------------------------------------:|
-| Geofencing      | Device is located inside or outside of configurable region |
-| Mock Location   | Device's location is simulated by software                 |
-| Multiple Users  | More than one users are registered in the device           |
-| VPN             | Virtual Private Network connection detected on Device      |
+
+See our [documentation](https://gatekeeper.docs.bespot.com/overview/features/) for an up-to-date list of fraud detections available across platforms.
 
 ## Requirements
 
 - iOS 15.0+
 - Xcode 15
 
-## Installation
+## Install the library
 
-### CocoaPods
+### Install with CocoaPods
 You can use [CocoaPods](http://cocoapods.org/) to install *AntifraudSDK*. See steps below:
 
 1. Add *AntifraudSDK* dependency to your *Podfile* - using the https git link|version. See sample code hereby:
@@ -64,7 +60,7 @@ end
 > `config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '12.0'`
 
 
-### Manually
+### Install Manually
 
 For manually installing *AntifraudSDK* into your app, follow the steps below:
 
@@ -175,7 +171,7 @@ public enum ActionType {
 }
 ```
 
-### Set the user identifier
+### Identify user (SetUserId)
 After initialization is completed, SafeSDK supports holding a customer/client related unique user identifier which can be provided at any time using the following method:
 
 ```swift
@@ -197,9 +193,7 @@ In case you need to contact us, drop us an email at: dev@bespot.com
 
 
 ## License
-
-(C) Copyright 2020-2024 Bespot P.C. All rights reserved. See `LICENSE` for more information.
-[Bespot](https://bespot.com/) Location tracking to drive growth, profitability and customer engagement
+© 2025 [Bespot](https://bespot.com/) Private Company. All rights reserved. See `LICENSE` for more information.
 
 
 [swift-image]: https://img.shields.io/badge/swift-5.9-orange.svg
