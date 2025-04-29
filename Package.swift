@@ -4,34 +4,25 @@
 import PackageDescription
 
 let package = Package(
-    name: "AntifraudSPM",
+    name: "AntifraudSDK",
     platforms: [.iOS(.v15)],
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "AntifraudSPM",
-            type: .dynamic,
-            targets: ["AntifraudSPM"]),
+            name: "AntifraudSDK",
+            targets: ["AntifraudSDK"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/bespot/sharedSPM.git", exact: "1.0.6")
     ],
     targets: [
-        // Targets are the basic building blocks of a package, defining a module or a test suite.
-        // Targets can depend on other targets in this package and products from dependencies.
-        .target(
-            name: "AntifraudSPM",
-            dependencies: [
-                .target(name: "AntifraudSDK"),
-                .product(name: "sharedSPM", package: "sharedSPM")
-            ]),
         .testTarget(
-            name: "AntifraudSPMTests",
-            dependencies: ["AntifraudSPM"]),
+            name: "AntifraudSDKTests",
+            dependencies: ["AntifraudSDK"]),
         .binaryTarget(
             name: "AntifraudSDK",
-            url: "https://github.com/bespot/antifraud-sdk-ios-release/releases/download/1.0.5/AntifraudSDK.xcframework.zip",
-            checksum: "71bbfcc33db72bf230bb1edbcfaa5e6a230a4ea4cd5586dff909eb81a726176e")
+            url: "https://github.com/bespot/antifraud-sdk-ios-release/releases/download/1.1.0/AntifraudSDK.xcframework.zip",
+            checksum: "b13f3d5930dd801466150cd98ce549925ed527678d03fdd25d7d560f1bd032d9"
+        )
     ]
 )
 
