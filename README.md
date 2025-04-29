@@ -1,6 +1,6 @@
 # Antifraud SDK iOS - Release
 
-[![VERSION](https://img.shields.io/badge/VERSION-1.0.0-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-1.1.0-green)](#)
 [![Swift Version][swift-image]][swift-url]
 
 AntifraudSDK is an easy to use iOS library for protecting your application from fraudulent activities. Our SDK requires minimal permissions and uses device information and sensors to detect and report potential threats, so that app developers can make informed decisions about their application's actions.
@@ -16,7 +16,7 @@ AntifraudSDK is an easy to use iOS library for protecting your application from 
 ## Requirements
 
 - iOS 15.0+
-- Xcode 15
+- Xcode 16
 
 ## Installation
 
@@ -29,7 +29,7 @@ You can use [Swift Package Manager](https://github.com/swiftlang/swift-package-m
 or you can add the following dependency to your `Package.swift`:
 
 ```
-.package(url: "https://github.com/bespot/antifraud-sdk-ios-release.git", exact: "1.0.1")
+.package(url: "https://github.com/bespot/antifraud-sdk-ios-release.git", exact: "1.1.0")
 ```
 
 ### CocoaPods
@@ -214,5 +214,5 @@ In case you need to contact us, drop us an email at: dev@bespot.com
 [Bespot](https://bespot.com/) Location tracking to drive growth, profitability and customer engagement
 
 
-[swift-image]: https://img.shields.io/badge/swift-5.9-orange.svg
+[swift-image]: https://img.shields.io/badge/swift-6.1-orange.svg
 [swift-url]: https://swift.org/
