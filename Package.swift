@@ -15,13 +15,10 @@ let package = Package(
     dependencies: [
     ],
     targets: [
-        .testTarget(
-            name: "AntifraudSDKTests",
-            dependencies: ["AntifraudSDK"]),
         .binaryTarget(
             name: "AntifraudSDK",
-            url: "https://github.com/bespot/antifraud-sdk-ios-release/releases/download/1.1.0/AntifraudSDK.xcframework.zip",
-            checksum: "b13f3d5930dd801466150cd98ce549925ed527678d03fdd25d7d560f1bd032d9"
+            url: "https://github.com/bespot/antifraud-sdk-ios-release/releases/download/1.1.1-Beta/AntifraudSDK.xcframework.zip",
+            checksum: "ad18d54b8ca857f41b91134e2ed56ac751d4942cdc7125418fd122c8447afe92"
         )
     ]
 )
