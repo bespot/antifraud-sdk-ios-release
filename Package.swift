@@ -7,7 +7,6 @@ let package = Package(
     name: "AntifraudSDK",
     platforms: [.iOS(.v15)],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
             name: "AntifraudSDK",
             targets: ["AntifraudSDK"]),
@@ -18,7 +17,7 @@ let package = Package(
         .binaryTarget(
             name: "AntifraudSDK",
             url: "https://github.com/bespot/antifraud-sdk-ios-release/releases/download/1.1.1/AntifraudSDK.xcframework.zip",
-            checksum: "ad18d54b8ca857f41b91134e2ed56ac751d4942cdc7125418fd122c8447afe92"
+            checksum: "b322ff909087f23648f437f3b1b1a827ed51a7b9915acd0fa0ff34dbff3f2a34"
         )
     ]
 )

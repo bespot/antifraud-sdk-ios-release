@@ -76,11 +76,8 @@ end
 
 For manually installing *AntifraudSDK* into your app, follow the steps below:
 
-1. Download and drop `AntifraudSDK.xcframework` and `shared.xcframework` folder in your project (select "copy items if needed" in the popup menu).
-2. Select "Embed & Sign" at the `AntifraudSDK.xcframework` & `shared.xcframework` listing in your application's Target General settings menu
-3. Integrate the following dependencies as well:
- - `CocoaLumberjack/Swift`
- - `PaperTrailLumberjack/Swift`
+1. Download and drop `AntifraudSDK.xcframework` folder in your project (select "copy items if needed" in the popup menu).
+2. Select "Embed & Sign" at the `AntifraudSDK.xcframework` & `shared.xcframework` listing in your application's Target General settings menu.
 
 
 ## Usage example

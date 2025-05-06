@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "AntifraudSDK",
+    "printedName": "AntifraudSDK",
     "children": [
       {
         "kind": "Import",
@@ -135,8 +135,7 @@
         "declKind": "Import",
         "moduleName": "AntifraudSDK",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ]
       },
       {
@@ -361,10 +360,25 @@
         "mangledName": "$s12AntifraudSDK04SafeB0C",
         "moduleName": "AntifraudSDK",
         "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
+          "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -451,10 +465,7 @@
         "name": "NetworkExtension",
         "printedName": "NetworkExtension",
         "declKind": "Import",
-        "moduleName": "AntifraudSDK",
-        "declAttributes": [
-          "RawDocComment"
-        ]
+        "moduleName": "AntifraudSDK"
       },
       {
         "kind": "Import",
@@ -551,7 +562,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -640,6 +667,22 @@
         "moduleName": "AntifraudSDK",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -953,7 +996,23 @@
         "declAttributes": [
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -1250,6 +1309,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Equatable",
@@ -1964,6 +2037,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
@@ -2087,88 +2174,18 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/JailbreakSuspiciousSystemPathsDetection.swift",
-      "kind": "StringLiteral",
-      "offset": 204,
-      "length": 39,
-      "value": "\"AntifraudSDK.JailbreakSuspiciousSystemPathsDetection\""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/VPNNetworkUTUNDetection.swift",
-      "kind": "StringLiteral",
-      "offset": 232,
-      "length": 23,
-      "value": "\"AntifraudSDK.VPNNetworkUTUNDetection\""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/VPNNetworkIPSECDetection.swift",
-      "kind": "StringLiteral",
-      "offset": 196,
-      "length": 24,
-      "value": "\"AntifraudSDK.VPNNetworkIPSECDetection\""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/VPNNetworkPPPDetection.swift",
-      "kind": "StringLiteral",
-      "offset": 231,
-      "length": 22,
-      "value": "\"AntifraudSDK.VPNNetworkPPPDetection\""
-    },
-    {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/SafeSDK.swift",
       "kind": "BooleanLiteral",
-      "offset": 401,
+      "offset": 339,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/LocationMockFlagsDetection.swift",
-      "kind": "StringLiteral",
-      "offset": 234,
-      "length": 26,
-      "value": "\"AntifraudSDK.LocationMockFlagsDetection\""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/JailbreakSandboxDetection.swift",
-      "kind": "StringLiteral",
-      "offset": 190,
-      "length": 25,
-      "value": "\"AntifraudSDK.JailbreakSandboxDetection\""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/NetworkInterfaceDetection.swift",
-      "kind": "StringLiteral",
-      "offset": 258,
-      "length": 25,
-      "value": "\"AntifraudSDK.NetworkInterfaceDetection\""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/VPNNetworkTUNDetection.swift",
-      "kind": "StringLiteral",
-      "offset": 194,
-      "length": 22,
-      "value": "\"AntifraudSDK.VPNNetworkTUNDetection\""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/JailbreakFridaDetection.swift",
-      "kind": "StringLiteral",
-      "offset": 188,
-      "length": 23,
-      "value": "\"AntifraudSDK.JailbreakFridaDetection\""
-    },
-    {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/JailbreakDYLDSuspiciousLibrariesDetection.swift",
       "kind": "Array",
-      "offset": 349,
+      "offset": 312,
       "length": 499,
       "value": "[\"FridaGadget\", \"frida\", \"cynject\", \"libcycript\", \"systemhook.dylib\", \"SubstrateLoader.dylib\", \"SSLKillSwitch2.dylib\", \"SSLKillSwitch.dylib\", \"MobileSubstrate.dylib\", \"TweakInject.dylib\", \"CydiaSubstrate\", \"CustomWidgetIcons\", \"PreferenceLoader\", \"RocketBootstrap\", \"WeeLoader\", \"\/.file\", \"libhooker\", \"SubstrateInserter\", \"SubstrateBootstrap\", \"ABypass\", \"FlyJB\", \"Substitute\", \"Cephei\", \"Electra\", \"AppSyncUnified-FrontBoard.dylib\", \"Shadow\"]"
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/JailbreakDYLDSuspiciousLibrariesDetection.swift",
-      "kind": "StringLiteral",
-      "offset": 219,
-      "length": 41,
-      "value": "\"AntifraudSDK.JailbreakDYLDSuspiciousLibrariesDetection\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Manager\/DeviceSeedManager.swift",
@@ -2192,13 +2209,6 @@
       "value": "\"device-seed\""
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/VPNNetworkTAPDetection.swift",
-      "kind": "StringLiteral",
-      "offset": 194,
-      "length": 22,
-      "value": "\"AntifraudSDK.VPNNetworkTAPDetection\""
-    },
-    {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Model\/Location.swift",
       "kind": "BooleanLiteral",
       "offset": 324,
@@ -2213,67 +2223,18 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/JailbreakSuspiciousAppsPathDetection.swift",
-      "kind": "StringLiteral",
-      "offset": 201,
-      "length": 36,
-      "value": "\"AntifraudSDK.JailbreakSuspiciousAppsPathDetection\""
-    },
-    {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Manager\/AppStateManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 283,
+      "offset": 246,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/JailbreakURISchemesDetection.swift",
       "kind": "Array",
-      "offset": 302,
+      "offset": 265,
       "length": 197,
       "value": "[\"sileo:\/\/package\/org.coolstar.Sileo\", \"cydia:\/\/package\/com.saurik.Cydia\", \"zbra:\/\/package\/com.apptapp.Zebra\", \"filza:\/\/package\/com.tigisoftware.filza\", \"cydia:\/\/package\/libactivator\"]"
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/JailbreakURISchemesDetection.swift",
-      "kind": "StringLiteral",
-      "offset": 206,
-      "length": 28,
-      "value": "\"AntifraudSDK.JailbreakURISchemesDetection\""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 173,
-      "length": 5,
-      "value": "\"ppp\""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 194,
-      "length": 5,
-      "value": "\"tun\""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 216,
-      "length": 6,
-      "value": "\"utun\""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 238,
-      "length": 5,
-      "value": "\"tap\""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
-      "kind": "StringLiteral",
-      "offset": 261,
-      "length": 7,
-      "value": "\"ipsec\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
@@ -2355,84 +2316,42 @@
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4057,
+      "offset": 4020,
       "length": 18,
       "value": "\"VirtualOrUnknown\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4121,
+      "offset": 4084,
       "length": 6,
       "value": "\"WiFi\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4148,
+      "offset": 4111,
       "length": 10,
       "value": "\"Cellular\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4179,
+      "offset": 4142,
       "length": 10,
       "value": "\"Ethernet\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4210,
+      "offset": 4173,
       "length": 10,
       "value": "\"Loopback\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
       "kind": "StringLiteral",
-      "offset": 4245,
-      "length": 14,
-      "value": "\"NoConnection\""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 4057,
-      "length": 18,
-      "value": "\"VirtualOrUnknown\""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 4121,
-      "length": 6,
-      "value": "\"WiFi\""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 4148,
-      "length": 10,
-      "value": "\"Cellular\""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 4179,
-      "length": 10,
-      "value": "\"Ethernet\""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 4210,
-      "length": 10,
-      "value": "\"Loopback\""
-    },
-    {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/DeviceInfo.swift",
-      "kind": "StringLiteral",
-      "offset": 4245,
+      "offset": 4208,
       "length": 14,
       "value": "\"NoConnection\""
     }
