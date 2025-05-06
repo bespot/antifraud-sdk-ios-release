@@ -1,4 +1,4 @@
-# 1.1.0 (2025-04-30) Support Swift Package Manager
+# 1.1.1 (2025-05-07) Support Swift Package Manager
 
 ### Added
 - Support Swift Package Manager
