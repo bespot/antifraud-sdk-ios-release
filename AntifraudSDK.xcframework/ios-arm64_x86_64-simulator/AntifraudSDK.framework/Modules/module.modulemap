@@ -1,4 +1,0 @@
-framework module AntifraudSDK {
-  header "AntifraudSDK-Swift.h"
-  requires objc
-}

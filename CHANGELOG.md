@@ -1,3 +1,9 @@
+# 1.1.1 (2025-05-07) Support Swift Package Manager
+
+### Added
+- Support Swift Package Manager
+- Support Swift 6.1
+
 # 1.0.0 (2024-11-25)
 
 ### Added

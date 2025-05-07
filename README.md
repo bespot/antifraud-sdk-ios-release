@@ -1,6 +1,6 @@
 # Bespot Gatekeeper iOS SDK
 
-[![VERSION](https://img.shields.io/badge/VERSION-1.0.0-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-1.1.1-green)](#)
 [![Swift Version][swift-image]][swift-url]
 
 Bespot Gatekeeper is a highly customizable fraud prevention and geolocation verification platform for mobile and web applications. It verifies user locations, detects device integrity issues, and monitors network connections to help organizations—particularly in the iGaming, Media Streaming, and Financial Services industries—comply with regulations and protect digital transactions from fraud.
@@ -12,9 +12,21 @@ See our [documentation](https://gatekeeper.docs.bespot.com/overview/features/) f
 ## Requirements
 
 - iOS 15.0+
-- Xcode 15
+- Xcode 16
 
 ## Install the library
+
+### Install with Swift Package Manager
+You can use [Swift Package Manager](https://github.com/swiftlang/swift-package-manager) to install *AntifraudSDK* following the [tutorial by Apple](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app).
+
+1. In Xcode, select "File" -> "Add Package Dependencies..."
+2. Enter [https://github.com/bespot/antifraud-sdk-ios-release.git](https://github.com/bespot/antifraud-sdk-ios-release.git)
+
+or you can add the following dependency to your `Package.swift`:
+
+```
+.package(url: "https://github.com/bespot/antifraud-sdk-ios-release.git", exact: "1.1.1")
+```
 
 ### Install with CocoaPods
 You can use [CocoaPods](http://cocoapods.org/) to install *AntifraudSDK*. See steps below:
@@ -30,7 +42,7 @@ target '[Your app]' do
   use_frameworks!
 
   # AntifraudSDK framework
-  pod 'AntifraudSDK', :git => 'https://github.com/bespot/antifraud-sdk-ios-release', :tag => '1.0.0'
+  pod 'AntifraudSDK', :git => 'https://github.com/bespot/antifraud-sdk-ios-release', :tag => '1.1.1'
 
   # Other CocoaPods libraries/frameworks you may use...
 
@@ -64,11 +76,8 @@ end
 
 For manually installing *AntifraudSDK* into your app, follow the steps below:
 
-1. Download and drop `AntifraudSDK.xcframework` and `shared.xcframework` folder in your project (select "copy items if needed" in the popup menu).
-2. Select "Embed & Sign" at the `AntifraudSDK.xcframework` & `shared.xcframework` listing in your application's Target General settings menu
-3. Integrate the following dependencies as well:
- - `CocoaLumberjack/Swift`
- - `PaperTrailLumberjack/Swift`
+1. Download and drop `AntifraudSDK.xcframework` folder in your project (select "copy items if needed" in the popup menu).
+2. Select "Embed & Sign" at the `AntifraudSDK.xcframework` listing in your application's Target General settings menu.
 
 
 ## Usage example
@@ -196,5 +205,5 @@ In case you need to contact us, drop us an email at: dev@bespot.com
 © 2025 [Bespot](https://bespot.com/) Private Company. All rights reserved. See `LICENSE` for more information.
 
 
-[swift-image]: https://img.shields.io/badge/swift-5.9-orange.svg
+[swift-image]: https://img.shields.io/badge/swift-6.1-orange.svg
 [swift-url]: https://swift.org/
