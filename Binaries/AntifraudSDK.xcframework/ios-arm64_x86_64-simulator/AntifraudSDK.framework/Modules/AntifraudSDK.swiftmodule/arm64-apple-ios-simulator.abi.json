@@ -353,6 +353,80 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "subscribe",
+            "printedName": "subscribe(subscribeCompletion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<AntifraudSDK.Action, AntifraudSDK.SDKError>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<AntifraudSDK.Action, AntifraudSDK.SDKError>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Action",
+                        "printedName": "AntifraudSDK.Action",
+                        "usr": "s:12AntifraudSDK6ActionC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKError",
+                        "printedName": "AntifraudSDK.SDKError",
+                        "usr": "s:12AntifraudSDK8SDKErrorO"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AntifraudSDK04SafeB0C9subscribe0D10Completionyys6ResultOyAA6ActionCAA8SDKErrorOGc_tF",
+            "mangledName": "$s12AntifraudSDK04SafeB0C9subscribe0D10Completionyys6ResultOyAA6ActionCAA8SDKErrorOGc_tF",
+            "moduleName": "AntifraudSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "unsubscribe",
+            "printedName": "unsubscribe()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AntifraudSDK04SafeB0C11unsubscribeyyF",
+            "mangledName": "$s12AntifraudSDK04SafeB0C11unsubscribeyyF",
+            "moduleName": "AntifraudSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Class",

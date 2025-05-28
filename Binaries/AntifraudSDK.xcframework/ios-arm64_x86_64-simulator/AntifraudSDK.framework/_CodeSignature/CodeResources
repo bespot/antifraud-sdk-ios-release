@@ -18,43 +18,43 @@
 		</data>
 		<key>Modules/AntifraudSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		kauSObCLPxCGf/EsAEjl4mqzsTI=
+		7aNfHoATDczc9ZS5bd4P0amwR+8=
 		</data>
 		<key>Modules/AntifraudSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		29FhZiFM17YC1BOsLEfqe0y3oic=
+		DKKXXhQKeJ4rMGCfycu0Y0zzPgA=
 		</data>
 		<key>Modules/AntifraudSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		h8G6WLx8wnDbnP458seglC37PHw=
+		JFAEcTbszHkdd6wk5Nm9eF/Q6F0=
 		</data>
 		<key>Modules/AntifraudSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		29FhZiFM17YC1BOsLEfqe0y3oic=
+		DKKXXhQKeJ4rMGCfycu0Y0zzPgA=
 		</data>
 		<key>Modules/AntifraudSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		bOu6GqNVrvF1QBBM7j646Z1gtAQ=
+		nbC2Z2RUIqE67CgQgnTruOAYZN4=
 		</data>
 		<key>Modules/AntifraudSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		kauSObCLPxCGf/EsAEjl4mqzsTI=
+		7aNfHoATDczc9ZS5bd4P0amwR+8=
 		</data>
 		<key>Modules/AntifraudSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		O5MqG7uxug1wy6eN85bs7qhDYSM=
+		XaaX6LCIT6eH3Lo/jGvn9L43aHo=
 		</data>
 		<key>Modules/AntifraudSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		wolFWUlSmtWwCbm6FEiBrVMH1AQ=
+		YSMtxrPch1j57hQqrv70svy28l8=
 		</data>
 		<key>Modules/AntifraudSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		O5MqG7uxug1wy6eN85bs7qhDYSM=
+		XaaX6LCIT6eH3Lo/jGvn9L43aHo=
 		</data>
 		<key>Modules/AntifraudSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		oDbdnY/Nsh7wQTVDebf2SHdtycI=
+		9cURANAcwIpGagd968G9acTFZ84=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -81,70 +81,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zCuTQk7CI1TJVk9DMrXyMsNSkgl4mMIVPrWgalY346o=
+			qGTWGDXPkCNF25LM7uSo9x/r/xWLmJISdThDkbJ6Hh0=
 			</data>
 		</dict>
 		<key>Modules/AntifraudSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zholF+37Udsk+yfvjKXhXX+ZhW5gtNAknDzGjsiXgUY=
+			n++Vj0R8TQg3ziSyJH5DHT86QwKn3+Hapb4WfPrz1/0=
 			</data>
 		</dict>
 		<key>Modules/AntifraudSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YfmytLtQ0mo7IpE/OCJk/7YZJyTP6TsEgMAgx+CQoD0=
+			QtAHH+Am11n1cZSBeyCyVJEKnSm10fxd6tROnzTGNqg=
 			</data>
 		</dict>
 		<key>Modules/AntifraudSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zholF+37Udsk+yfvjKXhXX+ZhW5gtNAknDzGjsiXgUY=
+			n++Vj0R8TQg3ziSyJH5DHT86QwKn3+Hapb4WfPrz1/0=
 			</data>
 		</dict>
 		<key>Modules/AntifraudSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VIJs1juBeYM8BsQM0bk5WblUHCvSVQW5FUjFKpz+FIs=
+			bF5vOLZhQ7OESzAj2a4bgyJk3uBgZ0ONDENn6sj3a9w=
 			</data>
 		</dict>
 		<key>Modules/AntifraudSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zCuTQk7CI1TJVk9DMrXyMsNSkgl4mMIVPrWgalY346o=
+			qGTWGDXPkCNF25LM7uSo9x/r/xWLmJISdThDkbJ6Hh0=
 			</data>
 		</dict>
 		<key>Modules/AntifraudSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H2t+KCY8yV2y+XTSYLHt1Ec44dcm7XPiVMdysI+10Lg=
+			sCHUYbFLZch0J9CXiKgHlQwPReH1J4IJTwwMFPspgi0=
 			</data>
 		</dict>
 		<key>Modules/AntifraudSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1QkIvRZHLUOkOJSrW5m5DBHDLprKVjY4AeUX+BcsEuo=
+			8/lC7U/u2mjj3SgywrWHSGUQUSiogKMghUF61KsKy14=
 			</data>
 		</dict>
 		<key>Modules/AntifraudSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			H2t+KCY8yV2y+XTSYLHt1Ec44dcm7XPiVMdysI+10Lg=
+			sCHUYbFLZch0J9CXiKgHlQwPReH1J4IJTwwMFPspgi0=
 			</data>
 		</dict>
 		<key>Modules/AntifraudSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a8ohF6/dFd0UVVNwIUn97eh+2WOP/fkRE9cDo98LHGI=
+			oqpPuyh+D5IhN1ZQri5foKlfZ7WMR88ir2HldMqv0AY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
