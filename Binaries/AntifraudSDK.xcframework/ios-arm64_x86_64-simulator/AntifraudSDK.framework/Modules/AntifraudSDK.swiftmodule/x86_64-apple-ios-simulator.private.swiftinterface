@@ -19,6 +19,8 @@ import _SwiftConcurrencyShims
   public func initialize(apiBaseUrl: Swift.String, apiKey: Swift.String, authTokenUrl: Swift.String, clientId: Swift.String, clientSecret: Swift.String, params: [Swift.String : Any]? = nil)
   public func check(checkCompletion: @escaping (Swift.Result<AntifraudSDK.Action, AntifraudSDK.SDKError>) -> Swift.Void)
   public func setUserId(_ userId: Swift.String)
+  public func subscribe(subscribeCompletion: @escaping (Swift.Result<AntifraudSDK.Action, AntifraudSDK.SDKError>) -> Swift.Void)
+  public func unsubscribe()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class DeviceSeedManager {

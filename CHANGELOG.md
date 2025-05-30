@@ -1,3 +1,9 @@
+# 1.1.2 (2025-05-30)
+
+### Added
+- Public method `subscribe(subscribeCompletion:)` to allow clients to observe real-time fraud detection updates.
+- Public method `unsubscribe()` to stop receiving fraud detection updates.
+
 # 1.1.1 (2025-05-07) Support Swift Package Manager
 
 ### Added
