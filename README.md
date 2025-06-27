@@ -180,6 +180,26 @@ public enum ActionType {
 }
 ```
 
+Result SDKErrors have one of the following types:
+```swift
+public enum SDKError: String, Error {
+    case networkConnection, // Connection Error
+         serverError, // Remote Server Error
+         locationPermissionUnknown, // The app’s authorization status for location services is unknown or invalid.
+         locationPermissionNotDetermined, // The user has not yet made a choice regarding whether this app can use location services.
+         locationPermissionDenied, // The user denied the use of location services for this app or location services are disabled globally in Settings.
+         locationServicesDisabled, // Location services are disabled system-wide. Enable them in Settings > Privacy > Location Services.
+         locationNotAvailable, // Location data is currently unavailable. Try again later or move to an area with better GPS signal.
+         notInitialized, // The SDK is not initialized
+         unknownError, // Unknown Error (see Support section)
+         noActiveApiKey, // The Api Key is either disabled or wrong
+         noRecipeFoundFailure, // The application does not have a valid Recipe
+         noChecksAvailableFailure, // The server did not find available Checks
+         internalError // Internal SDK errors
+}
+```
+
+
 ### Identify user (SetUserId)
 After initialization is completed, SafeSDK supports holding a customer/client related unique user identifier which can be provided at any time using the following method:
 
