@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "AntifraudSDK"
-  spec.version      = "test-1.1.3"
+  spec.version      = "1.1.3-test"
   spec.summary      = "Bespot SAFE fraud prevention platform."
   spec.description  = <<-DESC
   Bespot SAFE is a highly customisable online-fraud prevention solution that detects suspicious activities is the dependency in mobile and web applications.
