@@ -1,6 +1,6 @@
 # Bespot Gatekeeper iOS SDK
 
-[![VERSION](https://img.shields.io/badge/VERSION-1.1.2-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-1.1.3-green)](#)
 [![Swift Version][swift-image]][swift-url]
 
 Bespot Gatekeeper is a highly customizable fraud prevention and geolocation verification platform for mobile and web applications. It verifies user locations, detects device integrity issues, and monitors network connections to help organizations—particularly in the iGaming, Media Streaming, and Financial Services industries—comply with regulations and protect digital transactions from fraud.
@@ -19,13 +19,13 @@ See our [documentation](https://gatekeeper.docs.bespot.com/overview/features/) f
 ### Install with Swift Package Manager
 You can use [Swift Package Manager](https://github.com/swiftlang/swift-package-manager) to install *AntifraudSDK* following the [tutorial by Apple](https://developer.apple.com/documentation/xcode/adding-package-dependencies-to-your-app).
 
-1. In Xcode, select "File" -> "Add Package Dependencies..."
+1. In Xcode, select `File` -> `Add Package Dependencies...`
 2. Enter [https://github.com/bespot/antifraud-sdk-ios-release.git](https://github.com/bespot/antifraud-sdk-ios-release.git)
 
 or you can add the following dependency to your `Package.swift`:
 
 ```
-.package(url: "https://github.com/bespot/antifraud-sdk-ios-release.git", exact: "1.1.2")
+.package(url: "https://github.com/bespot/antifraud-sdk-ios-release.git", exact: "1.1.3")
 ```
 
 ### Install with CocoaPods
@@ -42,7 +42,7 @@ target '[Your app]' do
   use_frameworks!
 
   # AntifraudSDK framework
-  pod 'AntifraudSDK', :git => 'https://github.com/bespot/antifraud-sdk-ios-release', :tag => '1.1.2'
+  pod 'AntifraudSDK', :git => 'https://github.com/bespot/antifraud-sdk-ios-release', :tag => '1.1.3'
 
   # Other CocoaPods libraries/frameworks you may use...
 
@@ -60,9 +60,7 @@ end
 
 2. Run `pod install`
 
-3. Open Xcode & update _linking_. Select you main project in the _Project Navigator_ -> Select each of the targets -> Go to _Build Settings_ view -> filter with `Other Linker Flags` on filtering text view at the top right -> Remove the following: `$(inherited)`, `-framework "AntifraudSDK"` and `-framework "shared"`.
-
-4. Disable user script sandboxing in Project settings. Select you main project in the _Project Navigator_ -> Select the project (not the targets) -> Go to _Build Settings_ view -> filter with `ENABLE_USER_SCRIPT_SANDBOXING` on filtering text view at the top right -> Set it to `No`.
+3. Disable user script sandboxing in Project settings. Select you main project in the _Project Navigator_ -> Select the project (not the targets) -> Go to _Build Settings_ view -> filter with `ENABLE_USER_SCRIPT_SANDBOXING` on filtering text view at the top right -> Set it to `No`.
 
 
 > [!NOTE]
@@ -110,7 +108,7 @@ import AntifraudSDK
 In your application's AppDelegate ```application(_:didFinishLaunchingWithOptions:)``` method add this line to initialize the SafeSDK singleton object:
 
 ```swift
-SafeSDK.shared.initialize(apiKey: "the_provided_API_key",
+SafeSDK.sharedSafeSDK.initialize(apiKey: "the_provided_API_key",
                       apiBaseURL: "the_provided_API_base_URL",
                       authTokenUrl: "the_provided_oauth2_URL",
                       clientId: "the_provided_oauth2_clientid",
@@ -122,7 +120,7 @@ During initialization, use the params `[String: Any]` optional array for further
 - Key: `"debugLoggingEnabled"`, Value: `Bool`. For enabling debug logging. Do not keep debug logging enabled in production builds.
 
 ```swift
-SafeSDK.shared.initialize(apiKey: "the_provided_API_key",
+SafeSDK.sharedSafeSDK.initialize(apiKey: "the_provided_API_key",
                       apiBaseURL: "the_provided_API_base_URL",
                       authTokenUrl: "the_provided_oauth2_URL",
                       clientId: "the_provided_oauth2_clientid",
@@ -134,30 +132,11 @@ SafeSDK.shared.initialize(apiKey: "the_provided_API_key",
 #### Security
 OAuth 2.0 client credentials provided (*client id* & *client secret*) should be used in a safe and secure manner. It is strongly advised **not** to be part of the application bundle when submitting to the App Store.
 
-#### Delegation
-Use the _optional_ `InitializationDelegate` delegate in case you need to be informed for a successful or unsuccessful SafeSDK initialization. In your view controller's ```viewDidLoad``` method add this:
-```swift
-SafeSDK.shared.initializationDelegate = self
-```
-
-Extend your view controller to implement the _optional_ delegate methods:
-```swift
-extension YourViewController: SafeSDK.InitializationDelegate {
-   func initializationSucceeded() {
-     // TODO: Continue your work
-   }
-
-   func initializationFailed(error: SDKError) {
-     // TODO: Troubleshoot the error
-   }
-}
-```
-
 ### On-demand check
 Use the following method to make an informed decision on what action to take in case of detected fraudulent activities by SafeSDK:
 
 ```swift
-SafeSDK.shared.check { result in
+SafeSDK.sharedSafeSDK.check { result in
     switch result {
     case .success(let action):
         // TODO: Use proposed action of the SafeSDK
@@ -180,11 +159,24 @@ public enum ActionType {
 }
 ```
 
+Result SDKErrors have one of the following types:
+```swift
+public enum SDKError: String, Error {
+    case networkConnection, // Connection Error
+         noActiveApiKey, // The Api Key is either disabled or wrong
+         noChecksAvailableFailure, // The Server did not find available Checks
+         noRecipeFoundFailure, // The application does not have a valid Recipe
+         notInitialized, // The SDK is not initialized
+         serverError, // Remote Server Error
+         unknownError // Unknown Error (see Support section)
+}
+```
+
 ### Identify user (SetUserId)
 After initialization is completed, SafeSDK supports holding a customer/client related unique user identifier which can be provided at any time using the following method:
 
 ```swift
-SafeSDK.shared.setUserId("client_user_identifier")
+SafeSDK.sharedSafeSDK.setUserId("client_user_identifier")
 ```
 
 ### Subscribe to Fraud Detection Updates
@@ -192,7 +184,7 @@ SafeSDK.shared.setUserId("client_user_identifier")
 You can now subscribe to continuous fraud detection results using the `subscribe` method:
 
 ```swift
-AntifraudSDK.shared.subscribe { result in
+SafeSDK.sharedSafeSDK.subscribe { result in
     switch result {
     case .success(let action):
         // Handle the fraud action
@@ -205,12 +197,12 @@ AntifraudSDK.shared.subscribe { result in
 ### Unsubscribe from Fraud Detection Updates
 Terminates the active subscription to fraud detection updates. Use this method when you no longer wish to receive updates from the SDK.
 ```swift
-AntifraudSDK.shared.unsubscribe()
+SafeSDK.sharedSafeSDK.unsubscribe()
 ```
 
 ## App Store Connect distribution
 We collect application version and build number information for debugging and analytics purposes. Xcode 13 has added an option **"Manage Version and Build Number"** during the process of app distribution. Please be sure to have this option **disabled** in order for SDK versions to be correctly reported.
-For Xcode 15, after creating the archive file and select Distribute App button, in the next screen you should select the Custom option. Finally you should deselect the option "Manage Version and Build Number" in order for SDK versions to be correctly reported.
+For Xcode 15+, after creating the archive file and select Distribute App button, in the next screen you should select the Custom option. Finally you should deselect the option "Manage Version and Build Number" in order for SDK versions to be correctly reported.
 
 ## Support
 

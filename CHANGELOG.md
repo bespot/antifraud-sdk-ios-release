@@ -1,3 +1,11 @@
+# 1.1.3 (2025-08-28)
+
+### Fixed
+- Duplicate messages when debug logging was enabled
+
+### Changed
+- `SDKError` supported cases (added in readme as well)
+
 # 1.1.2 (2025-05-30)
 
 ### Added

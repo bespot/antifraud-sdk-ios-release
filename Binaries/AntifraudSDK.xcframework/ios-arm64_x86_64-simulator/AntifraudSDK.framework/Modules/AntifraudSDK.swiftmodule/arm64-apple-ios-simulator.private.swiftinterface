@@ -42,7 +42,7 @@ public enum ActionType {
   }
 }
 public enum SDKError : Swift.String, Swift.Error {
-  case networkConnection, serverError, locationPermissionUnknown, locationPermissionNotDetermined, locationPermissionDenied, locationServicesDisabled, locationNotAvailable, notInitialized, unknownError, unknownApiError, noActiveApiKey, noRecipeFoundFailure, noChecksAvailableFailure, emptyCheckConfigurationFailure, cannotNavigateToProcMapsFailure
+  case networkConnection, noActiveApiKey, noChecksAvailableFailure, noRecipeFoundFailure, notInitialized, serverError, unknownError
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {

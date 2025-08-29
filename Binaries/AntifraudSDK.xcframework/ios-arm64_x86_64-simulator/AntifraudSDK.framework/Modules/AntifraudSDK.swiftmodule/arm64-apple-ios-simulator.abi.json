@@ -1468,6 +1468,26 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "shared",
+        "printedName": "shared",
+        "declKind": "Import",
+        "moduleName": "AntifraudSDK",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "SDKError",
         "printedName": "SDKError",
@@ -1511,339 +1531,6 @@
           },
           {
             "kind": "Var",
-            "name": "serverError",
-            "printedName": "serverError",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SDKError",
-                    "printedName": "AntifraudSDK.SDKError",
-                    "usr": "s:12AntifraudSDK8SDKErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AntifraudSDK.SDKError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SDKError",
-                        "printedName": "AntifraudSDK.SDKError",
-                        "usr": "s:12AntifraudSDK8SDKErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AntifraudSDK8SDKErrorO11serverErroryA2CmF",
-            "mangledName": "$s12AntifraudSDK8SDKErrorO11serverErroryA2CmF",
-            "moduleName": "AntifraudSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "locationPermissionUnknown",
-            "printedName": "locationPermissionUnknown",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SDKError",
-                    "printedName": "AntifraudSDK.SDKError",
-                    "usr": "s:12AntifraudSDK8SDKErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AntifraudSDK.SDKError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SDKError",
-                        "printedName": "AntifraudSDK.SDKError",
-                        "usr": "s:12AntifraudSDK8SDKErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AntifraudSDK8SDKErrorO25locationPermissionUnknownyA2CmF",
-            "mangledName": "$s12AntifraudSDK8SDKErrorO25locationPermissionUnknownyA2CmF",
-            "moduleName": "AntifraudSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "locationPermissionNotDetermined",
-            "printedName": "locationPermissionNotDetermined",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SDKError",
-                    "printedName": "AntifraudSDK.SDKError",
-                    "usr": "s:12AntifraudSDK8SDKErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AntifraudSDK.SDKError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SDKError",
-                        "printedName": "AntifraudSDK.SDKError",
-                        "usr": "s:12AntifraudSDK8SDKErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AntifraudSDK8SDKErrorO31locationPermissionNotDeterminedyA2CmF",
-            "mangledName": "$s12AntifraudSDK8SDKErrorO31locationPermissionNotDeterminedyA2CmF",
-            "moduleName": "AntifraudSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "locationPermissionDenied",
-            "printedName": "locationPermissionDenied",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SDKError",
-                    "printedName": "AntifraudSDK.SDKError",
-                    "usr": "s:12AntifraudSDK8SDKErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AntifraudSDK.SDKError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SDKError",
-                        "printedName": "AntifraudSDK.SDKError",
-                        "usr": "s:12AntifraudSDK8SDKErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AntifraudSDK8SDKErrorO24locationPermissionDeniedyA2CmF",
-            "mangledName": "$s12AntifraudSDK8SDKErrorO24locationPermissionDeniedyA2CmF",
-            "moduleName": "AntifraudSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "locationServicesDisabled",
-            "printedName": "locationServicesDisabled",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SDKError",
-                    "printedName": "AntifraudSDK.SDKError",
-                    "usr": "s:12AntifraudSDK8SDKErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AntifraudSDK.SDKError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SDKError",
-                        "printedName": "AntifraudSDK.SDKError",
-                        "usr": "s:12AntifraudSDK8SDKErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AntifraudSDK8SDKErrorO24locationServicesDisabledyA2CmF",
-            "mangledName": "$s12AntifraudSDK8SDKErrorO24locationServicesDisabledyA2CmF",
-            "moduleName": "AntifraudSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "locationNotAvailable",
-            "printedName": "locationNotAvailable",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SDKError",
-                    "printedName": "AntifraudSDK.SDKError",
-                    "usr": "s:12AntifraudSDK8SDKErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AntifraudSDK.SDKError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SDKError",
-                        "printedName": "AntifraudSDK.SDKError",
-                        "usr": "s:12AntifraudSDK8SDKErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AntifraudSDK8SDKErrorO20locationNotAvailableyA2CmF",
-            "mangledName": "$s12AntifraudSDK8SDKErrorO20locationNotAvailableyA2CmF",
-            "moduleName": "AntifraudSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "notInitialized",
-            "printedName": "notInitialized",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SDKError",
-                    "printedName": "AntifraudSDK.SDKError",
-                    "usr": "s:12AntifraudSDK8SDKErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AntifraudSDK.SDKError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SDKError",
-                        "printedName": "AntifraudSDK.SDKError",
-                        "usr": "s:12AntifraudSDK8SDKErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AntifraudSDK8SDKErrorO14notInitializedyA2CmF",
-            "mangledName": "$s12AntifraudSDK8SDKErrorO14notInitializedyA2CmF",
-            "moduleName": "AntifraudSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "unknownError",
-            "printedName": "unknownError",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SDKError",
-                    "printedName": "AntifraudSDK.SDKError",
-                    "usr": "s:12AntifraudSDK8SDKErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AntifraudSDK.SDKError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SDKError",
-                        "printedName": "AntifraudSDK.SDKError",
-                        "usr": "s:12AntifraudSDK8SDKErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AntifraudSDK8SDKErrorO12unknownErroryA2CmF",
-            "mangledName": "$s12AntifraudSDK8SDKErrorO12unknownErroryA2CmF",
-            "moduleName": "AntifraudSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "unknownApiError",
-            "printedName": "unknownApiError",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SDKError",
-                    "printedName": "AntifraudSDK.SDKError",
-                    "usr": "s:12AntifraudSDK8SDKErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AntifraudSDK.SDKError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SDKError",
-                        "printedName": "AntifraudSDK.SDKError",
-                        "usr": "s:12AntifraudSDK8SDKErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AntifraudSDK8SDKErrorO15unknownApiErroryA2CmF",
-            "mangledName": "$s12AntifraudSDK8SDKErrorO15unknownApiErroryA2CmF",
-            "moduleName": "AntifraudSDK"
-          },
-          {
-            "kind": "Var",
             "name": "noActiveApiKey",
             "printedName": "noActiveApiKey",
             "children": [
@@ -1877,43 +1564,6 @@
             "declKind": "EnumElement",
             "usr": "s:12AntifraudSDK8SDKErrorO14noActiveApiKeyyA2CmF",
             "mangledName": "$s12AntifraudSDK8SDKErrorO14noActiveApiKeyyA2CmF",
-            "moduleName": "AntifraudSDK"
-          },
-          {
-            "kind": "Var",
-            "name": "noRecipeFoundFailure",
-            "printedName": "noRecipeFoundFailure",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "SDKError",
-                    "printedName": "AntifraudSDK.SDKError",
-                    "usr": "s:12AntifraudSDK8SDKErrorO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "AntifraudSDK.SDKError.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "SDKError",
-                        "printedName": "AntifraudSDK.SDKError",
-                        "usr": "s:12AntifraudSDK8SDKErrorO"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:12AntifraudSDK8SDKErrorO20noRecipeFoundFailureyA2CmF",
-            "mangledName": "$s12AntifraudSDK8SDKErrorO20noRecipeFoundFailureyA2CmF",
             "moduleName": "AntifraudSDK"
           },
           {
@@ -1955,8 +1605,8 @@
           },
           {
             "kind": "Var",
-            "name": "emptyCheckConfigurationFailure",
-            "printedName": "emptyCheckConfigurationFailure",
+            "name": "noRecipeFoundFailure",
+            "printedName": "noRecipeFoundFailure",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -1986,14 +1636,14 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12AntifraudSDK8SDKErrorO30emptyCheckConfigurationFailureyA2CmF",
-            "mangledName": "$s12AntifraudSDK8SDKErrorO30emptyCheckConfigurationFailureyA2CmF",
+            "usr": "s:12AntifraudSDK8SDKErrorO20noRecipeFoundFailureyA2CmF",
+            "mangledName": "$s12AntifraudSDK8SDKErrorO20noRecipeFoundFailureyA2CmF",
             "moduleName": "AntifraudSDK"
           },
           {
             "kind": "Var",
-            "name": "cannotNavigateToProcMapsFailure",
-            "printedName": "cannotNavigateToProcMapsFailure",
+            "name": "notInitialized",
+            "printedName": "notInitialized",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -2023,8 +1673,82 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:12AntifraudSDK8SDKErrorO31cannotNavigateToProcMapsFailureyA2CmF",
-            "mangledName": "$s12AntifraudSDK8SDKErrorO31cannotNavigateToProcMapsFailureyA2CmF",
+            "usr": "s:12AntifraudSDK8SDKErrorO14notInitializedyA2CmF",
+            "mangledName": "$s12AntifraudSDK8SDKErrorO14notInitializedyA2CmF",
+            "moduleName": "AntifraudSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "serverError",
+            "printedName": "serverError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKError",
+                    "printedName": "AntifraudSDK.SDKError",
+                    "usr": "s:12AntifraudSDK8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntifraudSDK.SDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKError",
+                        "printedName": "AntifraudSDK.SDKError",
+                        "usr": "s:12AntifraudSDK8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AntifraudSDK8SDKErrorO11serverErroryA2CmF",
+            "mangledName": "$s12AntifraudSDK8SDKErrorO11serverErroryA2CmF",
+            "moduleName": "AntifraudSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "unknownError",
+            "printedName": "unknownError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKError",
+                    "printedName": "AntifraudSDK.SDKError",
+                    "usr": "s:12AntifraudSDK8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntifraudSDK.SDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKError",
+                        "printedName": "AntifraudSDK.SDKError",
+                        "usr": "s:12AntifraudSDK8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AntifraudSDK8SDKErrorO12unknownErroryA2CmF",
+            "mangledName": "$s12AntifraudSDK8SDKErrorO12unknownErroryA2CmF",
             "moduleName": "AntifraudSDK"
           },
           {
@@ -2255,13 +1979,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/JailbreakDYLDSuspiciousLibrariesDetection.swift",
-      "kind": "Array",
-      "offset": 312,
-      "length": 499,
-      "value": "[\"FridaGadget\", \"frida\", \"cynject\", \"libcycript\", \"systemhook.dylib\", \"SubstrateLoader.dylib\", \"SSLKillSwitch2.dylib\", \"SSLKillSwitch.dylib\", \"MobileSubstrate.dylib\", \"TweakInject.dylib\", \"CydiaSubstrate\", \"CustomWidgetIcons\", \"PreferenceLoader\", \"RocketBootstrap\", \"WeeLoader\", \"\/.file\", \"libhooker\", \"SubstrateInserter\", \"SubstrateBootstrap\", \"ABypass\", \"FlyJB\", \"Substitute\", \"Cephei\", \"Electra\", \"AppSyncUnified-FrontBoard.dylib\", \"Shadow\"]"
-    },
-    {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Manager\/DeviceSeedManager.swift",
       "kind": "StringLiteral",
       "offset": 216,
@@ -2309,6 +2026,13 @@
       "offset": 265,
       "length": 197,
       "value": "[\"sileo:\/\/package\/org.coolstar.Sileo\", \"cydia:\/\/package\/com.saurik.Cydia\", \"zbra:\/\/package\/com.apptapp.Zebra\", \"filza:\/\/package\/com.tigisoftware.filza\", \"cydia:\/\/package\/libactivator\"]"
+    },
+    {
+      "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Logger.swift",
+      "kind": "StringLiteral",
+      "offset": 226,
+      "length": 19,
+      "value": "\"__swift_message__\""
     },
     {
       "filePath": "\/Users\/vagelisspirou75\/Desktop\/antifraud-sdk-android\/iOSLib\/AntifraudSDK\/Detection\/VPNDetector.swift",
