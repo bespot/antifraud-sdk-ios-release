@@ -1,3 +1,8 @@
+# 1.1.4 (2025-12-10)
+
+### Fixed
+- Location updates are now started on the main thread to ensure correct Core Location behavior and improve stability.
+
 # 1.1.3 (2025-08-28)
 
 ### Fixed
