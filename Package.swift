@@ -16,9 +16,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AntifraudSDK",
-            url: "https://github.com/bespot/antifraud-sdk-ios-release/releases/download/1.1.4-test/AntifraudSDK.xcframework.zip",
+            url: "https://github.com/bespot/antifraud-sdk-ios-release/releases/download/1.1.4/AntifraudSDK.xcframework.zip",
             checksum: "2921ea9a4520bf8f0df7d02358bd22576b1423db9f645713324237bf49bb55b9"
         )
     ]
 )
-
