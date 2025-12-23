@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
 // swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature AccessLevelOnImport -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name AntifraudSDK
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import AVFoundation
 import CoreLocation
 import Foundation
@@ -14,16 +14,19 @@ import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-@_hasMissingDesignatedInitializers public class SafeSDK {
+@_hasMissingDesignatedInitializers public class SafeSDK : @unchecked Swift.Sendable {
   public static let sharedSafeSDK: AntifraudSDK.SafeSDK
+  #if compiler(>=5.3) && $NonescapableTypes
   public func initialize(apiBaseUrl: Swift.String, apiKey: Swift.String, authTokenUrl: Swift.String, clientId: Swift.String, clientSecret: Swift.String, params: [Swift.String : Any]? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func check(checkCompletion: @escaping (Swift.Result<AntifraudSDK.Action, AntifraudSDK.SDKError>) -> Swift.Void)
+  #endif
   public func setUserId(_ userId: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func subscribe(subscribeCompletion: @escaping (Swift.Result<AntifraudSDK.Action, AntifraudSDK.SDKError>) -> Swift.Void)
+  #endif
   public func unsubscribe()
-  @objc deinit
-}
-@_hasMissingDesignatedInitializers public class DeviceSeedManager {
   @objc deinit
 }
 public struct Location {
@@ -43,7 +46,9 @@ public enum ActionType {
 }
 public enum SDKError : Swift.String, Swift.Error {
   case networkConnection, noActiveApiKey, noChecksAvailableFailure, noRecipeFoundFailure, notInitialized, serverError, unknownError
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
