@@ -276,6 +276,73 @@
           },
           {
             "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(apiBaseUrl:apiKey:accessToken:params:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AntifraudSDK04SafeB0C10initialize10apiBaseUrl0E3Key11accessToken6paramsySS_S2SSDySSypGSgtF",
+            "mangledName": "$s12AntifraudSDK04SafeB0C10initialize10apiBaseUrl0E3Key11accessToken6paramsySS_S2SSDySSypGSgtF",
+            "moduleName": "AntifraudSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "check",
             "printedName": "check(checkCompletion:)",
             "children": [
@@ -347,6 +414,33 @@
             "declKind": "Func",
             "usr": "s:12AntifraudSDK04SafeB0C9setUserIdyySSF",
             "mangledName": "$s12AntifraudSDK04SafeB0C9setUserIdyySSF",
+            "moduleName": "AntifraudSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setAccessToken",
+            "printedName": "setAccessToken(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12AntifraudSDK04SafeB0C14setAccessTokenyySSF",
+            "mangledName": "$s12AntifraudSDK04SafeB0C14setAccessTokenyySSF",
             "moduleName": "AntifraudSDK",
             "declAttributes": [
               "AccessControl",
@@ -1377,17 +1471,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
             "name": "Equatable",
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -1664,6 +1758,117 @@
           },
           {
             "kind": "Var",
+            "name": "invalidToken",
+            "printedName": "invalidToken",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKError",
+                    "printedName": "AntifraudSDK.SDKError",
+                    "usr": "s:12AntifraudSDK8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntifraudSDK.SDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKError",
+                        "printedName": "AntifraudSDK.SDKError",
+                        "usr": "s:12AntifraudSDK8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AntifraudSDK8SDKErrorO12invalidTokenyA2CmF",
+            "mangledName": "$s12AntifraudSDK8SDKErrorO12invalidTokenyA2CmF",
+            "moduleName": "AntifraudSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "authError",
+            "printedName": "authError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKError",
+                    "printedName": "AntifraudSDK.SDKError",
+                    "usr": "s:12AntifraudSDK8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntifraudSDK.SDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKError",
+                        "printedName": "AntifraudSDK.SDKError",
+                        "usr": "s:12AntifraudSDK8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AntifraudSDK8SDKErrorO9authErroryA2CmF",
+            "mangledName": "$s12AntifraudSDK8SDKErrorO9authErroryA2CmF",
+            "moduleName": "AntifraudSDK"
+          },
+          {
+            "kind": "Var",
+            "name": "alreadyInitialized",
+            "printedName": "alreadyInitialized",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKError",
+                    "printedName": "AntifraudSDK.SDKError",
+                    "usr": "s:12AntifraudSDK8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntifraudSDK.SDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKError",
+                        "printedName": "AntifraudSDK.SDKError",
+                        "usr": "s:12AntifraudSDK8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AntifraudSDK8SDKErrorO18alreadyInitializedyA2CmF",
+            "mangledName": "$s12AntifraudSDK8SDKErrorO18alreadyInitializedyA2CmF",
+            "moduleName": "AntifraudSDK"
+          },
+          {
+            "kind": "Var",
             "name": "serverError",
             "printedName": "serverError",
             "children": [
@@ -1834,13 +2039,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
             "name": "Hashable",
             "printedName": "Hashable",
             "usr": "s:SH",
@@ -1888,6 +2086,13 @@
             "printedName": "SendableMetatype",
             "usr": "s:s16SendableMetatypeP",
             "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
           }
         ]
       },

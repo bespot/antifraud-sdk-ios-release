@@ -1,3 +1,10 @@
+# 1.2.0 (2026-07-10)
+
+### Added
+- Bearer-token authentication as an alternative to OAuth 2.0 via a new `initialize(apiBaseUrl:apiKey:accessToken:)` overload.
+- Public method `setAccessToken(_:)` to refresh the bearer token.
+- New `SDKError` cases for access-token flows: `invalidToken`, `authError`
+
 # 1.1.4 (2025-12-10)
 
 ### Fixed

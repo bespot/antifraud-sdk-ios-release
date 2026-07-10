@@ -1,6 +1,6 @@
 # Bespot Gatekeeper iOS SDK
 
-[![VERSION](https://img.shields.io/badge/VERSION-1.1.4-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-1.2.0-green)](#)
 [![Swift Version][swift-image]][swift-url]
 
 Bespot Gatekeeper is a highly customizable fraud prevention and geolocation verification platform for mobile and web applications. It verifies user locations, detects device integrity issues, and monitors network connections to help organizations—particularly in the iGaming, Media Streaming, and Financial Services industries—comply with regulations and protect digital transactions from fraud.
@@ -12,7 +12,7 @@ See our [documentation](https://gatekeeper.docs.bespot.com/overview/features/) f
 ## Requirements
 
 - iOS 15.0+
-- Xcode 16
+- Xcode 26
 
 ## Install the library
 
@@ -25,7 +25,7 @@ You can use [Swift Package Manager](https://github.com/swiftlang/swift-package-m
 or you can add the following dependency to your `Package.swift`:
 
 ```
-.package(url: "https://github.com/bespot/antifraud-sdk-ios-release.git", exact: "1.1.4")
+.package(url: "https://github.com/bespot/antifraud-sdk-ios-release.git", exact: "1.2.0")
 ```
 
 ### Install with CocoaPods
@@ -42,7 +42,7 @@ target '[Your app]' do
   use_frameworks!
 
   # AntifraudSDK framework
-  pod 'AntifraudSDK', :git => 'https://github.com/bespot/antifraud-sdk-ios-release', :tag => '1.1.4'
+  pod 'AntifraudSDK', :git => 'https://github.com/bespot/antifraud-sdk-ios-release', :tag => '1.2.0'
 
   # Other CocoaPods libraries/frameworks you may use...
 
@@ -105,14 +105,25 @@ import AntifraudSDK
 ```
 
 #### Initialization
-In your application's AppDelegate ```application(_:didFinishLaunchingWithOptions:)``` method add this line to initialize the SafeSDK singleton object:
+
+`apiBaseUrl` and `apiKey` are always required to identify your application and environment. Use **one** of the two `initialize` overloads below — choose OAuth **or** Αccess Τoken.
+
+**OAuth mode** — in your application's `AppDelegate` `application(_:didFinishLaunchingWithOptions:)` method, initialize the SafeSDK singleton:
 
 ```swift
-SafeSDK.sharedSafeSDK.initialize(apiKey: "the_provided_API_key",
-                      apiBaseURL: "the_provided_API_base_URL",
-                      authTokenUrl: "the_provided_oauth2_URL",
-                      clientId: "the_provided_oauth2_clientid",
-                      clientSecret: "the_provided_oauth2_clientsecret")
+SafeSDK.sharedSafeSDK.initialize(apiBaseUrl: "the_provided_API_base_URL",
+                                 apiKey: "the_provided_API_key",
+                                 authTokenUrl: "the_provided_oauth2_URL",
+                                 clientId: "the_provided_oauth2_clientid",
+                                 clientSecret: "the_provided_oauth2_clientsecret")
+```
+
+**Access token mode** — call once when the bearer token is available:
+
+```swift
+SafeSDK.sharedSafeSDK.initialize(apiBaseUrl: "the_provided_API_base_URL",
+                                 apiKey: "the_provided_API_key",
+                                 accessToken: "your_bearer_token")
 ```
 
 #### Parametrization
@@ -120,17 +131,25 @@ During initialization, use the params `[String: Any]` optional array for further
 - Key: `"debugLoggingEnabled"`, Value: `Bool`. For enabling debug logging. Do not keep debug logging enabled in production builds.
 
 ```swift
-SafeSDK.sharedSafeSDK.initialize(apiKey: "the_provided_API_key",
-                      apiBaseURL: "the_provided_API_base_URL",
-                      authTokenUrl: "the_provided_oauth2_URL",
-                      clientId: "the_provided_oauth2_clientid",
-                      clientSecret: "the_provided_oauth2_clientsecret",
-                      params: ["debugLoggingEnabled": true])
+SafeSDK.sharedSafeSDK.initialize(apiBaseUrl: "the_provided_API_base_URL",
+                                 apiKey: "the_provided_API_key",
+                                 authTokenUrl: "the_provided_oauth2_URL",
+                                 clientId: "the_provided_oauth2_clientid",
+                                 clientSecret: "the_provided_oauth2_clientsecret",
+                                 params: ["debugLoggingEnabled": true])
 ```
+
+The same `params` argument is supported on the Αccess-Τoken `initialize` overload.
 
 
 #### Security
-OAuth 2.0 client credentials provided (*client id* & *client secret*) should be used in a safe and secure manner. It is strongly advised **not** to be part of the application bundle when submitting to the App Store.
+
+**OAuth mode:** OAuth 2.0 client credentials provided (*client id* & *client secret*) should be used in a safe and secure manner. It is strongly advised **not** to be part of the application bundle when submitting to the App Store.
+
+**Access token mode:** The bearer token should be obtained from your own secure authentication flow.
+
+- Call `initialize(apiBaseUrl:,apiKey:,accessToken:)` when the first valid token is available.
+- Use `setAccessToken(_:)` to refresh the token for the same session — do **not** call `initialize(apiBaseUrl:,apiKey:,accessToken:)` again after device registration succeeds.
 
 ### On-demand check
 Use the following method to make an informed decision on what action to take in case of detected fraudulent activities by SafeSDK:
@@ -167,6 +186,8 @@ public enum SDKError: String, Error {
          noChecksAvailableFailure, // The Server did not find available Checks
          noRecipeFoundFailure, // The application does not have a valid Recipe
          notInitialized, // The SDK is not initialized
+         invalidToken, // Blank/whitespace token
+         authError, // Generic auth error (HTTP 401/403, access denied)
          serverError, // Remote Server Error
          unknownError // Unknown Error (see Support section)
 }
@@ -178,6 +199,17 @@ After initialization is completed, SafeSDK supports holding a customer/client re
 ```swift
 SafeSDK.sharedSafeSDK.setUserId("client_user_identifier")
 ```
+
+### Update access token (SetAccessToken)
+
+Update the bearer access token used on subsequent requests.
+
+```swift
+SafeSDK.sharedSafeSDK.setAccessToken("your_refreshed_token")
+```
+
+> Reports `notInitialized` via `check` or `subscribe` if called before the network layer is initialized.
+> Blank or whitespace-only tokens report `invalidToken` on the next `check` or `subscribe` callback.
 
 ### Subscribe to Fraud Detection Updates
 
@@ -215,7 +247,7 @@ In case you need to contact us, drop us an email at: dev@bespot.com
 
 
 ## License
-© 2025 [Bespot](https://bespot.com/) Private Company. All rights reserved. See `LICENSE` for more information.
+© 2026 [Bespot](https://bespot.com/) Private Company. All rights reserved. See `LICENSE` for more information.
 
 
 [swift-image]: https://img.shields.io/badge/swift-6.1-orange.svg
