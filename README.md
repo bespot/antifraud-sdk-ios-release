@@ -1,6 +1,6 @@
 # Bespot Gatekeeper iOS SDK
 
-[![VERSION](https://img.shields.io/badge/VERSION-1.2.0-green)](#)
+[![VERSION](https://img.shields.io/badge/VERSION-1.2.1-green)](#)
 [![Swift Version][swift-image]][swift-url]
 
 Bespot Gatekeeper is a highly customizable fraud prevention and geolocation verification platform for mobile and web applications. It verifies user locations, detects device integrity issues, and monitors network connections to help organizations—particularly in the iGaming, Media Streaming, and Financial Services industries—comply with regulations and protect digital transactions from fraud.
@@ -25,7 +25,7 @@ You can use [Swift Package Manager](https://github.com/swiftlang/swift-package-m
 or you can add the following dependency to your `Package.swift`:
 
 ```
-.package(url: "https://github.com/bespot/antifraud-sdk-ios-release.git", exact: "1.2.0")
+.package(url: "https://github.com/bespot/antifraud-sdk-ios-release.git", exact: "1.2.1")
 ```
 
 ### Install with CocoaPods
@@ -42,7 +42,7 @@ target '[Your app]' do
   use_frameworks!
 
   # AntifraudSDK framework
-  pod 'AntifraudSDK', :git => 'https://github.com/bespot/antifraud-sdk-ios-release', :tag => '1.2.0'
+  pod 'AntifraudSDK', :git => 'https://github.com/bespot/antifraud-sdk-ios-release', :tag => '1.2.1'
 
   # Other CocoaPods libraries/frameworks you may use...
 
@@ -183,9 +183,11 @@ Result SDKErrors have one of the following types:
 public enum SDKError: String, Error {
     case networkConnection, // Connection Error
          noActiveApiKey, // The Api Key is either disabled or wrong
+         quotaReachedForPlan, // The account has reached the request quota of its current plan
          noChecksAvailableFailure, // The Server did not find available Checks
          noRecipeFoundFailure, // The application does not have a valid Recipe
          notInitialized, // The SDK is not initialized
+         alreadyInitialized, // The SDK has already been initialized
          invalidToken, // Blank/whitespace token
          authError, // Generic auth error (HTTP 401/403, access denied)
          serverError, // Remote Server Error

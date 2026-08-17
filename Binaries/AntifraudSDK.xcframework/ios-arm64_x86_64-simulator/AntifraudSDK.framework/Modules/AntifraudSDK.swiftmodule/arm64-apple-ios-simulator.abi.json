@@ -1647,6 +1647,43 @@
           },
           {
             "kind": "Var",
+            "name": "quotaReachedForPlan",
+            "printedName": "quotaReachedForPlan",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(AntifraudSDK.SDKError.Type) -> AntifraudSDK.SDKError",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKError",
+                    "printedName": "AntifraudSDK.SDKError",
+                    "usr": "s:12AntifraudSDK8SDKErrorO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "AntifraudSDK.SDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SDKError",
+                        "printedName": "AntifraudSDK.SDKError",
+                        "usr": "s:12AntifraudSDK8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:12AntifraudSDK8SDKErrorO19quotaReachedForPlanyA2CmF",
+            "mangledName": "$s12AntifraudSDK8SDKErrorO19quotaReachedForPlanyA2CmF",
+            "moduleName": "AntifraudSDK"
+          },
+          {
+            "kind": "Var",
             "name": "noChecksAvailableFailure",
             "printedName": "noChecksAvailableFailure",
             "children": [
