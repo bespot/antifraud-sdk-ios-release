@@ -41,7 +41,7 @@ public enum ActionType {
   }
 }
 public enum SDKError : Swift.String, Swift.Error {
-  case networkConnection, noActiveApiKey, noChecksAvailableFailure, noRecipeFoundFailure, notInitialized, invalidToken, authError, alreadyInitialized, serverError, unknownError
+  case networkConnection, noActiveApiKey, quotaReachedForPlan, noChecksAvailableFailure, noRecipeFoundFailure, notInitialized, invalidToken, authError, alreadyInitialized, serverError, unknownError
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {

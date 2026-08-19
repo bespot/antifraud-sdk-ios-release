@@ -1,3 +1,8 @@
+# 1.2.1 (2026-08-18)
+
+### Added
+- New `SDKError` case `quotaReachedForPlan`, returned when the account has reached the request quota of its current plan.
+
 # 1.2.0 (2026-07-10)
 
 ### Added
